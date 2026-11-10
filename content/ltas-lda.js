@@ -5,11 +5,11 @@ import * as d3 from 'd3'
 // Steps (1 + visible fragments): 1 the recordings before; 2 and after; 3 each violin x phase
 // gathered at its mean, with the 95% confidence ellipse of that mean.
 const VIOLINS = [
-    ['Klimke', 'Violon Test', 'var(--test)'],
-    ['Levaggi', 'Violon Témoin 1', 'var(--control)'],
-    ['Stoppani', 'Violon Témoin 2', '#999'],
+    ['Klimke', 'Test Violin', 'var(--test)'],
+    ['Levaggi', 'Control Violin 1', 'var(--control)'],
+    ['Stoppani', 'Control Violin 2', '#999'],
 ]
-const PHASES = [['before', 'Avant', d3.symbolCircle], ['after', 'Après', d3.symbolX]]
+const PHASES = [['before', 'Before', d3.symbolCircle], ['after', 'After', d3.symbolX]]
 const TEST_PLAYER = 'Player 0'
 const K = Math.sqrt(-2 * Math.log(0.05)) // 95% quantile of the chi² distribution with 2 dof, as a radius
 const M = { top: 10, right: 170, bottom: 40, left: 50 }

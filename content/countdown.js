@@ -1,6 +1,6 @@
 const pad = n => String(n).padStart(2, '0')
 
-const UNITS = ['heure', 'minute', 'seconde']
+const UNITS = ['hour', 'minute', 'second']
 const CLASSES = ['hours', 'minutes', 'seconds']
 
 class Countdown extends HTMLElement {
@@ -70,8 +70,8 @@ class Countdown extends HTMLElement {
         this.classList.toggle('late', seconds < 0)
         values.forEach((value, i) => {
             this.numbers[i].textContent = pad(value)
-            // French: singular for 0 and 1
-            this.units[i].textContent = UNITS[i] + (value > 1 ? 's' : '')
+            // Singular for 1 only
+            this.units[i].textContent = UNITS[i] + (value === 1 ? '' : 's')
         })
     }
 

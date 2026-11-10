@@ -1,14 +1,14 @@
-section(data-part="Ouverture")
-    h1 L'identité sonore d'un violon évolue-t-elle quand on le joue ?
+section(data-part="Playing-in")
+    h1 Does a violin's sound identity change as it is played?
 
     aside.notes.
-        Maintenant que l'on en sait un peu plus sur l'identité des violons, et comment la caractériser à partir d'enregistrements, nous allons nous voir si cette identité sonore peut évoluer par le jeu.
+        Let us see whether the sound identity of a violin can change as it is played.
 
 section
-    p.quote "Le son d'un violon s'améliore quand il est joué..."
-    p.fragment.opens Il "#[span s'ouvre]"
+    p.quote "A violin's sound improves through regular playing..."
+    p.fragment.opens It "#[span opens up]"
 
-    //- The quote steps back while "s'ouvre" opens up: from squeezed and blurred to spread and sharp
+    //- The quote steps back while "opens up" opens up: from squeezed and blurred to spread and sharp
     style.
         @scope {
             .quote {
@@ -44,7 +44,7 @@ section
         }
 
     aside(data-markdown).notes.
-        En effet, chez les violonistes et les luthiers, beaucoup rapportent qu'un violon s'améliorerait lorsqu'il est joué régulièrement. Ils disent alors que le violon s'est "ouvert".
+        Many violinists and luthiers report that a violin improves when it is played regularly. They say that the violin has "opened up".
 
 section
     violin-book(
@@ -53,13 +53,13 @@ section
         year="1860"
         page="47"
     )
-        | "On peut considérer comme une vérité établie qu'un instrument n'acquiert pas
-        | #[span.hl un son beau et mélodieux] en vieillissant, mais grâce à une
-        | #[span.hl pratique régulière]."
+        | "It may be received as an established truth, that an instrument acquires a
+        | #[span.hl beautiful and mellow tone], not by age, but by
+        | #[span.hl constant use]."
 
     aside(data-markdown).notes.
-        Cette idée remonte à au moins 200 ans. Au début du 19ie siècle, le luthier et violoniste allemand Jacob Augustus Otto, écrit dans son "Traité sur la Structure et la Preservation du Violon" :
-        "On peut considérer comme une vérité établie qu'un instrument n'acquiert pas un son beau et mélodieux en vieillissant, mais grâce à une pratique régulière."
+        This idea goes back at least 200 years. In the early 19th century, the German luthier and violinist Jacob Augustus Otto wrote in his "Treatise on the Structure and Preservation of the Violin":
+        "It may be received as an established truth, that an instrument acquires a beautiful and mellow tone, not by age, but by constant use."
 
 section
     article-stack(
@@ -67,10 +67,10 @@ section
         author="Piacsek and Fritz"
         year=2015
     )
-        canvas.chart(data-labels="Convaincus, Pas convaincus" data-values="70, 30")
+        canvas.chart(data-labels="Convinced, Not convinced" data-values="70, 30")
 
     aside(data-markdown).notes.
-        Une récente étude menée par Piacsek montre que ~70% des violonistes et des luthiers sont convaincus de la réalité de cet effet.
+        A recent survey by Piacsek and Fritz shows that about 70% of violinists and luthiers are convinced that this effect is real.
 
 section
     video()
@@ -79,7 +79,7 @@ section
     blockquote "Do you know how to open a violin? #[br] [Because] I have a way"
 
     aside(data-markdown).notes.
-        Cette idée est aussi partagée par de grands solistes. ..., ..., ou encore Hilary Hahn, en parlent :
+        Great soloists share this idea too. ..., ..., or Hilary Hahn talk about it:
 
 section
     video(controls)
@@ -87,7 +87,7 @@ section
             //- track(label="English" kind="subtitles" srclang="en" src="videos/Invention for breaking in a new violin [zpM-Ee8ynIQ].en.vtt" default)
 
     aside(data-markdown).notes.
-        Des entreprises comme ToneRite ou Vibralinist vendent même des appareils censés "ouvrir" un violon sans le jouer.
+        Companies such as ToneRite or Vibralinist even sell devices meant to "open up" a violin without playing it.
 
 //- Auto-animated into its still on the paradox slide (the only item shown right before it)
 section(data-auto-animate)
@@ -101,7 +101,7 @@ section(data-auto-animate)
 //- The paradox: what the previous slides showed (left) against the studies (right). The background
 //- splits the whole screen; both conclusions share the grid's bottom row.
 section.paradox(data-hide-nav data-auto-animate data-background-gradient="linear-gradient(to right, #f0f0f0 50%, #fff 50%)")
-    h3 Effet d'ouverture
+    h3 The playing-in effect
 
     .pane.shared
         .row
@@ -119,7 +119,7 @@ section.paradox(data-hide-nav data-auto-animate data-background-gradient="linear
                     author="Piacsek and Fritz"
                     year=2015
                 )
-                figcaption 70 % convaincus
+                figcaption 70% convinced
         .row
             img.video(src="images/thumb-hahn.jpg" alt="Hilary Hahn")
             img.video(src="images/thumb-invention.jpg" alt="Invention for breaking in a new violin")
@@ -147,10 +147,10 @@ section.paradox(data-hide-nav data-auto-animate data-background-gradient="linear
                     author="Piacsek and Lowery"
                     year=2023
                 )
-                figcaption Piacsek et Lowery, 2023
+                figcaption Piacsek and Lowery, 2023
 
-    footer.shared Idée partagée
-    footer.evidence.fragment(data-fragment-index="0") Aucune preuve scientifique
+    footer.shared Shared belief
+    footer.evidence.fragment(data-fragment-index="0") No scientific evidence
 
     style.
         @scope {
@@ -238,7 +238,7 @@ section.paradox(data-hide-nav data-auto-animate data-background-gradient="linear
         }
 
     aside(data-markdown).notes.
-        Pourtant, les études scientifiques récentes n'ont pas réussi à montrer cet effet.
+        Yet recent scientific studies have failed to show this effect.
 
 section
     style.
@@ -265,34 +265,34 @@ section
                 }
             }
         }
-    h3 Hypothèses
+    h3 Hypotheses
     ol
-        li.fragment: span Le violon a changé 
+        li.fragment: span The violin has changed
             //- #[img.sticker(src="images/Le-football-il-a-changé.webp" alt="\"Le football, il a changé\"")]
-        li.fragment: span Le jeu du violoniste a changé
-        li.fragment: span La perception du violoniste a changé
+        li.fragment: span The violinist's playing has changed
+        li.fragment: span The violinist's perception has changed
 
-    //- p.fragment Mesures acoustiques et perceptives
-
-    aside(data-markdown).notes.
-        On a eu envie de revisiter cette question, mais avec des mesures plus complètes (à la fois acoustiques et perceptives) ainsi que des hypothèses complémentaires pour expliquer ce qu'il se passe.
-        Quand un violoniste pense avoir ouvert un violon, soit :
-        1. le violon a changé
-        2. le jeu du violoniste a changé (adaptation externe)
-        3. la perception du violoniste a changé (adaptation interne)
-
-//- L'expérience
-section(data-auto-animate data-part-step="Méthode")
-    h2 L'expérience
+    //- p.fragment Acoustic and perceptual measurements
 
     aside(data-markdown).notes.
-        Pour tester ces trois hypothèses, nous avons mis en place une expérience en partenariat avec le CNSMDP. Celle-ci s'est étalée sur plusieurs mois et a fait intervenir 11 violonistes pro ou semi-pro et 3 violons.
+        We wanted to revisit this question, with more complete measurements (both acoustic and perceptual) and additional hypotheses to explain what happens.
+        When violinists think they have opened up a violin, either:
+        1. the violin has changed
+        2. the violinist's playing has changed (external adaptation)
+        3. the violinist's perception has changed (internal adaptation)
+
+//- The experiment
+section(data-auto-animate data-part-step="Method")
+    h2 The experiment
+
+    aside(data-markdown).notes.
+        To test these three hypotheses, we set up an experiment in partnership with the CNSMDP (the Paris Conservatoire). It spanned several months and involved 11 professional or semi-professional violinists and 3 violins.
 
 section(data-auto-animate)
     +icon("person", "player-0")
 
     aside(data-markdown).notes.
-        Nous avons contacté une violoniste professionnelle, recommandée par plusieurs personnes comme particulièrement apte à ouvrir un violon.
+        We contacted a professional violinist, recommended by several people as particularly good at opening up a violin.
 
 section(data-auto-animate)
     +icon("person", "player-0")
@@ -342,14 +342,14 @@ section(data-auto-animate)
         }
 
     aside(data-markdown).notes.
-        Nous lui avons présenté 3 violons, tous trois étant très peu joués au moment de l'expérience. Après les avoir essayés, la violoniste a indiqué un violon comme ayant un fort potentiel à s'ouvrir (chercher citation exacte). Ce violon a donc servi de Violon Test, et les deux autres de Violons Témoins.
+        We gave her 3 violins, all three very rarely played at the time of the experiment. After trying them, she pointed out one violin as having a strong potential to open up (find the exact quote). This violin became the Test Violin, and the other two the Control Violins.
 
 section(data-auto-animate)
     - for (let i = 0; i < 11; i++)
         +icon("person", `player-${i}`)
 
     aside(data-markdown).notes.
-        Comme nos hypothèses H2 et H3 portent sur une éventuelle adaptation de la violoniste -- que l'on appellera dorénavant Violoniste Test -- il nous fallait aussi des Violonistes Témoins. 10 violonistes, pour la plupart étudiants au CNSMDP, ont été recrutés dans ce but. Ces violonistes témoins n'étaient pas au courant du but de l'expérience.
+        Since hypotheses H2 and H3 concern a possible adaptation of the violinist -- from now on, the Test Violinist -- we also needed Control Violinists. 10 violinists, most of them students at the CNSMDP, were recruited for this. These Control Violinists did not know the aim of the experiment.
 
     - var violinistCount = 11
     - var violinistDelayStep = 0.1
@@ -485,23 +485,23 @@ mixin actor-group
     `
 
 section(data-auto-animate data-auto-animate-duration="1.2" data-auto-animate-easing="ease-in-out")
-    h3 Chronologie
+    h3 Timeline
     #timeline-container
         #phase-before.timeline-column.active
-            p.phase-title Pré-ouverture
+            p.phase-title Before phase
             +actor-group
         #phase-playing.timeline-column.dimmed
-            p.phase-title Ouverture
+            p.phase-title Playing phase
         #phase-after.timeline-column.dimmed
-            p.phase-title Post-ouverture
+            p.phase-title After phase
 
     aside(data-markdown).notes.
-        Le protocole expérimental était assez simple :
-        1. une série de mesures sur les instruments et les violonistes est faite au début de l'expérience. Je vous détaillerai ces mesures dans la prochaine slide.
-        2. La Violoniste Test joue le Violon Test jusqu'à ce qu'elle le considère ouvert. C'est elle qui détermine la durée de cette période. Pendant ce temps, les violons témoins ne sont pas joués, et les violonistes témoins n'ont pas accès aux instruments.
-        3. A l'issue de cette période, nous refaisons une série de mesures.
+        The protocol was quite simple:
+        1. a series of measurements on the instruments and the violinists is made at the start of the experiment. I will detail these measurements on the next slide.
+        2. The Test Violinist plays the Test Violin until she considers it open. She alone decides how long this period lasts. Meanwhile, the Control Violins are not played, and the Control Violinists have no access to the instruments.
+        3. At the end of this period, we make the series of measurements again.
 
-        Nous avons en fait réalisé deux séries de mesures avant la période d'ouverture, à une semaine d'intervalle, afin de quantifier la variabilité de nos mesures avant qu'un effet ait pu avoir lieu.
+        We actually made two series of measurements before the playing period, one week apart, to quantify the variability of our measurements before any effect could have taken place.
 
     style.
         @scope {
@@ -509,12 +509,12 @@ section(data-auto-animate data-auto-animate-duration="1.2" data-auto-animate-eas
         }
 
 section(data-auto-animate data-auto-animate-duration="1.2" data-auto-animate-easing="ease-in-out")
-    h3 Chronologie
+    h3 Timeline
     #timeline-container
         #phase-before.timeline-column.dimmed
-            p.phase-title Pré-ouverture
+            p.phase-title Before phase
         #phase-playing.timeline-column.active
-            p.phase-title Ouverture
+            p.phase-title Playing phase
             #playing-in
                 +icon("person", "player-0")
                 +icon("violin", "violin-0")
@@ -522,9 +522,9 @@ section(data-auto-animate data-auto-animate-duration="1.2" data-auto-animate-eas
                 span.storage-label Storage
                 .storage-items(data-id="storage-items")
                     +control-violins
-            p.duration 6 mois
+            p.duration 6 months
         #phase-after.timeline-column.dimmed
-            p.phase-title Post-ouverture
+            p.phase-title After phase
 
     style.
         @scope {
@@ -532,14 +532,14 @@ section(data-auto-animate data-auto-animate-duration="1.2" data-auto-animate-eas
         }
 
 section(data-auto-animate data-auto-animate-duration="1.2" data-auto-animate-easing="ease-in-out")
-    h3 Chronologie
+    h3 Timeline
     #timeline-container
         #phase-before.timeline-column.dimmed
-            p.phase-title Pré-ouverture
+            p.phase-title Before phase
         #phase-playing.timeline-column.dimmed
-            p.phase-title Ouverture
+            p.phase-title Playing phase
         #phase-after.timeline-column.active
-            p.phase-title Post-ouverture
+            p.phase-title After phase
             +actor-group
 
     style.
@@ -549,31 +549,31 @@ section(data-auto-animate data-auto-animate-duration="1.2" data-auto-animate-eas
 
 section
     aside(data-markdown).notes.
-        Pour chaque série, nous avons effectué plusieurs types de mesures :
-        1. Nous avons mesuré la réponse en fréquence de chaque violon
-        2. Nous avons enregistré des extraits joués par tous les violonistes sur tous les violons
-        3. Nous avons demandé à tous les violonistes de noter chaque instrument selon plusieurs critères
-        4. Nous avons enregistré les mouvements d'archet de la Violoniste Test sur chaque instrument
+        For each series, we made several kinds of measurements:
+        1. We measured the bridge admittance (the frequency response) of each violin
+        2. We recorded excerpts played by every violinist on every violin
+        3. We asked every violinist to rate each instrument on several criteria
+        4. We recorded the bowing movements of the Test Violinist on each instrument
 
-        À l'issue de l'expérience, nous avons aussi mené un test d'écoute à partir des enregistrements collectés. Afin de ne pas donner trop d'informations d'un coup, je présenterai le contenu de ce test en même temps que les résultats obtenus.
+        After the experiment, we also ran a listening test on the recordings we collected. Not to give too much information at once, I will present this test together with its results.
     
-    h3 Mesures
+    h3 Measurements
     - for (let i = 1; i <= 6; i++)
         .fragment(data-step=i)
 
     .card-grid
         div
-            h4 Réponses en fréquence
+            h4 Bridge Admittance
             .icon-container
                 anim-admittance
 
         div
-            h4 Enregistrements
+            h4 Audio Recordings
             .icon-container
                 anim-recordings
 
         div
-            h4 Évaluation des violons
+            h4 Violin Ratings
             .icon-container
                 anim-ratings
 
@@ -583,7 +583,7 @@ section
                 anim-mocap
 
         div
-            h4 Test d'écoute
+            h4 Listening Tests
             .icon-container
                 anim-listening-tests
 
@@ -613,159 +613,159 @@ section
             }
         }
 
-section(data-part-step="Résultats")
-    h2 Résultats
+section(data-part-step="Results")
+    h2 Results
 
 section
-    h3 H1 : "Le violon a changé" 
+    h3 H1: "The violin has changed"
 
     section
         aside(data-markdown).notes.
-            Que nous disent les mesures sur la première hypothèse ?
+            What do the measurements tell us about the first hypothesis?
 
     section
         figure
-            figcaption Réponses en fréquence
+            figcaption Bridge Admittances
             x-admittances
 
         aside(data-markdown).notes.
-            Commençons par les réponses en fréquence. La figure représente les réponses en fréquence avant (en ...) et après (en ...) la période d'ouverture. La première ligne correspond au Violon Test, les lignes 2 et 3 aux deux violons témoins. Nous pouvons déjà constater que ces mesures sont stables pour les trois violons.
-            Afin de comparer les évolutions "avant-après" de chaque instrument, la dernière ligne de la figure représente, pour chaque violon, la différence entre la mesure faite après et la mesure faite avant la période d'ouverture. On remarque que ces courbes sont :
-            1. proches de 0, ce qui confirme la stabilité de ces mesures
-            2. comparables pour les différents violons : le Violon Test n'a pas eu une évolution plus marquée que les deux violons témoins
+            Let's start with the bridge admittances. The figure shows the admittances before (in ...) and after (in ...) the playing period. The first row is the Test Violin, rows 2 and 3 the two Control Violins. We can already see that these measurements are stable for all three violins.
+            To compare the before-after evolution of each instrument, the last row of the figure shows, for each violin, the difference between the measurement made after and the one made before the playing period. These curves are:
+            1. close to 0, which confirms that these measurements are stable
+            2. similar for the different violins: the Test Violin did not change more than the two Control Violins
     section
-        h3 Principe de l'ADL (3D vers 2D)
+        h3 Principle of LDA (3D to 2D)
         x-projection(method="lda")
         .fragment
         .fragment
         .fragment
 
         aside(data-markdown).notes.
-            Pour comparer les enregistrements, nous les représentons par leur spectre moyen (LTAS), un objet de grande dimension qu'il faut ramener en 2D. L'Analyse Discriminante Linéaire (ADL) cherche les axes qui séparent le mieux les violons, puis projette les enregistrements sur le plan formé par ces axes.
+            To compare the recordings, we describe each one by its long-term average spectrum (LTAS), a high-dimensional object that we need to bring down to 2D. Linear Discriminant Analysis (LDA) looks for the axes that best separate the violins, then projects the recordings onto the plane formed by these axes.
     section
         figure
             figcaption
-                | Enregistrements - Groupe Témoin
+                | Audio Recordings - Control Group
                 +icon("person")
             x-ltas-lda(scope="control")
         .fragment
         .fragment
 
         aside(data-markdown).notes.
-            Une autre manière de tester H1 est d'utiliser les enregistrements. Sur cette figure, nous pouvons voir les spectres moyens de gammes enregistrées avant et après la période d'ouverture. Comme précédemment, la première ligne concerne les enregistrements du Violon Test, les deux lignes suivantes les enregistrements des violons témoins. De la même manière, la dernière ligne représente l'évolution avant-après de chaque instrument. Encore une fois, les évolutions sont 1) proches de 0 et 2) pas plus marquées sur le violon test que sur les violons témoins.
+            Another way to test H1 is to use the recordings. On this figure, we can see the average spectra of scales recorded before and after the playing period. As before, the first row is the recordings of the Test Violin, the next two rows the recordings of the Control Violins. Likewise, the last row shows the before-after evolution of each instrument. Once again, the changes are 1) close to 0 and 2) no larger on the Test Violin than on the Control Violins.
     section
         figure
             figcaption
-                | Test d'écoute - Violoniste Témoin
+                | Listening Test - Control Violinist
                 +icon("person")
             x-listening-tests(scope="control" explain)
         each _ in [1, 2]
             .fragment
 
         aside(data-markdown).notes.
-            Enfin, nous pouvons utiliser les résultats du test d'écoute. Intéressons-nous aux paires enregistrées par une Violoniste Témoin. Si le Violon Test avait changé, ses paires avant-après devraient être jugées plus dissimilaires que ses paires avant-avant. La figure suivante représente les dissimilarités données à ces paires. La première ligne représente les paires du Violon Test, et les deux suivantes celles des Violons témoins. On observe une légère différence avant-après pour chaque violon, mais les intervalles de confiance incluent 0, et l'évolution du Violon Test n'est pas plus marquée que celle des Violons Témoins.
+            Finally, we can use the results of the listening test. Let's look at the pairs recorded by a Control Violinist. If the Test Violin had changed, its before-after pairs should be rated as more dissimilar than its before-before pairs. The figure shows the dissimilarities given to these pairs. The first row shows the pairs of the Test Violin, the next two those of the Control Violins. There is a slight before-after difference for each violin, but the confidence intervals include 0, and the Test Violin did not change more than the Control Violins.
 
     section
-        p.conclusion Le violon test n'a pas changé plus que les violons témoins
+        p.conclusion The Test Violin did not change more than the Control Violins
 
         aside(data-markdown).notes.
-            Ensemble, ces résultats permettent de conclure qu'il n'y a pas eu d'évolution du violon Test qui soit plus marquée que sur les violons témoins.
+            Together, these results show that the Test Violin did not change more than the Control Violins.
 
 section
-    h3 H2 : "Le jeu de la violoniste a changé"
+    h3 H2: "The violinist's playing has changed"
 
     aside(data-markdown).notes.
-        H1 étant rejetée, passons à H2. Si la violoniste Test avait adapté sa technique de jeu spécifiquement sur le violon Test, cette adaptation devrait s'entendre dans les enregistrements qu'elle a réalisés sur le violon Test après la période d'ouverture.
+        H1 being rejected, let's move on to H2. If the Test Violinist had adapted her playing technique specifically on the Test Violin, this adaptation should be audible in the recordings she made on the Test Violin after the playing period.
 
     //- section
     //-     figure
     //-         figcaption
-    //-             | Enregistrements - Violoniste Test
+    //-             | Audio Recordings - Test Violinist
     //-             +icon("person")(class="test")
     //-         x-recordings(scope="test")
 
     //-     aside(data-markdown).notes.
-    //-         Regardons les spectres moyens des enregistrements de la Violoniste Test. La figure suit le même schéma que précédemment. Si évolution il y a, elle n'est pas plus marquée sur le violon Test que sur les violons témoins.
+    //-         Let's look at the average spectra of the Test Violinist's recordings. The figure follows the same layout as before. If there is any change, it is no larger on the Test Violin than on the Control Violins.
 
     section
         figure
             figcaption
-                | Test d'écoute - Violoniste Test
+                | Listening Test - Test Violinist
                 +icon("person")(class="test")
             x-listening-tests(scope="test" explain)
         each _ in [1, 2]
             .fragment
 
         aside(data-markdown).notes.
-            De plus, nous pouvons utiliser les résultats du test d'écoute, notamment sur les paires contenant des extraits enregistrés par la violoniste test. Nous arrivons à la même conclusion.
+            We can also use the results of the listening test, on the pairs of excerpts recorded by the Test Violinist. We reach the same conclusion.
 
     section
         figure
             figcaption
-                | Motion Capture - Violoniste Test
+                | Motion Capture - Test Violinist
                 +icon("person")(class="test")
             x-mocap(descriptor="vs")
 
         aside(data-markdown).notes.
-            Enfin, il est possible de regarder les enregistrements de Motion Capture réalisés sur la violoniste Test. À partir de ces enregistrements, nous avons calculé plusieurs descripteurs décrivant la technique de jeu : la vitesse d'archet, la distance entre l'archet et le chevalet, l'inclinaison de l'archet... Sur tous ces paramètres, nous arrivons à la même conclusion.
+            Finally, we can look at the motion capture recordings of the Test Violinist. From these recordings, we computed several descriptors of the playing technique: bow velocity, bow-bridge distance, bow tilt... On all these parameters, we reach the same conclusion.
 
     section
-        p.conclusion Le jeu de la violoniste test n'a pas plus changé sur le violon test que sur les violons témoins
+        p.conclusion The Test Violinist's playing did not change more on the Test Violin than on the Control Violins
 
         aside(data-markdown).notes.
-            En utilisant des mesures acoustiques et perceptives, nous concluons que la violoniste test n'a pas adapté sa technique de jeu sur le violon Test par rapport aux instruments témoins.
+            Using both acoustic and perceptual measurements, we conclude that the Test Violinist did not adapt her playing technique on the Test Violin compared to the control instruments.
 
 section
-    h3 H3 : "La perception de la violoniste a changé"
+    h3 H3: "The violinist's perception has changed"
 
     aside(data-markdown).notes.
-        H1 et H2 étant rejetées, concentrons-nous sur H3.
+        H1 and H2 being rejected, let's focus on H3.
 
     section
         figure
             figcaption
-                | Notation des violons - Violoniste Test
+                | Violin Ratings - Test Violinist
                 +icon("person")(class="test")
             x-ratings(scope="test")
 
         aside(data-markdown).notes.
-            Pour ce faire regardons les notes qu'a données en aveugle la musicienne Test aux différents violons. Nous observons que les évolutions sont proches de 0 pour tous les violons, sauf peut-être pour le Tone du control 2 et le Ease of Playing du violon Test. C'est cette dernière évolution, la plus forte de toutes, qui nous interpelle. En prenant en compte la variabilité observée chez les autres violonistes, cette évolution n'est pas statistiquement significative. Cependant, une augmentation de deux points sur la facilité de jeu du Violon Test pourrait témoigner d'une adaptation sensorimotrice.
+            Let's look at the blind ratings the Test Violinist gave to the violins. The changes are close to 0 for all violins, except maybe the Tone of Control Violin 2 and the Ease of playing of the Test Violin. This last change, the largest of all, caught our attention. Given the variability observed among the other violinists, it is not statistically significant. Still, a two-point increase in the ease of playing of the Test Violin could be a sign of sensorimotor adaptation.
 
     section
-        p Entrevues - Violoniste Test #[+icon("person")(class="test")]
-        blockquote.fragment "[J'ai trouvé] le violon plus facile à jouer"
-        blockquote.fragment "[J'ai permis] de le faire s'exprimer pleinement"
-        blockquote.fragment "Le violon s'est développé agréablement"
-        //- blockquote.fragment "sans pour autant changer sa nature"
+        p Interviews - Test Violinist #[+icon("person")(class="test")]
+        blockquote.fragment "[I found] the violin easier to play"
+        blockquote.fragment "[I allowed it] to fully express itself"
+        blockquote.fragment "The violin developed pleasantly"
+        //- blockquote.fragment "without changing its nature"
 
         aside(data-markdown).notes.
-            Cette adaptation a d'ailleurs été perçue par la musicienne, qui durant un entretien à l'issue de l'expérience disait que la première étape pour elle avait été de "s'adapter aux propriétés de l'instrument". Au cours de cet entretien, elle a affirmé qu'elle "avait aidé à rendre le violon plus facile à jouer", à le faire "s'exprimer pleinement, sans pour autant changer sa nature".
+            The violinist noticed this adaptation herself: in an interview after the experiment, she said that the first step for her had been to "adapt to the properties of the instrument". During this interview, she said that she "had helped make the violin easier to play", to make it "fully express itself, without changing its nature".
 
-            Pris ensemble, ces deux analyses nous invitent à considérer H3 comme l'hypothèse la plus probable pouvant expliquer le phénomène d'ouverture.
+            Taken together, these two analyses suggest that H3 is the most likely hypothesis to explain the playing-in effect.
 
     section
-        p.conclusion Oui et non !
+        p.conclusion Yes and no!
 
         aside.notes.
-            Au final, certains résultats et ses entrevues laissent voir des tendances qui pourraient indiquer un changement de perception. Ces tendances ne se retrouvent pas dans tous les critères, par exemple la violoniste n'a pas mieux noté le timbre du violon test à l'issue de l'expérience.
+            In the end, some results and her interviews show trends that could point to a change in perception. These trends are not found in every criterion: for instance, the violinist did not rate the tone of the Test Violin higher at the end of the experiment.
 
-section(data-part-step="Explications")
-    h3 Effet d'ouverture : explications
+section(data-part-step="Explanations")
+    h3 The playing-in effect: explanations
     div.cards
         div.card
             div.evidence.fragment
-                blockquote "[J'ai trouvé] le violon plus facile à jouer"
+                blockquote "[I found] the violin easier to play"
                 div.thumbnail
                     x-ratings(scope="test")
 
             div.conclusion.fragment
-                p Adaptation sensorimotrice
+                p Sensorimotor adaptation
 
         div.card
             div.evidence.fragment
-                blockquote "Le violon s'est développé agréablement"
+                blockquote "The violin developed pleasantly"
             div.conclusion.fragment
-                p Biais d'attente
+                p Expectation bias
 
     style.
         @scope {
@@ -813,25 +813,25 @@ section(data-part-step="Explications")
 
 
     aside(data-markdown).notes.
-        Nous proposons alors deux mécanismes à l'oeuvre dans cette évolution de la perception de la violoniste Test :
-        D'une part, un biais d'attente pourrait être à l'origine d'une évolution du violon test perçue comme positive. Notre violoniste test connaît et croit en l'effet d'ouverture. Dès lors, il est possible de faire l'hypothèse que ces attentes sur les effets de la période d'ouverture aient pu biaiser sa perception.
-        D'autre part, parce qu'elle a joué ce violon régulièrement pendant 6 mois, il est raisonnable de penser qu'elle se soit adaptée à l'instrument. D'après nos résultats, cette adaptation n'a pas impliqué de changement audible de technique de jeu (H2). Elle pourrait en revanche passer par des micro-ajustements — prise du violon, aisance dans les démanchés — qui diminuent l'effort ressenti sans modifier le son produit (H3).
+        We propose two mechanisms behind this change in the Test Violinist's perception:
+        On the one hand, an expectation bias could explain why the change of the Test Violin was perceived as positive. Our Test Violinist knows about and believes in the playing-in effect. We can therefore hypothesise that her expectations about the playing period biased her perception.
+        On the other hand, since she played this violin regularly for 6 months, it is reasonable to think that she adapted to the instrument. According to our results, this adaptation did not involve any audible change in playing technique (H2). It could, however, go through micro-adjustments -- how she holds the violin, ease in shifting -- that reduce the perceived effort without changing the sound produced (H3).
 
 section
-    h3 Limites
+    h3 Limitations
     ul
-        li Un seul violon test / une seule violoniste test
-        li Évolution naturelle
+        li A single Test Violin / a single Test Violinist
+        li Natural evolution
 
     aside(data-markdown).notes.
-        Bien sûr, notre expérience comporte des limites :
-        Nos résultats ne sont valables que pour les violons et les violonistes observés. En particulier, il serait possible de discuter du choix de la violoniste et du violon Test. Discutons-en donc : la violoniste a été contactée après que plusieurs personnes du Conservatoire ainsi qu'un luthier "de renom" se soient accordés pour dire que c'était "la personne la mieux placée pour ouvrir un violon". Quand elle a accepté de se prêter au jeu pour l'expérience, nous lui avons fait tester 3 instruments du parc instrumental qui étaient tous de la même époque et très peu joués. C'est la musicienne Test qui a choisi le violon Test parmi ces trois en raison de son "potentiel d'ouverture". Notre échantillon est petit, mais pas choisi au hasard.
-        De plus, les trois violons n'ont pas tout à fait évolué dans les mêmes conditions : là où les deux violons témoins étaient stockés dans le parc instrumental du CNSM, le violon Test lui était joué par la violoniste Test. Nos résultats montrent cependant que l'évolution totale du Violon Test — qui inclut un éventuel effet d'ouverture en plus de son évolution naturelle — est du même ordre de grandeur que l'évolution naturelle des Violons Témoins.
+        Of course, our experiment has limitations:
+        Our results only hold for the violins and violinists we observed. In particular, one could discuss the choice of the Test Violinist and of the Test Violin. So let's discuss it: the violinist was contacted after several people at the Conservatoire, as well as a "renowned" luthier, agreed that she was "the best person to open up a violin". When she agreed to take part in the experiment, we had her try 3 instruments from the Conservatoire's collection, all from the same period and very rarely played. The Test Violinist herself chose the Test Violin among these three, for its "potential to open up". Our sample is small, but not chosen at random.
+        Also, the three violins did not evolve in quite the same conditions: while the two Control Violins were stored in the CNSM's instrument collection, the Test Violin was being played by the Test Violinist. Our results show, however, that the total change of the Test Violin -- which includes a possible playing-in effect on top of its natural evolution -- is of the same order of magnitude as the natural evolution of the Control Violins.
 
 section
-    p La charge de la preuve doit s'inverser
+    p The burden of proof should be reversed
 
     aside(data-markdown).notes.
-        Enfin, même en prenant en compte ces deux limites, nous pensons que cette étude remet tout de même en question les croyances autour de l'ouverture des violons. En effet, quand les violonistes et les luthiers parlent de cet effet, ils ne le modèrent que rarement. Cet effet est censé pouvoir s'observer sur n'importe quel violon, quel que soit le violoniste.
+        Finally, even with these two limitations in mind, we think this study still challenges the beliefs around playing-in. When violinists and luthiers talk about this effect, they rarely qualify it: it is supposed to be observable on any violin, whoever the violinist.
 
-        Notre étude, couplée à la littérature récente existante, nous fait penser qu'il est peu probable qu'un effet d'ouverture s'explique par une évolution matérielle de l'instrument joué (H1). Nous pensons également que la charge de la preuve doit s'inverser : il revient à celles et ceux qui sont convaincus que cet effet existe de le montrer.
+        Our study, together with the recent literature, makes us think that a playing-in effect is unlikely to be explained by a material change of the instrument (H1). We also think that the burden of proof should be reversed: it is up to those convinced that the effect exists to show it.

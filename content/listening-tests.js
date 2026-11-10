@@ -1,8 +1,8 @@
 import * as d3 from 'd3'
 import { violinIcon } from './pictogram.js'
 
-const VIOLINS = [['Klimke', 'Violon Test'], ['Levaggi', 'Violon Témoin 1'], ['Stoppani', 'Violon Témoin 2']]
-const PAIRS = [['before_before', 'Avant / Avant'], ['before_after', 'Avant / Après']]
+const VIOLINS = [['Klimke', 'Test Violin'], ['Levaggi', 'Control Violin 1'], ['Stoppani', 'Control Violin 2']]
+const PAIRS = [['before_before', 'Before / Before'], ['before_after', 'Before / After']]
 const GAP = 15, R = 5
 const M = { top: 10, right: 130, bottom: 10, left: 130 }
 
@@ -31,7 +31,7 @@ const chip = () => `
 // 1: the pair, rated on a dissimilarity scale, no results yet
 // 2: two recordings from before the playing-in period, and their ratings
 // 3: one recording from before and one from after, and their ratings
-const SESSIONS = [['', ''], ['Avant', 'Avant'], ['Avant', 'Après']]
+const SESSIONS = [['', ''], ['Before', 'Before'], ['Before', 'After']]
 
 class ListeningTests extends HTMLElement {
 
@@ -87,7 +87,7 @@ class ListeningTests extends HTMLElement {
                 <div class="pair">
                     ${chip()}
                     <div class="scale">
-                        <span class="label">Dissimilarité</span>
+                        <span class="label">Dissimilarity</span>
                         <div class="axis"><span>0</span><div class="line"></div><span>10</span></div>
                     </div>
                     ${chip()}
@@ -173,7 +173,7 @@ class ListeningTests extends HTMLElement {
         this.svg.append('text')
             .attr('transform', `translate(15, ${M.top + (H - M.top - M.bottom) / 2}) rotate(-90)`)
             .attr('text-anchor', 'middle')
-            .text('Dissimilarité')
+            .text('Dissimilarity')
 
         const legend = this.svg.append('g').attr('transform', `translate(${W - M.right + 20}, ${H / 2 - 20})`)
         PAIRS.forEach(([pair, label], i) => {

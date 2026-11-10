@@ -1,9 +1,9 @@
 import * as d3 from 'd3'
 import { violinIcon } from './pictogram.js'
 
-const VIOLINS = [['Klimke', 'Violon Test'], ['Levaggi', 'Violon Témoin 1'], ['Stoppani', 'Violon Témoin 2']]
-// const VIOLINS = [['Klimke', 'Violon Test'], ['Levaggi', 'Violon Témoin 1']]
-const PHASES = [['before', 'Avant'], ['after', 'Après']]
+const VIOLINS = [['Klimke', 'Test Violin'], ['Levaggi', 'Control Violin 1'], ['Stoppani', 'Control Violin 2']]
+// const VIOLINS = [['Klimke', 'Test Violin'], ['Levaggi', 'Control Violin 1']]
+const PHASES = [['before', 'Before'], ['after', 'After']]
 const GAP = 15
 const M = { top: 10, right: 100, bottom: 50, left: 130 }
 
@@ -97,7 +97,7 @@ class Admittances extends HTMLElement {
             .attr('x', (M.left + W - M.right) / 2)
             .attr('y', H - 5)
             .attr('text-anchor', 'middle')
-            .text('Fréquence (Hz)')
+            .text('Frequency (Hz)')
 
         const legend = this.svg.append('g').attr('transform', `translate(${W - M.right + 20}, ${H / 2 - 20})`)
         PHASES.forEach(([phase, label], i) => {

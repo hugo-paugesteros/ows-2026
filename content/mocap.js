@@ -1,9 +1,9 @@
 import * as d3 from 'd3'
 import { violinIcon } from './pictogram.js'
 
-const VIOLINS = [['Klimke', 'Violon Test'], ['Own', 'Violon personnel']]
-const EXCERPTS = [['Open_string', 'Cordes à vide'], ['Bach', 'Bach'], ['Tchai', 'Tchaïkovski'], ['Glazounov', 'Glazounov']]
-const PHASES = [['before', 'Avant'], ['after', 'Après']]
+const VIOLINS = [['Klimke', 'Test Violin'], ['Own', 'Own violin']]
+const EXCERPTS = [['Open_string', 'Open strings'], ['Bach', 'Bach'], ['Tchai', 'Tchaikovsky'], ['Glazounov', 'Glazunov']]
+const PHASES = [['before', 'Before'], ['after', 'After']]
 const DESCRIPTORS = { xs: 'xs (mm)', vs: 'vs (mm/s)', beta: 'beta (mm)', hairstring: 'hairstring (mm)' }
 const GAP = 15
 const M = { top: 30, right: 100, bottom: 50, left: 150 }
@@ -123,7 +123,7 @@ class Mocap extends HTMLElement {
             .attr('x', (M.left + W - M.right) / 2)
             .attr('y', H - 5)
             .attr('text-anchor', 'middle')
-            .text('Temps (s)')
+            .text('Time (s)')
 
         const legend = this.svg.append('g').attr('transform', `translate(${W - M.right + 20}, ${H / 2 - 20})`)
         PHASES.forEach(([phase, label], i) => {
