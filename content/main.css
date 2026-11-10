@@ -14,13 +14,6 @@ speaker-controls-notes .value {
     --test: red;
     --control: black;
 
-    --k0: oklch(50% 0.2 50);
-    --k1: oklch(50% 0.2 265.551);
-    --k2: oklch(50% 0.2 330);
-
-    --ltas-accum: oklch(70% 0.02 260);
-    --ltas-ref: oklch(80% 0.02 260);
-    --ltas-mean: oklch(55% 0.15 145);
 }
 
 #front {

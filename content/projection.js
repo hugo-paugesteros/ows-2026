@@ -18,9 +18,10 @@ class Projection extends HTMLElement {
                 :host { display: block; width: 100%; }
                 svg { display: block; width: 100%; height: 65vh; }
                 circle { fill: var(--control); transition: fill 0.5s; }
-                .c0 { fill: var(--k0); }
-                .c1 { fill: var(--k1); }
-                .c2 { fill: var(--ltas-mean); }
+                /* The colours of the violins in the playing-in figures (ltas-lda.js) */
+                .c0 { fill: #999; }
+                .c1 { fill: var(--control); }
+                .c2 { fill: var(--test); }
                 :host([data-uncoloured]) circle { fill: var(--control); }
                 .axes { transition: opacity 0.5s; }
                 :host([data-step="1"]) .axes { opacity: 0; }
