@@ -1,10 +1,4 @@
-section(data-part="Playing-in")
-    h1 Does a violin's sound identity change as it is played?
-
-    aside.notes.
-        Let us see whether the sound identity of a violin can change as it is played.
-
-section
+section(data-part="Introduction")
     p.quote "A violin's sound improves through regular playing..."
     p.fragment.opens It "#[span opens up]"
 
@@ -65,7 +59,7 @@ section
     article-stack(
         title="Preliminary results from a survey of musicians and luthiers regarding beliefs about playing-in"
         author="Piacsek and Fritz"
-        year=2015
+        year=2025
     )
         canvas.chart(data-labels="Convinced, Not convinced" data-values="70, 30")
 
@@ -73,10 +67,9 @@ section
         A recent survey by Piacsek and Fritz shows that about 70% of violinists and luthiers are convinced that this effect is real.
 
 section
-    video()
-        source(src="videos/A Conversation with Hilary Hahn (Performing in 2020, AI Music, New Violins, and More) [zngDo9K-vGI].mp4#t=552", type="")
-        //- track(label="English" kind="subtitles" srclang="en" src="videos/A Conversation with Hilary Hahn (Performing in 2020, AI Music, New Violins, and More) [zngDo9K-vGI].en.vtt" default)
-    blockquote "Do you know how to open a violin? #[br] [Because] I have a way"
+    video(controls)
+        source(src="videos/A Conversation with Hilary Hahn (Performing in 2020, AI Music, New Violins, and More) [zngDo9K-vGI].mp4#t=552")
+        track(label="English" kind="subtitles" srclang="en" src="videos/A Conversation with Hilary Hahn (Performing in 2020, AI Music, New Violins, and More) [zngDo9K-vGI].en.vtt" default)
 
     aside(data-markdown).notes.
         Great soloists share this idea too. ..., ..., or Hilary Hahn talk about it:
@@ -282,7 +275,7 @@ section
         3. the violinist's perception has changed (internal adaptation)
 
 //- The experiment
-section(data-auto-animate data-part-step="Method")
+section(data-auto-animate data-part="Methods")
     h2 The experiment
 
     aside(data-markdown).notes.
@@ -613,7 +606,19 @@ section
             }
         }
 
-section(data-part-step="Results")
+//- Full screen, black bars rather than cropping. Plays with its sound when the slide is shown.
+section(
+    data-hide-nav
+    data-state="bare"
+    data-transition="none"
+    data-background-video="videos/experiment.mp4"
+    data-background-size="contain"
+    data-background-color="black"
+)
+    aside(data-markdown).notes.
+        This video presents the experiment.
+
+section(data-part="Results")
     h2 Results
 
 section
@@ -749,7 +754,7 @@ section
         aside.notes.
             In the end, some results and her interviews show trends that could point to a change in perception. These trends are not found in every criterion: for instance, the violinist did not rate the tone of the Test Violin higher at the end of the experiment.
 
-section(data-part-step="Explanations")
+section(data-part="Conclusion")
     h3 The playing-in effect: explanations
     div.cards
         div.card

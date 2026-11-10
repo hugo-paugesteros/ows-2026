@@ -198,6 +198,12 @@ speaker-controls-notes .value {
     }
 }
 
+/* data-state="bare": nothing over the slide (full-screen videos). Reveal shows these with inline styles */
+.reveal-viewport.bare .reveal .slide-number,
+.reveal-viewport.bare .reveal .progress {
+    display: none !important;
+}
+
 .reveal small {
     vertical-align: middle;
 }
