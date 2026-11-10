@@ -639,6 +639,17 @@ section
             1. close to 0, which confirms that these measurements are stable
             2. similar for the different violins: the Test Violin did not change more than the two Control Violins
     section
+        figure
+            figcaption
+                | Audio Recordings - Control Group
+                +icon("person")
+            x-recordings(scope="control")
+
+        aside(data-markdown).notes.
+            Another way to test H1 is to use the recordings. We describe each recording by its long-term average spectrum (LTAS): its spectrum averaged over the whole recording. This figure shows the average spectra of the scales recorded by the Control Group before and after the playing period. As before, the first row is the Test Violin, the next two rows the Control Violins.
+
+            The before and after curves look very close, but it is hard to say more: each spectrum has 1025 dimensions, one per frequency, and comparing such objects by eye is not easy.
+    section
         h3 Principle of LDA (3D to 2D)
         x-projection(method="lda")
         .fragment
@@ -646,7 +657,9 @@ section
         .fragment
 
         aside(data-markdown).notes.
-            To compare the recordings, we describe each one by its long-term average spectrum (LTAS), a high-dimensional object that we need to bring down to 2D. Linear Discriminant Analysis (LDA) looks for the axes that best separate the violins, then projects the recordings onto the plane formed by these axes.
+            In another part of my work, we found that two dimensions of these spectra seem to distinguish violin sounds. We cannot interpret them yet, but they separate the violins. They are found by a Linear Discriminant Analysis (LDA).
+
+            Let's take a simpler example, in 3D. Each point is a recording, coloured by violin. The LDA looks for the axes that best separate the violins, then projects the recordings onto the plane formed by these axes: we go from 3D to 2D, keeping what distinguishes the violins. We do the same with our 1025-dimensional spectra.
     section
         figure
             figcaption
@@ -657,7 +670,11 @@ section
         .fragment
 
         aside(data-markdown).notes.
-            Another way to test H1 is to use the recordings. On this figure, we can see the average spectra of scales recorded before and after the playing period. As before, the first row is the recordings of the Test Violin, the next two rows the recordings of the Control Violins. Likewise, the last row shows the before-after evolution of each instrument. Once again, the changes are 1) close to 0 and 2) no larger on the Test Violin than on the Control Violins.
+            Here are the recordings of the Control Group, projected on the two dimensions learnt on the recordings made before the playing period. Each point is a recording, coloured by violin.
+
+            First, the recordings made before: the three violins form three separate groups. Then, the recordings made after (crosses). Finally, each violin and phase gathered at its mean, with the 95% confidence ellipse of that mean.
+
+            If the Test Violin had changed, its recordings should move away from where they were before, more than those of the Control Violins. All three violins move a little between before and after, but by similar amounts: the Test Violin did not change more than the Control Violins.
     section
         figure
             figcaption
