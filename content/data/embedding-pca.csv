@@ -1,0 +1,2061 @@
+dim_1,dim_2,dataset,violin,player,excerpt
+12.854722,22.906471,cnsm,Klimke,Player 0,Bach
+34.419483,-23.545855,cnsm,Klimke,Player 0,Free
+46.882393,-41.10425,cnsm,Klimke,Player 0,Free
+70.09405,-3.7899685,cnsm,Klimke,Player 0,Glazounov
+12.316881,-83.773,cnsm,Klimke,Player 0,Mozart
+44.574287,-2.552345,cnsm,Klimke,Player 0,Scale
+-100.86835,-43.65735,cnsm,Klimke,Player 0,Sibelius
+37.793278,-26.88746,cnsm,Klimke,Player 0,Tchai
+-13.328467,26.253323,cnsm,Klimke,Player 10,Bach
+-91.09071,14.201604,cnsm,Klimke,Player 10,Free
+28.804625,-12.182975,cnsm,Klimke,Player 10,Free
+-92.65675,-6.1920156,cnsm,Klimke,Player 10,Free
+1.241965,32.71551,cnsm,Klimke,Player 10,Free
+42.349632,24.90879,cnsm,Klimke,Player 10,Free
+-23.599386,-107.640594,cnsm,Klimke,Player 10,Free
+60.939964,24.314512,cnsm,Klimke,Player 10,Free
+-6.1029725,25.216993,cnsm,Klimke,Player 10,Free
+17.681372,-9.624268,cnsm,Klimke,Player 10,Free
+54.63199,-38.718807,cnsm,Klimke,Player 10,Free
+-5.729734,39.479042,cnsm,Klimke,Player 10,Free
+7.6267376,35.60184,cnsm,Klimke,Player 10,Free
+28.928062,18.635468,cnsm,Klimke,Player 10,Glazounov
+13.725748,-110.664444,cnsm,Klimke,Player 10,Mozart
+24.918684,7.9304523,cnsm,Klimke,Player 10,Scale
+32.058624,7.782364,cnsm,Klimke,Player 10,Scale
+-126.34678,-48.976994,cnsm,Klimke,Player 10,Sibelius
+20.614758,-37.336464,cnsm,Klimke,Player 10,Tchai
+-24.902763,59.578854,cnsm,Klimke,Player 11,Bach
+32.119503,-27.281082,cnsm,Klimke,Player 11,Free
+26.61104,27.192535,cnsm,Klimke,Player 11,Glazounov
+-8.9358425,-56.756374,cnsm,Klimke,Player 11,Mozart
+-39.903194,14.577749,cnsm,Klimke,Player 11,Scale
+-133.60115,-27.637789,cnsm,Klimke,Player 11,Sibelius
+-29.396603,-11.948296,cnsm,Klimke,Player 11,Tchai
+-3.9593673,35.304585,cnsm,Klimke,Player 12,Bach
+3.0418925,2.4440722,cnsm,Klimke,Player 12,Free
+-2.1868308,13.678607,cnsm,Klimke,Player 12,Free
+43.473057,0.6185697,cnsm,Klimke,Player 12,Free
+-38.42242,-6.1937723,cnsm,Klimke,Player 12,Free
+44.51255,22.202332,cnsm,Klimke,Player 12,Glazounov
+8.36378,-84.145096,cnsm,Klimke,Player 12,Mozart
+19.227219,23.57526,cnsm,Klimke,Player 12,Scale
+-129.08258,-29.449482,cnsm,Klimke,Player 12,Sibelius
+-3.3342211,-22.15361,cnsm,Klimke,Player 12,Tchai
+-3.230546,48.48342,cnsm,Klimke,Player 2,Bach
+63.041992,4.9262824,cnsm,Klimke,Player 2,Free
+25.949137,10.964929,cnsm,Klimke,Player 2,Free
+21.622166,25.065287,cnsm,Klimke,Player 2,Free
+54.820297,-37.990803,cnsm,Klimke,Player 2,Free
+3.3124428,-37.31333,cnsm,Klimke,Player 2,Free
+20.902487,11.917589,cnsm,Klimke,Player 2,Free
+59.251305,26.135273,cnsm,Klimke,Player 2,Glazounov
+59.14435,18.689245,cnsm,Klimke,Player 2,Glazounov
+10.060061,-96.951164,cnsm,Klimke,Player 2,Mozart
+17.687334,10.53855,cnsm,Klimke,Player 2,Scale
+27.764885,19.687693,cnsm,Klimke,Player 2,Scale
+-125.32194,-15.607663,cnsm,Klimke,Player 2,Sibelius
+9.7306595,-28.511068,cnsm,Klimke,Player 2,Tchai
+4.644085,28.009003,cnsm,Klimke,Player 3,Bach
+40.971745,-2.3229728,cnsm,Klimke,Player 3,Free
+-12.013332,-26.396013,cnsm,Klimke,Player 3,Free
+-46.928886,25.795752,cnsm,Klimke,Player 3,Free
+48.545532,14.021176,cnsm,Klimke,Player 3,Free
+-21.713486,-28.153315,cnsm,Klimke,Player 3,Free
+30.022106,13.040072,cnsm,Klimke,Player 3,Free
+35.042686,-24.473978,cnsm,Klimke,Player 3,Free
+62.81226,0.3549683,cnsm,Klimke,Player 3,Glazounov
+12.623965,-107.64557,cnsm,Klimke,Player 3,Mozart
+62.69705,1.9118196,cnsm,Klimke,Player 3,Scale
+65.34149,-4.060055,cnsm,Klimke,Player 3,Scale
+-129.3502,-35.78267,cnsm,Klimke,Player 3,Sibelius
+1.4439185,-27.23805,cnsm,Klimke,Player 3,Tchai
+0.91696924,36.425972,cnsm,Klimke,Player 4,Bach
+34.39186,13.905597,cnsm,Klimke,Player 4,Free
+-44.032402,-0.9442294,cnsm,Klimke,Player 4,Free
+-21.955359,34.644535,cnsm,Klimke,Player 4,Free
+35.1037,24.81136,cnsm,Klimke,Player 4,Glazounov
+-22.91413,-65.30971,cnsm,Klimke,Player 4,Mozart
+-1.262265,25.615944,cnsm,Klimke,Player 4,Scale
+-1.1458957,29.71419,cnsm,Klimke,Player 4,Scale
+-133.55496,-12.460448,cnsm,Klimke,Player 4,Sibelius
+-27.67013,-25.16402,cnsm,Klimke,Player 4,Tchai
+-40.205925,31.837847,cnsm,Klimke,Player 5,Bach
+28.264399,14.241481,cnsm,Klimke,Player 5,Glazounov
+-20.435034,-102.83493,cnsm,Klimke,Player 5,Mozart
+-46.068386,30.718452,cnsm,Klimke,Player 5,Scale
+-28.27022,31.765831,cnsm,Klimke,Player 5,Scale
+-127.8651,-25.802961,cnsm,Klimke,Player 5,Sibelius
+-24.436617,7.1985874,cnsm,Klimke,Player 5,Tchai
+-8.168695,-34.77034,cnsm,Klimke,Player 5,Tchai
+-29.471851,50.004642,cnsm,Klimke,Player 6,Bach
+-119.18105,14.8419485,cnsm,Klimke,Player 6,Free
+2.9221292,35.023384,cnsm,Klimke,Player 6,Free
+35.77666,23.858486,cnsm,Klimke,Player 6,Free
+-64.3687,-25.263308,cnsm,Klimke,Player 6,Free
+-21.172272,37.41668,cnsm,Klimke,Player 6,Free
+11.933926,35.779552,cnsm,Klimke,Player 6,Free
+-60.45641,-58.213146,cnsm,Klimke,Player 6,Free
+21.447548,28.471441,cnsm,Klimke,Player 6,Glazounov
+-46.392616,-71.895096,cnsm,Klimke,Player 6,Mozart
+-22.558908,36.383015,cnsm,Klimke,Player 6,Scale
+-21.845291,24.359999,cnsm,Klimke,Player 6,Scale
+-135.68436,-5.1739097,cnsm,Klimke,Player 6,Sibelius
+7.8105035,-18.5511,cnsm,Klimke,Player 6,Tchai
+-30.503891,38.389256,cnsm,Klimke,Player 7,Bach
+-32.499958,39.439274,cnsm,Klimke,Player 7,Bach
+26.352884,-5.875354,cnsm,Klimke,Player 7,Free
+32.787342,33.738636,cnsm,Klimke,Player 7,Glazounov
+-30.316214,-78.323715,cnsm,Klimke,Player 7,Mozart
+-63.495247,34.284122,cnsm,Klimke,Player 7,Scale
+-141.35114,-1.3364017,cnsm,Klimke,Player 7,Sibelius
+-18.387608,-16.404055,cnsm,Klimke,Player 7,Tchai
+-40.621838,41.014957,cnsm,Klimke,Player 8,Bach
+2.4921386,38.651134,cnsm,Klimke,Player 8,Glazounov
+-14.091377,37.594646,cnsm,Klimke,Player 8,Glazounov
+-56.482086,-46.414955,cnsm,Klimke,Player 8,Mozart
+-49.95529,-44.140083,cnsm,Klimke,Player 8,Mozart
+13.736737,9.549002,cnsm,Klimke,Player 8,Scale
+26.551939,22.926926,cnsm,Klimke,Player 8,Scale
+-145.0411,17.044048,cnsm,Klimke,Player 8,Sibelius
+-140.55408,6.56864,cnsm,Klimke,Player 8,Sibelius
+-142.11537,14.43476,cnsm,Klimke,Player 8,Sibelius
+-47.74622,-20.276316,cnsm,Klimke,Player 8,Tchai
+-49.027306,-8.482154,cnsm,Klimke,Player 8,Tchai
+-48.72357,53.435055,cnsm,Klimke,Player 9,Bach
+-7.67943,26.548279,cnsm,Klimke,Player 9,Free
+17.842945,-2.2466533,cnsm,Klimke,Player 9,Free
+17.016577,24.297832,cnsm,Klimke,Player 9,Glazounov
+-35.915375,-67.948524,cnsm,Klimke,Player 9,Mozart
+-21.953833,50.531895,cnsm,Klimke,Player 9,Scale
+-9.579558,36.48997,cnsm,Klimke,Player 9,Scale
+-134.40437,-12.5694065,cnsm,Klimke,Player 9,Sibelius
+-9.33737,-17.345665,cnsm,Klimke,Player 9,Tchai
+13.511826,27.90267,cnsm,Klimke,Player 0,Bach
+30.636166,-34.233994,cnsm,Klimke,Player 0,Free
+58.526943,0.45269132,cnsm,Klimke,Player 0,Glazounov
+20.688854,-103.385765,cnsm,Klimke,Player 0,Mozart
+47.005917,-1.7794797,cnsm,Klimke,Player 0,Scale
+-105.30363,-86.026,cnsm,Klimke,Player 0,Sibelius
+36.859634,-37.701267,cnsm,Klimke,Player 0,Tchai
+-5.7255974,37.356815,cnsm,Klimke,Player 10,Bach
+6.2603183,20.67978,cnsm,Klimke,Player 10,Bach
+-21.640324,30.28885,cnsm,Klimke,Player 10,Free
+10.003451,-25.720425,cnsm,Klimke,Player 10,Free
+-75.42807,-14.19225,cnsm,Klimke,Player 10,Free
+42.675953,-17.507303,cnsm,Klimke,Player 10,Free
+8.482061,-1.1640524,cnsm,Klimke,Player 10,Free
+-14.995715,-89.41265,cnsm,Klimke,Player 10,Free
+-42.124737,-94.838905,cnsm,Klimke,Player 10,Free
+40.64725,31.862589,cnsm,Klimke,Player 10,Free
+28.816721,34.873775,cnsm,Klimke,Player 10,Free
+-13.722917,18.76265,cnsm,Klimke,Player 10,Free
+-12.403962,44.79133,cnsm,Klimke,Player 10,Free
+-9.879796,3.5650156,cnsm,Klimke,Player 10,Free
+-14.486163,11.125101,cnsm,Klimke,Player 10,Free
+16.060957,-1.3355932,cnsm,Klimke,Player 10,Free
+30.286253,19.263208,cnsm,Klimke,Player 10,Glazounov
+9.674604,-101.77071,cnsm,Klimke,Player 10,Mozart
+16.847065,-116.50826,cnsm,Klimke,Player 10,Mozart
+23.986473,12.057409,cnsm,Klimke,Player 10,Scale
+21.939163,13.578587,cnsm,Klimke,Player 10,Scale
+-125.84139,-32.93636,cnsm,Klimke,Player 10,Sibelius
+23.763298,-50.101086,cnsm,Klimke,Player 10,Tchai
+-17.040794,48.67938,cnsm,Klimke,Player 11,Bach
+24.79973,-11.266658,cnsm,Klimke,Player 11,Free
+39.74145,24.282618,cnsm,Klimke,Player 11,Glazounov
+0.4471882,-73.51784,cnsm,Klimke,Player 11,Mozart
+-17.755491,6.2314334,cnsm,Klimke,Player 11,Scale
+-129.26845,-12.017046,cnsm,Klimke,Player 11,Sibelius
+-120.95859,-11.630021,cnsm,Klimke,Player 11,Sibelius
+-10.570183,-16.640043,cnsm,Klimke,Player 11,Tchai
+-2.7598684,34.77818,cnsm,Klimke,Player 12,Bach
+-54.46196,-16.095505,cnsm,Klimke,Player 12,Free
+12.315617,13.214948,cnsm,Klimke,Player 12,Free
+30.182032,28.511997,cnsm,Klimke,Player 12,Glazounov
+-0.8072496,-77.222786,cnsm,Klimke,Player 12,Mozart
+19.708364,13.237191,cnsm,Klimke,Player 12,Scale
+-130.88087,-17.036268,cnsm,Klimke,Player 12,Sibelius
+-6.805884,-25.03477,cnsm,Klimke,Player 12,Tchai
+8.741283,37.05896,cnsm,Klimke,Player 2,Bach
+12.949296,20.737589,cnsm,Klimke,Player 2,Bach
+75.82444,-29.780916,cnsm,Klimke,Player 2,Free
+67.414986,-44.546173,cnsm,Klimke,Player 2,Free
+10.660049,-29.201563,cnsm,Klimke,Player 2,Free
+41.02091,-68.51384,cnsm,Klimke,Player 2,Free
+63.65947,11.16475,cnsm,Klimke,Player 2,Free
+59.797157,12.888214,cnsm,Klimke,Player 2,Glazounov
+14.36369,-113.81322,cnsm,Klimke,Player 2,Mozart
+31.649796,22.239126,cnsm,Klimke,Player 2,Scale
+-129.41891,-29.123758,cnsm,Klimke,Player 2,Sibelius
+31.743643,-35.772003,cnsm,Klimke,Player 2,Tchai
+-4.503171,31.534063,cnsm,Klimke,Player 3,Bach
+28.742931,1.2763381,cnsm,Klimke,Player 3,Free
+39.230194,-23.474344,cnsm,Klimke,Player 3,Free
+63.198406,6.287559,cnsm,Klimke,Player 3,Glazounov
+19.822542,-114.08444,cnsm,Klimke,Player 3,Mozart
+69.851,-4.7989593,cnsm,Klimke,Player 3,Scale
+56.90415,3.3297231,cnsm,Klimke,Player 3,Scale
+-129.50607,-53.710987,cnsm,Klimke,Player 3,Sibelius
+-9.735014,-42.39807,cnsm,Klimke,Player 3,Tchai
+-9.460481,34.092636,cnsm,Klimke,Player 4,Bach
+32.935555,23.07493,cnsm,Klimke,Player 4,Free
+5.0268908,26.24494,cnsm,Klimke,Player 4,Free
+31.124222,25.770155,cnsm,Klimke,Player 4,Glazounov
+-10.237051,-79.43686,cnsm,Klimke,Player 4,Mozart
+2.9508696,30.040592,cnsm,Klimke,Player 4,Scale
+2.596298,25.624456,cnsm,Klimke,Player 4,Scale
+-134.95157,-17.961153,cnsm,Klimke,Player 4,Sibelius
+-1.3378556,-33.039906,cnsm,Klimke,Player 4,Tchai
+-32.980133,32.771812,cnsm,Klimke,Player 5,Bach
+-38.117855,36.202923,cnsm,Klimke,Player 5,Bach
+39.219807,24.02295,cnsm,Klimke,Player 5,Glazounov
+-30.50671,-65.67006,cnsm,Klimke,Player 5,Mozart
+-22.957504,39.38115,cnsm,Klimke,Player 5,Scale
+-5.5743866,31.448515,cnsm,Klimke,Player 5,Scale
+-139.16266,-15.21537,cnsm,Klimke,Player 5,Sibelius
+-16.806309,-12.835124,cnsm,Klimke,Player 5,Tchai
+-33.938282,49.56085,cnsm,Klimke,Player 6,Bach
+-28.22442,52.808323,cnsm,Klimke,Player 6,Bach
+-108.91457,11.997556,cnsm,Klimke,Player 6,Free
+34.473843,-2.3103824,cnsm,Klimke,Player 6,Free
+61.352306,-4.5728106,cnsm,Klimke,Player 6,Free
+-27.409174,20.362017,cnsm,Klimke,Player 6,Free
+-5.108333,38.605087,cnsm,Klimke,Player 6,Free
+45.73038,27.475512,cnsm,Klimke,Player 6,Glazounov
+40.48562,24.040396,cnsm,Klimke,Player 6,Glazounov
+-47.71596,-70.74187,cnsm,Klimke,Player 6,Mozart
+-11.243226,25.139566,cnsm,Klimke,Player 6,Scale
+-16.058138,36.059807,cnsm,Klimke,Player 6,Scale
+-131.30309,-19.40551,cnsm,Klimke,Player 6,Sibelius
+21.687855,-27.324091,cnsm,Klimke,Player 6,Tchai
+-33.30922,34.781628,cnsm,Klimke,Player 7,Bach
+33.264072,-16.50893,cnsm,Klimke,Player 7,Free
+33.895237,-45.59508,cnsm,Klimke,Player 7,Free
+31.745691,31.712767,cnsm,Klimke,Player 7,Glazounov
+-41.02437,-77.976585,cnsm,Klimke,Player 7,Mozart
+-74.97297,39.06901,cnsm,Klimke,Player 7,Scale
+-63.460316,32.658268,cnsm,Klimke,Player 7,Scale
+-141.67221,-18.736607,cnsm,Klimke,Player 7,Sibelius
+-26.400282,-14.272765,cnsm,Klimke,Player 7,Tchai
+-58.58088,38.22915,cnsm,Klimke,Player 8,Bach
+-50.238094,40.412926,cnsm,Klimke,Player 8,Bach
+-6.5518456,38.892048,cnsm,Klimke,Player 8,Glazounov
+-12.188104,36.526623,cnsm,Klimke,Player 8,Glazounov
+-120.895744,-64.49372,cnsm,Klimke,Player 8,Mozart
+-48.896214,-63.28972,cnsm,Klimke,Player 8,Mozart
+15.655738,28.779606,cnsm,Klimke,Player 8,Scale
+-143.42422,7.521695,cnsm,Klimke,Player 8,Sibelius
+-44.031635,-13.205312,cnsm,Klimke,Player 8,Tchai
+-42.460014,51.5303,cnsm,Klimke,Player 9,Bach
+19.41109,-4.108967,cnsm,Klimke,Player 9,Free
+-26.56042,19.395235,cnsm,Klimke,Player 9,Free
+29.37074,29.81839,cnsm,Klimke,Player 9,Glazounov
+-30.326113,-98.053474,cnsm,Klimke,Player 9,Mozart
+-14.847384,28.848835,cnsm,Klimke,Player 9,Scale
+-3.4289165,31.1376,cnsm,Klimke,Player 9,Scale
+-127.01073,-25.589024,cnsm,Klimke,Player 9,Sibelius
+3.0339158,-26.287848,cnsm,Klimke,Player 9,Tchai
+15.770973,35.620335,cnsm,Levaggi,Player 0,Bach
+16.94024,31.496513,cnsm,Levaggi,Player 0,Free
+52.944263,-29.091116,cnsm,Levaggi,Player 0,Free
+68.39942,11.493633,cnsm,Levaggi,Player 0,Glazounov
+22.432426,-87.012146,cnsm,Levaggi,Player 0,Mozart
+48.5359,12.053482,cnsm,Levaggi,Player 0,Scale
+-108.691055,-35.201412,cnsm,Levaggi,Player 0,Sibelius
+28.581682,-27.8682,cnsm,Levaggi,Player 0,Tchai
+-2.2777557,50.136227,cnsm,Levaggi,Player 10,Bach
+-94.95447,21.040342,cnsm,Levaggi,Player 10,Free
+23.416689,16.651777,cnsm,Levaggi,Player 10,Free
+49.097485,-13.346823,cnsm,Levaggi,Player 10,Free
+8.289747,16.82102,cnsm,Levaggi,Player 10,Free
+50.101933,28.4916,cnsm,Levaggi,Player 10,Free
+-26.878433,14.618687,cnsm,Levaggi,Player 10,Free
+30.71669,17.030724,cnsm,Levaggi,Player 10,Glazounov
+8.181683,-97.01742,cnsm,Levaggi,Player 10,Mozart
+15.389112,28.606733,cnsm,Levaggi,Player 10,Scale
+25.273594,26.139494,cnsm,Levaggi,Player 10,Scale
+-121.90773,-32.085377,cnsm,Levaggi,Player 10,Sibelius
+12.665417,-24.316282,cnsm,Levaggi,Player 10,Tchai
+-26.8514,45.601486,cnsm,Levaggi,Player 11,Bach
+30.557148,6.4086924,cnsm,Levaggi,Player 11,Free
+44.417328,-15.566902,cnsm,Levaggi,Player 11,Free
+23.624027,16.71469,cnsm,Levaggi,Player 11,Glazounov
+-16.531694,-68.867905,cnsm,Levaggi,Player 11,Mozart
+-40.684025,17.612303,cnsm,Levaggi,Player 11,Scale
+-125.24153,-23.028002,cnsm,Levaggi,Player 11,Sibelius
+-24.548122,-16.816366,cnsm,Levaggi,Player 11,Tchai
+-26.996214,-18.118044,cnsm,Levaggi,Player 11,Tchai
+7.038783,32.529385,cnsm,Levaggi,Player 12,Bach
+25.21433,6.176801,cnsm,Levaggi,Player 12,Free
+51.99106,28.23194,cnsm,Levaggi,Player 12,Glazounov
+36.05178,-78.330765,cnsm,Levaggi,Player 12,Mozart
+33.31352,22.73478,cnsm,Levaggi,Player 12,Scale
+-120.28625,-33.879032,cnsm,Levaggi,Player 12,Sibelius
+-5.5864205,-25.618372,cnsm,Levaggi,Player 12,Tchai
+-3.3139837,42.568222,cnsm,Levaggi,Player 2,Bach
+61.511032,28.032415,cnsm,Levaggi,Player 2,Free
+-59.923466,-21.385439,cnsm,Levaggi,Player 2,Free
+64.616264,-24.959135,cnsm,Levaggi,Player 2,Free
+60.021717,-45.46833,cnsm,Levaggi,Player 2,Free
+-11.551928,1.3934857,cnsm,Levaggi,Player 2,Free
+45.78443,6.2426105,cnsm,Levaggi,Player 2,Free
+51.90092,25.673512,cnsm,Levaggi,Player 2,Glazounov
+15.286566,-74.07068,cnsm,Levaggi,Player 2,Mozart
+15.344724,25.952873,cnsm,Levaggi,Player 2,Scale
+-136.26787,-15.605459,cnsm,Levaggi,Player 2,Sibelius
+-2.0160067,-10.606952,cnsm,Levaggi,Player 2,Tchai
+6.635205,-22.80592,cnsm,Levaggi,Player 2,Tchai
+-1.4983395,44.253452,cnsm,Levaggi,Player 3,Bach
+36.188652,1.3460714,cnsm,Levaggi,Player 3,Free
+38.31784,4.548864,cnsm,Levaggi,Player 3,Free
+17.327255,37.80043,cnsm,Levaggi,Player 3,Free
+62.5019,16.124754,cnsm,Levaggi,Player 3,Glazounov
+5.170558,-94.50072,cnsm,Levaggi,Player 3,Mozart
+57.85317,8.259355,cnsm,Levaggi,Player 3,Scale
+59.717407,9.373185,cnsm,Levaggi,Player 3,Scale
+-130.67441,-13.696025,cnsm,Levaggi,Player 3,Sibelius
+-3.7279508,-22.098995,cnsm,Levaggi,Player 3,Tchai
+4.7401867,40.07055,cnsm,Levaggi,Player 4,Bach
+-34.221046,-3.5382597,cnsm,Levaggi,Player 4,Free
+4.11005,37.18669,cnsm,Levaggi,Player 4,Free
+-29.088934,16.444992,cnsm,Levaggi,Player 4,Free
+3.0247428,32.220127,cnsm,Levaggi,Player 4,Free
+35.393566,53.80666,cnsm,Levaggi,Player 4,Free
+32.776882,27.459963,cnsm,Levaggi,Player 4,Glazounov
+-22.598183,-59.86636,cnsm,Levaggi,Player 4,Mozart
+7.321276,35.032974,cnsm,Levaggi,Player 4,Scale
+11.397369,35.655136,cnsm,Levaggi,Player 4,Scale
+-134.60947,-9.817271,cnsm,Levaggi,Player 4,Sibelius
+-11.64729,-21.61379,cnsm,Levaggi,Player 4,Tchai
+-33.462547,45.564087,cnsm,Levaggi,Player 5,Bach
+41.372314,28.709726,cnsm,Levaggi,Player 5,Glazounov
+28.624628,37.538895,cnsm,Levaggi,Player 5,Glazounov
+21.962545,29.522348,cnsm,Levaggi,Player 5,Glazounov
+-28.546093,-72.51739,cnsm,Levaggi,Player 5,Mozart
+-32.049915,37.998703,cnsm,Levaggi,Player 5,Scale
+-25.623407,36.82478,cnsm,Levaggi,Player 5,Scale
+-25.050158,33.904152,cnsm,Levaggi,Player 5,Scale
+-135.50084,-6.341443,cnsm,Levaggi,Player 5,Sibelius
+-20.08447,-4.446973,cnsm,Levaggi,Player 5,Tchai
+-24.20313,55.012196,cnsm,Levaggi,Player 6,Bach
+-24.124947,52.651024,cnsm,Levaggi,Player 6,Bach
+25.836954,44.92293,cnsm,Levaggi,Player 6,Free
+41.816742,11.274237,cnsm,Levaggi,Player 6,Free
+-60.824314,20.25123,cnsm,Levaggi,Player 6,Free
+-24.329502,57.247025,cnsm,Levaggi,Player 6,Free
+-137.71744,7.3601837,cnsm,Levaggi,Player 6,Free
+-44.101162,22.037914,cnsm,Levaggi,Player 6,Free
+35.90678,39.637096,cnsm,Levaggi,Player 6,Glazounov
+-57.73985,-59.269485,cnsm,Levaggi,Player 6,Mozart
+-48.8844,-50.798008,cnsm,Levaggi,Player 6,Mozart
+-7.8272676,30.897102,cnsm,Levaggi,Player 6,Scale
+-17.53755,42.365402,cnsm,Levaggi,Player 6,Scale
+0.6343068,43.06783,cnsm,Levaggi,Player 6,Scale
+-134.40932,-20.487265,cnsm,Levaggi,Player 6,Sibelius
+-126.451775,-9.136483,cnsm,Levaggi,Player 6,Sibelius
+19.396084,-6.268669,cnsm,Levaggi,Player 6,Tchai
+-48.40518,42.96949,cnsm,Levaggi,Player 7,Bach
+-35.516617,45.632828,cnsm,Levaggi,Player 7,Bach
+-40.841644,53.155388,cnsm,Levaggi,Player 7,Bach
+-46.42597,48.546867,cnsm,Levaggi,Player 7,Bach
+-29.051031,45.403698,cnsm,Levaggi,Player 7,Bach
+-28.561426,23.327175,cnsm,Levaggi,Player 7,Free
+19.980406,17.696688,cnsm,Levaggi,Player 7,Free
+16.661823,-38.97563,cnsm,Levaggi,Player 7,Free
+5.65653,49.34364,cnsm,Levaggi,Player 7,Glazounov
+-3.9263997,54.201626,cnsm,Levaggi,Player 7,Glazounov
+26.638086,42.814022,cnsm,Levaggi,Player 7,Glazounov
+-45.311836,-45.713062,cnsm,Levaggi,Player 7,Mozart
+-60.3109,-37.65486,cnsm,Levaggi,Player 7,Scale
+-73.03506,51.07359,cnsm,Levaggi,Player 7,Scale
+-141.7629,6.9341054,cnsm,Levaggi,Player 7,Sibelius
+-147.34233,18.203926,cnsm,Levaggi,Player 7,Sibelius
+-35.876923,9.119532,cnsm,Levaggi,Player 7,Tchai
+-35.98643,54.72813,cnsm,Levaggi,Player 8,Bach
+-39.560234,48.293736,cnsm,Levaggi,Player 8,Bach
+-8.439665,46.03329,cnsm,Levaggi,Player 8,Glazounov
+-52.525513,-51.58646,cnsm,Levaggi,Player 8,Mozart
+17.893755,37.075367,cnsm,Levaggi,Player 8,Scale
+-139.85681,18.262848,cnsm,Levaggi,Player 8,Sibelius
+-43.51307,-4.0047565,cnsm,Levaggi,Player 8,Tchai
+-35.84333,-2.4714627,cnsm,Levaggi,Player 8,Tchai
+-38.941013,50.38068,cnsm,Levaggi,Player 9,Bach
+-98.45369,26.05545,cnsm,Levaggi,Player 9,Free
+8.603969,31.705128,cnsm,Levaggi,Player 9,Free
+-74.66586,48.531456,cnsm,Levaggi,Player 9,Free
+-23.069853,24.682257,cnsm,Levaggi,Player 9,Free
+19.311605,31.2663,cnsm,Levaggi,Player 9,Glazounov
+-27.759481,-56.20275,cnsm,Levaggi,Player 9,Mozart
+-2.9933288,40.199116,cnsm,Levaggi,Player 9,Scale
+-2.346792,42.510147,cnsm,Levaggi,Player 9,Scale
+-128.9795,-19.54279,cnsm,Levaggi,Player 9,Sibelius
+-35.771698,-2.397931,cnsm,Levaggi,Player 9,Tchai
+38.242596,14.860902,cnsm,Stoppani,Player 0,Bach
+65.01392,7.3816614,cnsm,Stoppani,Player 0,Glazounov
+12.368363,-71.59991,cnsm,Stoppani,Player 0,Mozart
+32.12427,23.672848,cnsm,Stoppani,Player 0,Scale
+-115.011284,-22.996267,cnsm,Stoppani,Player 0,Sibelius
+22.030142,-22.049957,cnsm,Stoppani,Player 0,Tchai
+39.50879,-12.261833,cnsm,Stoppani,Player 0,Tchai
+-1.0633391,34.56555,cnsm,Stoppani,Player 10,Bach
+-111.69903,16.942518,cnsm,Stoppani,Player 10,Free
+17.543028,18.989145,cnsm,Stoppani,Player 10,Free
+-35.630486,16.207796,cnsm,Stoppani,Player 10,Free
+-55.373108,-19.395784,cnsm,Stoppani,Player 10,Free
+1.7049398,-54.644382,cnsm,Stoppani,Player 10,Free
+6.111668,4.4580617,cnsm,Stoppani,Player 10,Free
+17.180225,-10.047646,cnsm,Stoppani,Player 10,Free
+49.41851,-23.805643,cnsm,Stoppani,Player 10,Free
+-10.69914,23.174417,cnsm,Stoppani,Player 10,Free
+-15.649383,8.947381,cnsm,Stoppani,Player 10,Free
+42.07872,26.47826,cnsm,Stoppani,Player 10,Free
+58.414494,28.381502,cnsm,Stoppani,Player 10,Free
+-35.90694,-123.2299,cnsm,Stoppani,Player 10,Free
+27.254976,22.035795,cnsm,Stoppani,Player 10,Glazounov
+9.718269,-102.61765,cnsm,Stoppani,Player 10,Mozart
+23.629988,27.064114,cnsm,Stoppani,Player 10,Scale
+21.290577,16.334332,cnsm,Stoppani,Player 10,Scale
+-135.78902,-32.55736,cnsm,Stoppani,Player 10,Sibelius
+11.699049,-32.503952,cnsm,Stoppani,Player 10,Tchai
+-17.037817,46.378952,cnsm,Stoppani,Player 11,Bach
+30.236464,-4.132293,cnsm,Stoppani,Player 11,Free
+31.41036,12.782218,cnsm,Stoppani,Player 11,Glazounov
+-3.0523176,-68.31375,cnsm,Stoppani,Player 11,Mozart
+-30.318539,10.146884,cnsm,Stoppani,Player 11,Scale
+-129.09113,-12.62561,cnsm,Stoppani,Player 11,Sibelius
+-18.66668,-7.9810686,cnsm,Stoppani,Player 11,Tchai
+-3.8968525,37.41384,cnsm,Stoppani,Player 12,Bach
+-5.070884,16.42625,cnsm,Stoppani,Player 12,Free
+-54.948612,1.5217249,cnsm,Stoppani,Player 12,Free
+-24.138338,-3.4009697,cnsm,Stoppani,Player 12,Free
+44.749405,23.31022,cnsm,Stoppani,Player 12,Glazounov
+26.522635,-61.866127,cnsm,Stoppani,Player 12,Mozart
+26.830427,28.590616,cnsm,Stoppani,Player 12,Scale
+-131.03746,-17.214136,cnsm,Stoppani,Player 12,Sibelius
+-8.346019,-5.2567086,cnsm,Stoppani,Player 12,Tchai
+5.7359066,36.68646,cnsm,Stoppani,Player 2,Bach
+40.600544,26.717648,cnsm,Stoppani,Player 2,Free
+28.428957,18.29527,cnsm,Stoppani,Player 2,Free
+-23.882935,-36.45982,cnsm,Stoppani,Player 2,Free
+37.89498,25.946793,cnsm,Stoppani,Player 2,Free
+-38.837204,0.7132104,cnsm,Stoppani,Player 2,Free
+58.834625,21.317228,cnsm,Stoppani,Player 2,Glazounov
+20.234007,-78.38786,cnsm,Stoppani,Player 2,Mozart
+17.602448,-97.59639,cnsm,Stoppani,Player 2,Mozart
+24.958448,27.31999,cnsm,Stoppani,Player 2,Scale
+-131.92361,-17.687086,cnsm,Stoppani,Player 2,Sibelius
+24.721785,-28.254797,cnsm,Stoppani,Player 2,Tchai
+4.9319077,31.247812,cnsm,Stoppani,Player 3,Bach
+24.241686,-11.137531,cnsm,Stoppani,Player 3,Free
+29.136631,6.4419994,cnsm,Stoppani,Player 3,Free
+22.29784,30.042194,cnsm,Stoppani,Player 3,Free
+33.459545,-9.480252,cnsm,Stoppani,Player 3,Free
+-7.2596064,5.699143,cnsm,Stoppani,Player 3,Free
+-7.120285,51.892796,cnsm,Stoppani,Player 3,Free
+-3.0549603,6.336185,cnsm,Stoppani,Player 3,Free
+70.46648,13.888685,cnsm,Stoppani,Player 3,Glazounov
+3.331607,-89.25181,cnsm,Stoppani,Player 3,Mozart
+57.476906,5.4427834,cnsm,Stoppani,Player 3,Scale
+59.68999,7.658709,cnsm,Stoppani,Player 3,Scale
+-133.51201,-27.379776,cnsm,Stoppani,Player 3,Sibelius
+-1.3150384,-19.281698,cnsm,Stoppani,Player 3,Tchai
+-1.244165,49.771347,cnsm,Stoppani,Player 4,Bach
+-26.662056,29.152454,cnsm,Stoppani,Player 4,Free
+11.111181,11.02029,cnsm,Stoppani,Player 4,Free
+-24.048214,24.11585,cnsm,Stoppani,Player 4,Free
+41.164917,29.584757,cnsm,Stoppani,Player 4,Glazounov
+-30.830555,-57.81028,cnsm,Stoppani,Player 4,Mozart
+1.7608699,37.98477,cnsm,Stoppani,Player 4,Scale
+-8.867269,43.81879,cnsm,Stoppani,Player 4,Scale
+-135.70685,-9.875217,cnsm,Stoppani,Player 4,Sibelius
+-11.613591,-13.731464,cnsm,Stoppani,Player 4,Tchai
+-41.259983,44.353447,cnsm,Stoppani,Player 5,Bach
+40.77201,10.791451,cnsm,Stoppani,Player 5,Glazounov
+-41.366154,-79.66441,cnsm,Stoppani,Player 5,Mozart
+-23.78565,44.852104,cnsm,Stoppani,Player 5,Scale
+-19.504608,40.50448,cnsm,Stoppani,Player 5,Scale
+-134.17484,-14.627136,cnsm,Stoppani,Player 5,Sibelius
+-0.10503805,-22.185343,cnsm,Stoppani,Player 5,Tchai
+-21.029272,47.167496,cnsm,Stoppani,Player 6,Bach
+-112.53202,24.270218,cnsm,Stoppani,Player 6,Free
+15.904002,21.147448,cnsm,Stoppani,Player 6,Free
+-46.171745,31.946995,cnsm,Stoppani,Player 6,Free
+44.230755,3.92395,cnsm,Stoppani,Player 6,Free
+-117.43558,20.631096,cnsm,Stoppani,Player 6,Free
+-36.755405,51.959473,cnsm,Stoppani,Player 6,Free
+-27.664232,40.27043,cnsm,Stoppani,Player 6,Free
+-52.664867,22.900003,cnsm,Stoppani,Player 6,Free
+37.78069,26.509844,cnsm,Stoppani,Player 6,Glazounov
+-51.396072,-56.940147,cnsm,Stoppani,Player 6,Mozart
+-7.114994,35.02024,cnsm,Stoppani,Player 6,Scale
+-4.946013,28.840107,cnsm,Stoppani,Player 6,Scale
+-139.45192,0.89546764,cnsm,Stoppani,Player 6,Sibelius
+2.0518386,-12.003205,cnsm,Stoppani,Player 6,Tchai
+-19.388268,36.578323,cnsm,Stoppani,Player 7,Bach
+9.722424,-21.991665,cnsm,Stoppani,Player 7,Free
+30.137978,38.954872,cnsm,Stoppani,Player 7,Glazounov
+-36.90844,-86.315994,cnsm,Stoppani,Player 7,Mozart
+-35.61137,-73.757965,cnsm,Stoppani,Player 7,Mozart
+-74.33417,36.002766,cnsm,Stoppani,Player 7,Scale
+-72.02694,36.692635,cnsm,Stoppani,Player 7,Scale
+-143.61288,-3.8667548,cnsm,Stoppani,Player 7,Sibelius
+-38.719917,7.4210405,cnsm,Stoppani,Player 7,Tchai
+-53.58521,7.626878,cnsm,Stoppani,Player 7,Tchai
+-31.58022,-3.436213,cnsm,Stoppani,Player 7,Tchai
+-33.955425,46.009518,cnsm,Stoppani,Player 8,Bach
+-41.785473,45.944466,cnsm,Stoppani,Player 8,Bach
+-13.867044,39.565693,cnsm,Stoppani,Player 8,Glazounov
+-14.104928,42.581615,cnsm,Stoppani,Player 8,Glazounov
+-55.936703,-34.199875,cnsm,Stoppani,Player 8,Mozart
+-58.806583,-46.318996,cnsm,Stoppani,Player 8,Mozart
+-49.50724,-38.27007,cnsm,Stoppani,Player 8,Mozart
+14.440803,41.60731,cnsm,Stoppani,Player 8,Scale
+29.823229,26.157528,cnsm,Stoppani,Player 8,Scale
+-144.96677,16.689857,cnsm,Stoppani,Player 8,Sibelius
+-140.43222,16.989664,cnsm,Stoppani,Player 8,Sibelius
+-50.5094,-5.838626,cnsm,Stoppani,Player 8,Tchai
+-44.059998,1.5547516,cnsm,Stoppani,Player 8,Tchai
+-37.639893,50.568874,cnsm,Stoppani,Player 9,Bach
+8.149858,18.923674,cnsm,Stoppani,Player 9,Free
+14.178472,24.772936,cnsm,Stoppani,Player 9,Glazounov
+8.404538,22.157125,cnsm,Stoppani,Player 9,Glazounov
+-44.54012,-67.12244,cnsm,Stoppani,Player 9,Mozart
+-8.424566,33.78372,cnsm,Stoppani,Player 9,Scale
+-4.2854204,38.446617,cnsm,Stoppani,Player 9,Scale
+-143.37825,-23.344936,cnsm,Stoppani,Player 9,Sibelius
+-24.374702,-5.772343,cnsm,Stoppani,Player 9,Tchai
+18.611977,30.407465,cnsm,Stoppani,Player 0,Bach
+64.32592,9.439324,cnsm,Stoppani,Player 0,Glazounov
+-7.740007,-94.0201,cnsm,Stoppani,Player 0,Mozart
+38.170826,12.613833,cnsm,Stoppani,Player 0,Scale
+-118.20767,-43.706875,cnsm,Stoppani,Player 0,Sibelius
+35.896187,-24.654053,cnsm,Stoppani,Player 0,Tchai
+-9.324519,45.305275,cnsm,Stoppani,Player 10,Bach
+-101.17517,12.129982,cnsm,Stoppani,Player 10,Free
+21.458626,22.494692,cnsm,Stoppani,Player 10,Free
+-7.254309,12.991018,cnsm,Stoppani,Player 10,Free
+-2.5568912,-20.345482,cnsm,Stoppani,Player 10,Free
+-5.5296726,12.118458,cnsm,Stoppani,Player 10,Free
+12.528851,12.867878,cnsm,Stoppani,Player 10,Free
+0.70783836,-99.49871,cnsm,Stoppani,Player 10,Free
+-3.8240044,41.404785,cnsm,Stoppani,Player 10,Free
+-73.979195,12.1980095,cnsm,Stoppani,Player 10,Free
+47.401554,33.183903,cnsm,Stoppani,Player 10,Free
+43.332348,-11.825735,cnsm,Stoppani,Player 10,Free
+27.626038,18.40589,cnsm,Stoppani,Player 10,Glazounov
+10.137184,-95.610664,cnsm,Stoppani,Player 10,Mozart
+17.735315,34.564716,cnsm,Stoppani,Player 10,Scale
+20.175673,25.245296,cnsm,Stoppani,Player 10,Scale
+-129.38557,-30.853159,cnsm,Stoppani,Player 10,Sibelius
+19.586264,-21.874603,cnsm,Stoppani,Player 10,Tchai
+-11.584742,40.147682,cnsm,Stoppani,Player 11,Bach
+20.837276,4.9210906,cnsm,Stoppani,Player 11,Free
+23.912643,14.938153,cnsm,Stoppani,Player 11,Free
+41.158157,18.866915,cnsm,Stoppani,Player 11,Glazounov
+37.88518,21.47418,cnsm,Stoppani,Player 11,Glazounov
+-12.212305,-65.30123,cnsm,Stoppani,Player 11,Mozart
+-18.820662,3.4082375,cnsm,Stoppani,Player 11,Scale
+-129.82333,-22.97422,cnsm,Stoppani,Player 11,Sibelius
+-16.471066,-20.55993,cnsm,Stoppani,Player 11,Tchai
+5.576849,39.40512,cnsm,Stoppani,Player 12,Bach
+28.480867,-2.6333678,cnsm,Stoppani,Player 12,Free
+36.39204,27.559431,cnsm,Stoppani,Player 12,Glazounov
+16.265837,-60.816345,cnsm,Stoppani,Player 12,Mozart
+17.669764,18.409683,cnsm,Stoppani,Player 12,Scale
+-131.1404,-14.94623,cnsm,Stoppani,Player 12,Sibelius
+-9.72728,-13.58635,cnsm,Stoppani,Player 12,Tchai
+22.52505,33.421143,cnsm,Stoppani,Player 2,Bach
+46.904503,-46.803894,cnsm,Stoppani,Player 2,Free
+33.255432,-11.3078985,cnsm,Stoppani,Player 2,Free
+51.863873,21.654463,cnsm,Stoppani,Player 2,Glazounov
+25.718216,-96.071434,cnsm,Stoppani,Player 2,Mozart
+28.217186,20.409416,cnsm,Stoppani,Player 2,Scale
+-122.78037,-25.493904,cnsm,Stoppani,Player 2,Sibelius
+32.75878,-22.308035,cnsm,Stoppani,Player 2,Tchai
+38.532986,-29.48888,cnsm,Stoppani,Player 2,Tchai
+-9.874113,38.017624,cnsm,Stoppani,Player 3,Bach
+41.845417,-24.839085,cnsm,Stoppani,Player 3,Free
+22.303877,32.94195,cnsm,Stoppani,Player 3,Free
+-4.1426105,21.929285,cnsm,Stoppani,Player 3,Free
+-37.772415,50.477795,cnsm,Stoppani,Player 3,Free
+-29.050463,-78.250496,cnsm,Stoppani,Player 3,Free
+-41.22994,-6.24205,cnsm,Stoppani,Player 3,Free
+46.668633,13.746142,cnsm,Stoppani,Player 3,Glazounov
+1.9397252,-98.2991,cnsm,Stoppani,Player 3,Mozart
+48.983303,12.3016,cnsm,Stoppani,Player 3,Scale
+45.631664,11.247124,cnsm,Stoppani,Player 3,Scale
+-138.9453,-40.196167,cnsm,Stoppani,Player 3,Sibelius
+-22.145927,-27.630272,cnsm,Stoppani,Player 3,Tchai
+-4.6291647,52.062595,cnsm,Stoppani,Player 4,Bach
+20.366272,34.74179,cnsm,Stoppani,Player 4,Free
+6.0996985,19.195698,cnsm,Stoppani,Player 4,Free
+32.05896,36.672394,cnsm,Stoppani,Player 4,Glazounov
+-32.31459,-52.142,cnsm,Stoppani,Player 4,Mozart
+3.8230848,44.695328,cnsm,Stoppani,Player 4,Scale
+0.84052503,40.483486,cnsm,Stoppani,Player 4,Scale
+-126.626434,-8.7193775,cnsm,Stoppani,Player 4,Sibelius
+-20.687159,-12.227516,cnsm,Stoppani,Player 4,Tchai
+-40.92867,38.21032,cnsm,Stoppani,Player 5,Bach
+-33.03789,44.17657,cnsm,Stoppani,Player 5,Bach
+-101.05422,31.415756,cnsm,Stoppani,Player 5,Free
+40.10311,23.129354,cnsm,Stoppani,Player 5,Free
+36.54976,-18.73076,cnsm,Stoppani,Player 5,Free
+62.167526,-7.277838,cnsm,Stoppani,Player 5,Free
+-63.879944,39.408085,cnsm,Stoppani,Player 5,Free
+42.356827,11.749663,cnsm,Stoppani,Player 5,Free
+25.796963,28.376112,cnsm,Stoppani,Player 5,Glazounov
+-37.942116,-73.126114,cnsm,Stoppani,Player 5,Mozart
+-41.38253,-94.659225,cnsm,Stoppani,Player 5,Mozart
+-47.405018,46.848896,cnsm,Stoppani,Player 5,Scale
+-50.18898,43.584743,cnsm,Stoppani,Player 5,Scale
+-135.45522,-0.84970987,cnsm,Stoppani,Player 5,Sibelius
+-52.417984,25.670193,cnsm,Stoppani,Player 5,Tchai
+-29.281452,3.9737456,cnsm,Stoppani,Player 5,Tchai
+-15.319172,-19.86071,cnsm,Stoppani,Player 5,Tchai
+-21.700087,45.526512,cnsm,Stoppani,Player 6,Bach
+30.01297,7.9664173,cnsm,Stoppani,Player 6,Free
+-43.17346,15.24074,cnsm,Stoppani,Player 6,Free
+-33.76946,31.177439,cnsm,Stoppani,Player 6,Free
+46.738094,23.279377,cnsm,Stoppani,Player 6,Glazounov
+-34.536938,-60.687645,cnsm,Stoppani,Player 6,Mozart
+-1.0177318,34.782013,cnsm,Stoppani,Player 6,Scale
+-0.6445643,33.92286,cnsm,Stoppani,Player 6,Scale
+-134.87263,-12.137069,cnsm,Stoppani,Player 6,Sibelius
+19.010801,-3.0452175,cnsm,Stoppani,Player 6,Tchai
+-24.040083,38.03844,cnsm,Stoppani,Player 7,Bach
+-11.366223,4.5047064,cnsm,Stoppani,Player 7,Free
+13.022674,-13.863908,cnsm,Stoppani,Player 7,Free
+28.774054,40.396267,cnsm,Stoppani,Player 7,Glazounov
+-41.976917,-80.70611,cnsm,Stoppani,Player 7,Mozart
+-75.63652,39.604733,cnsm,Stoppani,Player 7,Scale
+-139.68839,4.71922,cnsm,Stoppani,Player 7,Sibelius
+-29.51337,-5.175987,cnsm,Stoppani,Player 7,Tchai
+-43.68793,44.335796,cnsm,Stoppani,Player 8,Bach
+-13.428389,41.321728,cnsm,Stoppani,Player 8,Glazounov
+-51.119995,-36.018085,cnsm,Stoppani,Player 8,Mozart
+21.901567,36.183537,cnsm,Stoppani,Player 8,Scale
+-133.62671,13.296515,cnsm,Stoppani,Player 8,Sibelius
+-42.34832,7.120535,cnsm,Stoppani,Player 8,Tchai
+-36.86666,42.831963,cnsm,Stoppani,Player 9,Bach
+1.7304972,8.6251335,cnsm,Stoppani,Player 9,Free
+-47.659416,57.584198,cnsm,Stoppani,Player 9,Free
+25.350126,8.610832,cnsm,Stoppani,Player 9,Free
+31.2574,16.868256,cnsm,Stoppani,Player 9,Glazounov
+30.89246,28.689981,cnsm,Stoppani,Player 9,Glazounov
+-43.75793,-77.53287,cnsm,Stoppani,Player 9,Mozart
+-18.283709,46.007675,cnsm,Stoppani,Player 9,Scale
+-133.89003,-32.227844,cnsm,Stoppani,Player 9,Sibelius
+-17.47807,-26.608276,cnsm,Stoppani,Player 9,Tchai
+-11.202631,49.0083,cnsm,Klimke,Player 0,Bach
+51.58483,-37.111683,cnsm,Klimke,Player 0,Free
+-78.38006,7.1931586,cnsm,Klimke,Player 0,Free
+50.25476,15.019614,cnsm,Klimke,Player 0,Glazounov
+7.455249,-91.52313,cnsm,Klimke,Player 0,Mozart
+-4.6960974,25.873775,cnsm,Klimke,Player 0,Scale
+-96.92025,-46.613472,cnsm,Klimke,Player 0,Sibelius
+11.869265,-19.286514,cnsm,Klimke,Player 0,Tchai
+20.782047,22.212824,cnsm,Klimke,Player 1,Bach
+24.558645,-1.4150293,cnsm,Klimke,Player 1,Free
+46.22326,16.593666,cnsm,Klimke,Player 1,Glazounov
+-5.1014123,-101.21982,cnsm,Klimke,Player 1,Mozart
+-90.65906,-40.234615,cnsm,Klimke,Player 1,Sibelius
+16.16521,-34.858932,cnsm,Klimke,Player 1,Tchai
+-17.499119,33.21444,cnsm,Klimke,Player 10,Bach
+23.757458,25.508417,cnsm,Klimke,Player 10,Free
+17.70667,32.631775,cnsm,Klimke,Player 10,Glazounov
+2.3357282,-99.552,cnsm,Klimke,Player 10,Mozart
+11.828788,24.39833,cnsm,Klimke,Player 10,Scale
+13.611201,7.9739285,cnsm,Klimke,Player 10,Scale
+-137.7281,-22.02745,cnsm,Klimke,Player 10,Sibelius
+-6.250476,-26.933449,cnsm,Klimke,Player 10,Tchai
+-10.577476,47.989258,cnsm,Klimke,Player 11,Bach
+-5.9919477,21.453112,cnsm,Klimke,Player 11,Free
+31.796963,24.20351,cnsm,Klimke,Player 11,Glazounov
+-2.0828502,-64.22389,cnsm,Klimke,Player 11,Mozart
+-35.852776,14.582479,cnsm,Klimke,Player 11,Scale
+-16.311682,10.889059,cnsm,Klimke,Player 11,Scale
+-129.66458,-6.899166,cnsm,Klimke,Player 11,Sibelius
+-9.358224,-9.798283,cnsm,Klimke,Player 11,Tchai
+-14.110637,-17.840504,cnsm,Klimke,Player 11,Tchai
+-0.78668165,29.888361,cnsm,Klimke,Player 12,Bach
+26.766016,-4.5080233,cnsm,Klimke,Player 12,Free
+25.679153,25.66459,cnsm,Klimke,Player 12,Glazounov
+4.4182706,-81.701744,cnsm,Klimke,Player 12,Mozart
+7.948008,18.929073,cnsm,Klimke,Player 12,Scale
+-141.83206,-14.721242,cnsm,Klimke,Player 12,Sibelius
+-19.490213,-11.607579,cnsm,Klimke,Player 12,Tchai
+-11.17793,33.21113,cnsm,Klimke,Player 2,Bach
+27.551897,-33.763718,cnsm,Klimke,Player 2,Free
+-6.720702,19.363194,cnsm,Klimke,Player 2,Free
+41.207386,-4.8538084,cnsm,Klimke,Player 2,Free
+54.715794,15.570495,cnsm,Klimke,Player 2,Glazounov
+5.236577,-83.77631,cnsm,Klimke,Player 2,Mozart
+27.141315,13.765299,cnsm,Klimke,Player 2,Scale
+-130.11607,2.4315827,cnsm,Klimke,Player 2,Sibelius
+-13.826525,-26.864475,cnsm,Klimke,Player 2,Tchai
+-8.983394,33.084545,cnsm,Klimke,Player 3,Bach
+50.58595,-10.097701,cnsm,Klimke,Player 3,Free
+52.667667,14.097987,cnsm,Klimke,Player 3,Glazounov
+4.9707985,-107.89239,cnsm,Klimke,Player 3,Mozart
+62.825745,-11.062672,cnsm,Klimke,Player 3,Scale
+-134.84558,-6.06669,cnsm,Klimke,Player 3,Sibelius
+0.52046406,-37.987885,cnsm,Klimke,Player 3,Tchai
+-78.41878,52.181026,cnsm,Klimke,Player 5,Bach
+16.084131,28.902628,cnsm,Klimke,Player 5,Glazounov
+-54.96439,-61.960575,cnsm,Klimke,Player 5,Mozart
+-69.29414,44.00233,cnsm,Klimke,Player 5,Scale
+-61.43611,36.151363,cnsm,Klimke,Player 5,Scale
+-149.35335,22.44095,cnsm,Klimke,Player 5,Sibelius
+-49.31028,13.487231,cnsm,Klimke,Player 5,Tchai
+-50.043423,51.24922,cnsm,Klimke,Player 6,Bach
+-108.20861,23.039703,cnsm,Klimke,Player 6,Free
+-8.4835825,23.656036,cnsm,Klimke,Player 6,Free
+-66.99685,20.343422,cnsm,Klimke,Player 6,Free
+17.4849,9.796704,cnsm,Klimke,Player 6,Free
+-53.546158,52.446198,cnsm,Klimke,Player 6,Free
+18.718945,27.41919,cnsm,Klimke,Player 6,Glazounov
+-41.91658,-68.246414,cnsm,Klimke,Player 6,Mozart
+-35.594765,29.334122,cnsm,Klimke,Player 6,Scale
+-64.9625,40.411697,cnsm,Klimke,Player 6,Scale
+-145.7703,-8.5058775,cnsm,Klimke,Player 6,Sibelius
+-15.749924,-17.025324,cnsm,Klimke,Player 6,Tchai
+-34.562717,44.763153,cnsm,Klimke,Player 7,Bach
+-57.643402,-17.983953,cnsm,Klimke,Player 7,Free
+-8.392779,-1.7633529,cnsm,Klimke,Player 7,Free
+33.56111,35.399445,cnsm,Klimke,Player 7,Glazounov
+-49.43026,-81.79192,cnsm,Klimke,Player 7,Mozart
+-62.182327,24.162317,cnsm,Klimke,Player 7,Scale
+-143.89482,8.511218,cnsm,Klimke,Player 7,Sibelius
+-29.37759,-5.669943,cnsm,Klimke,Player 7,Tchai
+28.784641,30.297512,cnsm,Klimke,Player 8,Bach
+23.761784,42.10029,cnsm,Klimke,Player 8,Bach
+68.379234,24.923462,cnsm,Klimke,Player 8,Glazounov
+-100.8219,-104.48254,cnsm,Klimke,Player 8,Mozart
+14.858734,-90.22029,cnsm,Klimke,Player 8,Mozart
+20.534897,-103.20679,cnsm,Klimke,Player 8,Mozart
+89.40057,11.883689,cnsm,Klimke,Player 8,Scale
+98.20339,11.922516,cnsm,Klimke,Player 8,Scale
+-118.78847,-3.073117,cnsm,Klimke,Player 8,Sibelius
+-117.20637,-13.507701,cnsm,Klimke,Player 8,Sibelius
+29.521694,-33.55115,cnsm,Klimke,Player 8,Tchai
+24.601585,-29.828716,cnsm,Klimke,Player 8,Tchai
+69.184685,16.055307,cnsm,Klimke,Player 9,Bach
+94.55425,-46.740932,cnsm,Klimke,Player 9,Free
+125.17139,-11.165935,cnsm,Klimke,Player 9,Glazounov
+42.002106,-138.4877,cnsm,Klimke,Player 9,Mozart
+81.5852,0.37268832,cnsm,Klimke,Player 9,Scale
+-88.127716,-77.46923,cnsm,Klimke,Player 9,Sibelius
+88.46749,-68.82597,cnsm,Klimke,Player 9,Tchai
+-7.553484,43.419483,cnsm,Klimke,Player 0,Bach
+20.657757,-40.044586,cnsm,Klimke,Player 0,Free
+39.676105,-21.349941,cnsm,Klimke,Player 0,Free
+48.541565,-9.783491,cnsm,Klimke,Player 0,Free
+41.352215,3.3775847,cnsm,Klimke,Player 0,Glazounov
+21.937037,-89.60409,cnsm,Klimke,Player 0,Mozart
+-9.218884,32.456364,cnsm,Klimke,Player 0,Scale
+-96.43987,-50.255913,cnsm,Klimke,Player 0,Sibelius
+22.083014,-30.552664,cnsm,Klimke,Player 0,Tchai
+6.6118655,31.139606,cnsm,Klimke,Player 1,Bach
+30.616512,-12.133099,cnsm,Klimke,Player 1,Free
+31.175383,-32.753994,cnsm,Klimke,Player 1,Free
+33.05251,19.746496,cnsm,Klimke,Player 1,Glazounov
+6.0754642,-94.46561,cnsm,Klimke,Player 1,Mozart
+-101.88593,-24.37046,cnsm,Klimke,Player 1,Sibelius
+-105.05366,-44.78506,cnsm,Klimke,Player 1,Sibelius
+-0.00079574966,-24.6859,cnsm,Klimke,Player 1,Tchai
+2.142029,-27.298271,cnsm,Klimke,Player 1,Tchai
+-9.48657,34.7408,cnsm,Klimke,Player 10,Bach
+-101.999214,9.681708,cnsm,Klimke,Player 10,Free
+22.683664,27.236778,cnsm,Klimke,Player 10,Free
+21.007359,14.547599,cnsm,Klimke,Player 10,Glazounov
+-8.285899,-104.21071,cnsm,Klimke,Player 10,Mozart
+-1.9388472,20.001318,cnsm,Klimke,Player 10,Scale
+12.280714,17.924475,cnsm,Klimke,Player 10,Scale
+-137.94753,-22.061363,cnsm,Klimke,Player 10,Sibelius
+-2.6573217,-33.758305,cnsm,Klimke,Player 10,Tchai
+-16.182928,46.941113,cnsm,Klimke,Player 11,Bach
+-3.286598,27.83563,cnsm,Klimke,Player 11,Free
+23.160608,21.730242,cnsm,Klimke,Player 11,Glazounov
+10.200094,-76.047874,cnsm,Klimke,Player 11,Mozart
+-39.328117,26.104492,cnsm,Klimke,Player 11,Scale
+-23.740791,6.3460336,cnsm,Klimke,Player 11,Scale
+-122.88086,-22.599932,cnsm,Klimke,Player 11,Sibelius
+-18.044195,-11.799881,cnsm,Klimke,Player 11,Tchai
+-17.007666,29.036781,cnsm,Klimke,Player 12,Bach
+15.690973,19.716446,cnsm,Klimke,Player 12,Glazounov
+2.3747625,-71.976074,cnsm,Klimke,Player 12,Mozart
+11.769383,18.839033,cnsm,Klimke,Player 12,Scale
+-138.72202,-20.977228,cnsm,Klimke,Player 12,Sibelius
+-20.352919,-15.854773,cnsm,Klimke,Player 12,Tchai
+-11.298125,44.95629,cnsm,Klimke,Player 2,Bach
+59.68306,-20.812,cnsm,Klimke,Player 2,Free
+-48.434196,-21.17971,cnsm,Klimke,Player 2,Free
+47.49048,17.827858,cnsm,Klimke,Player 2,Glazounov
+11.743197,-76.56497,cnsm,Klimke,Player 2,Mozart
+9.553886,-88.35638,cnsm,Klimke,Player 2,Mozart
+26.281467,16.783848,cnsm,Klimke,Player 2,Scale
+-136.5025,-4.709367,cnsm,Klimke,Player 2,Sibelius
+5.386003,-33.516945,cnsm,Klimke,Player 2,Tchai
+-0.9965697,35.6225,cnsm,Klimke,Player 3,Bach
+23.371016,-31.863827,cnsm,Klimke,Player 3,Free
+54.14016,5.939972,cnsm,Klimke,Player 3,Glazounov
+12.654581,-108.20195,cnsm,Klimke,Player 3,Mozart
+64.01351,-8.164347,cnsm,Klimke,Player 3,Scale
+58.030724,2.5666893,cnsm,Klimke,Player 3,Scale
+-124.263054,-40.962757,cnsm,Klimke,Player 3,Sibelius
+-1.8217845,-39.113747,cnsm,Klimke,Player 3,Tchai
+-66.86015,47.126938,cnsm,Klimke,Player 5,Bach
+18.867619,24.961767,cnsm,Klimke,Player 5,Glazounov
+-65.71551,-75.70682,cnsm,Klimke,Player 5,Mozart
+-66.94015,35.76524,cnsm,Klimke,Player 5,Scale
+-66.13407,42.87413,cnsm,Klimke,Player 5,Scale
+-147.0615,7.9154897,cnsm,Klimke,Player 5,Sibelius
+-41.3998,1.6832222,cnsm,Klimke,Player 5,Tchai
+-51.834835,49.640877,cnsm,Klimke,Player 6,Bach
+13.363147,-13.431625,cnsm,Klimke,Player 6,Free
+-36.15513,31.774588,cnsm,Klimke,Player 6,Free
+-47.473763,43.573006,cnsm,Klimke,Player 6,Free
+21.490847,30.36218,cnsm,Klimke,Player 6,Glazounov
+-62.66219,-52.997528,cnsm,Klimke,Player 6,Mozart
+-57.459484,47.74001,cnsm,Klimke,Player 6,Scale
+-59.686634,41.50029,cnsm,Klimke,Player 6,Scale
+-136.78784,-3.397437,cnsm,Klimke,Player 6,Sibelius
+-12.894954,-10.463785,cnsm,Klimke,Player 6,Tchai
+-26.053345,3.1120663,cnsm,Klimke,Player 7,Bach
+-48.730183,-19.78189,cnsm,Klimke,Player 7,Free
+-145.88736,-16.81972,cnsm,Klimke,Player 7,Free
+-143.37785,10.718665,cnsm,Klimke,Player 7,Free
+-38.19459,-16.326347,cnsm,Klimke,Player 7,Free
+16.662363,39.36828,cnsm,Klimke,Player 7,Glazounov
+-44.80161,-81.850945,cnsm,Klimke,Player 7,Mozart
+-62.64793,29.41081,cnsm,Klimke,Player 7,Scale
+-137.72131,-6.7667046,cnsm,Klimke,Player 7,Sibelius
+-34.632675,-10.704522,cnsm,Klimke,Player 7,Tchai
+25.571152,29.219889,cnsm,Klimke,Player 8,Bach
+35.19822,2.7130704,cnsm,Klimke,Player 8,Free
+36.003506,-20.506554,cnsm,Klimke,Player 8,Free
+65.48251,15.259617,cnsm,Klimke,Player 8,Glazounov
+-3.0038388,-116.14667,cnsm,Klimke,Player 8,Mozart
+94.202255,-6.208141,cnsm,Klimke,Player 8,Scale
+99.85083,6.5281477,cnsm,Klimke,Player 8,Scale
+-119.373924,-23.3072,cnsm,Klimke,Player 8,Sibelius
+29.617863,-44.862408,cnsm,Klimke,Player 8,Tchai
+41.840622,26.68087,cnsm,Klimke,Player 9,Bach
+102.20281,-58.779266,cnsm,Klimke,Player 9,Free
+122.424164,-21.099104,cnsm,Klimke,Player 9,Glazounov
+40.627968,-141.87802,cnsm,Klimke,Player 9,Mozart
+63.97755,0.75992405,cnsm,Klimke,Player 9,Scale
+-93.06282,-94.8526,cnsm,Klimke,Player 9,Sibelius
+69.82122,-63.042194,cnsm,Klimke,Player 9,Tchai
+-8.145476,41.925888,cnsm,Levaggi,Player 0,Bach
+15.41783,-25.749346,cnsm,Levaggi,Player 0,Free
+58.14677,-17.742838,cnsm,Levaggi,Player 0,Free
+47.36605,-24.390448,cnsm,Levaggi,Player 0,Free
+54.062878,15.645263,cnsm,Levaggi,Player 0,Glazounov
+2.7920494,-84.25048,cnsm,Levaggi,Player 0,Mozart
+-10.097482,14.008138,cnsm,Levaggi,Player 0,Scale
+-7.1850405,42.3001,cnsm,Levaggi,Player 0,Scale
+-110.6297,-42.094097,cnsm,Levaggi,Player 0,Sibelius
+8.459084,-5.652738,cnsm,Levaggi,Player 0,Tchai
+26.207315,23.480902,cnsm,Levaggi,Player 1,Bach
+40.826275,10.797997,cnsm,Levaggi,Player 1,Free
+47.121006,28.80569,cnsm,Levaggi,Player 1,Glazounov
+17.908327,-44.233395,cnsm,Levaggi,Player 1,Mozart
+-107.401855,-29.830688,cnsm,Levaggi,Player 1,Sibelius
+12.787537,-16.962732,cnsm,Levaggi,Player 1,Tchai
+-24.808722,49.568485,cnsm,Levaggi,Player 10,Bach
+-106.6302,17.910393,cnsm,Levaggi,Player 10,Free
+-5.88312,29.091162,cnsm,Levaggi,Player 10,Free
+16.868105,34.918163,cnsm,Levaggi,Player 10,Glazounov
+-7.647318,-91.463135,cnsm,Levaggi,Player 10,Mozart
+3.6183746,32.216084,cnsm,Levaggi,Player 10,Scale
+-138.4908,-16.014444,cnsm,Levaggi,Player 10,Sibelius
+-9.669283,-8.997447,cnsm,Levaggi,Player 10,Tchai
+-19.812649,53.588573,cnsm,Levaggi,Player 11,Bach
+8.436417,2.8482542,cnsm,Levaggi,Player 11,Free
+29.996122,26.393589,cnsm,Levaggi,Player 11,Glazounov
+13.908814,-76.31162,cnsm,Levaggi,Player 11,Mozart
+-6.3331943,-77.84846,cnsm,Levaggi,Player 11,Mozart
+-24.190937,7.816806,cnsm,Levaggi,Player 11,Scale
+-125.28508,-31.858204,cnsm,Levaggi,Player 11,Sibelius
+-3.0411406,-15.082466,cnsm,Levaggi,Player 11,Tchai
+-5.325611,33.006344,cnsm,Levaggi,Player 12,Bach
+-3.3838634,27.245163,cnsm,Levaggi,Player 12,Free
+-34.550323,34.59167,cnsm,Levaggi,Player 12,Free
+29.563648,26.322252,cnsm,Levaggi,Player 12,Glazounov
+6.8071575,-65.031235,cnsm,Levaggi,Player 12,Mozart
+24.13442,21.194252,cnsm,Levaggi,Player 12,Scale
+-8.172281,28.078459,cnsm,Levaggi,Player 12,Scale
+-135.21533,-11.834657,cnsm,Levaggi,Player 12,Sibelius
+-11.727817,-11.385607,cnsm,Levaggi,Player 12,Tchai
+5.1704044,32.88357,cnsm,Levaggi,Player 2,Bach
+59.73979,-7.253287,cnsm,Levaggi,Player 2,Free
+63.518173,19.116892,cnsm,Levaggi,Player 2,Glazounov
+14.1111965,-78.44571,cnsm,Levaggi,Player 2,Mozart
+25.278528,24.977459,cnsm,Levaggi,Player 2,Scale
+-144.48816,11.197944,cnsm,Levaggi,Player 2,Sibelius
+9.067458,-16.308159,cnsm,Levaggi,Player 2,Tchai
+-18.588566,51.709797,cnsm,Levaggi,Player 3,Bach
+45.221794,-18.447428,cnsm,Levaggi,Player 3,Free
+52.09432,28.23177,cnsm,Levaggi,Player 3,Glazounov
+5.0825276,-89.814575,cnsm,Levaggi,Player 3,Mozart
+52.950542,2.3510242,cnsm,Levaggi,Player 3,Scale
+52.499767,5.5235333,cnsm,Levaggi,Player 3,Scale
+-133.15997,-19.241919,cnsm,Levaggi,Player 3,Sibelius
+-2.9195716,-13.057976,cnsm,Levaggi,Player 3,Tchai
+-74.983505,54.079216,cnsm,Levaggi,Player 5,Bach
+5.6216936,35.684097,cnsm,Levaggi,Player 5,Glazounov
+-36.880493,-59.97627,cnsm,Levaggi,Player 5,Mozart
+-36.382896,42.731113,cnsm,Levaggi,Player 5,Scale
+-45.63406,41.738926,cnsm,Levaggi,Player 5,Scale
+-145.38374,-1.2144195,cnsm,Levaggi,Player 5,Sibelius
+-20.75084,-5.2784243,cnsm,Levaggi,Player 5,Tchai
+-49.247017,54.877556,cnsm,Levaggi,Player 6,Bach
+1.8517829,40.32424,cnsm,Levaggi,Player 6,Free
+43.146793,6.0576134,cnsm,Levaggi,Player 6,Free
+-38.09099,51.83451,cnsm,Levaggi,Player 6,Free
+-26.245531,44.05486,cnsm,Levaggi,Player 6,Free
+14.74052,31.333992,cnsm,Levaggi,Player 6,Glazounov
+-54.544933,-42.668545,cnsm,Levaggi,Player 6,Mozart
+-34.780567,42.33266,cnsm,Levaggi,Player 6,Scale
+-61.0443,44.003986,cnsm,Levaggi,Player 6,Scale
+-143.25308,-2.3990576,cnsm,Levaggi,Player 6,Sibelius
+-6.9996977,-4.9495015,cnsm,Levaggi,Player 6,Tchai
+-26.676006,50.13593,cnsm,Levaggi,Player 7,Bach
+6.113401,-2.3996618,cnsm,Levaggi,Player 7,Free
+21.758507,51.15228,cnsm,Levaggi,Player 7,Glazounov
+-40.976475,-58.690296,cnsm,Levaggi,Player 7,Mozart
+-69.48882,44.52898,cnsm,Levaggi,Player 7,Scale
+-140.03133,13.1168585,cnsm,Levaggi,Player 7,Sibelius
+-18.683702,11.143786,cnsm,Levaggi,Player 7,Tchai
+45.023132,25.272001,cnsm,Levaggi,Player 8,Bach
+43.116135,34.85384,cnsm,Levaggi,Player 8,Bach
+72.88866,29.574902,cnsm,Levaggi,Player 8,Glazounov
+69.44514,33.28664,cnsm,Levaggi,Player 8,Glazounov
+21.998577,-92.95399,cnsm,Levaggi,Player 8,Mozart
+20.405704,-106.21797,cnsm,Levaggi,Player 8,Mozart
+18.468895,-93.630264,cnsm,Levaggi,Player 8,Mozart
+107.87295,10.779949,cnsm,Levaggi,Player 8,Scale
+102.92459,5.0960836,cnsm,Levaggi,Player 8,Scale
+-99.23677,-33.398056,cnsm,Levaggi,Player 8,Sibelius
+-111.268234,-7.8802123,cnsm,Levaggi,Player 8,Sibelius
+-116.15234,-5.482816,cnsm,Levaggi,Player 8,Sibelius
+30.149492,-24.684654,cnsm,Levaggi,Player 8,Tchai
+38.81603,-30.581089,cnsm,Levaggi,Player 8,Tchai
+64.25556,22.21408,cnsm,Levaggi,Player 9,Bach
+80.01178,-24.572943,cnsm,Levaggi,Player 9,Free
+139.96608,-1.8465142,cnsm,Levaggi,Player 9,Glazounov
+57.443195,-101.95577,cnsm,Levaggi,Player 9,Mozart
+84.78255,16.867592,cnsm,Levaggi,Player 9,Scale
+-87.20274,-58.780735,cnsm,Levaggi,Player 9,Sibelius
+95.09552,-35.723248,cnsm,Levaggi,Player 9,Tchai
+0.3461344,44.661785,cnsm,Stoppani,Player 0,Bach
+-98.34931,12.335878,cnsm,Stoppani,Player 0,Free
+61.35429,-29.707838,cnsm,Stoppani,Player 0,Free
+43.32875,-31.585602,cnsm,Stoppani,Player 0,Free
+51.88313,3.0642824,cnsm,Stoppani,Player 0,Glazounov
+5.0435357,-81.35442,cnsm,Stoppani,Player 0,Mozart
+-4.9531293,29.815098,cnsm,Stoppani,Player 0,Scale
+-7.018394,34.709732,cnsm,Stoppani,Player 0,Scale
+-107.15882,-27.155745,cnsm,Stoppani,Player 0,Sibelius
+-102.0627,-42.766907,cnsm,Stoppani,Player 0,Sibelius
+6.680509,28.147005,cnsm,Stoppani,Player 1,Bach
+9.586963,31.536163,cnsm,Stoppani,Player 1,Bach
+12.824993,-21.998104,cnsm,Stoppani,Player 1,Free
+12.948341,-7.11215,cnsm,Stoppani,Player 1,Free
+47.885204,21.032606,cnsm,Stoppani,Player 1,Glazounov
+-3.7590117,-93.56096,cnsm,Stoppani,Player 1,Mozart
+4.647156,-87.87882,cnsm,Stoppani,Player 1,Mozart
+-112.832565,-19.862827,cnsm,Stoppani,Player 1,Sibelius
+-111.1582,-29.099527,cnsm,Stoppani,Player 1,Sibelius
+12.001216,-29.312246,cnsm,Stoppani,Player 1,Tchai
+-15.61641,41.749058,cnsm,Stoppani,Player 10,Bach
+15.191385,38.775875,cnsm,Stoppani,Player 10,Free
+16.405516,31.929615,cnsm,Stoppani,Player 10,Glazounov
+-1.7429256,-96.71304,cnsm,Stoppani,Player 10,Mozart
+17.778593,22.674482,cnsm,Stoppani,Player 10,Scale
+19.078228,9.966484,cnsm,Stoppani,Player 10,Scale
+-138.65375,-23.629057,cnsm,Stoppani,Player 10,Sibelius
+-3.1493573,-25.017565,cnsm,Stoppani,Player 10,Tchai
+-13.764187,54.421284,cnsm,Stoppani,Player 11,Bach
+25.336353,17.456585,cnsm,Stoppani,Player 11,Free
+-14.451173,-28.86261,cnsm,Stoppani,Player 11,Free
+33.47209,16.067251,cnsm,Stoppani,Player 11,Free
+26.111013,27.304605,cnsm,Stoppani,Player 11,Glazounov
+4.112234,-74.92522,cnsm,Stoppani,Player 11,Mozart
+-25.79326,15.036401,cnsm,Stoppani,Player 11,Scale
+-128.5859,-17.811665,cnsm,Stoppani,Player 11,Sibelius
+-15.195228,-9.87249,cnsm,Stoppani,Player 11,Tchai
+-6.905957,38.095695,cnsm,Stoppani,Player 12,Bach
+20.569944,9.592941,cnsm,Stoppani,Player 12,Free
+-4.0840693,22.1206,cnsm,Stoppani,Player 12,Free
+26.931969,22.653702,cnsm,Stoppani,Player 12,Glazounov
+6.9517975,-82.0952,cnsm,Stoppani,Player 12,Mozart
+6.133895,30.685513,cnsm,Stoppani,Player 12,Scale
+-144.44742,-16.359632,cnsm,Stoppani,Player 12,Sibelius
+-13.039786,-17.142765,cnsm,Stoppani,Player 12,Tchai
+-17.656399,42.839745,cnsm,Stoppani,Player 2,Bach
+58.214645,15.419691,cnsm,Stoppani,Player 2,Free
+-20.286469,-38.75585,cnsm,Stoppani,Player 2,Free
+12.132147,-29.718878,cnsm,Stoppani,Player 2,Free
+47.75233,14.512539,cnsm,Stoppani,Player 2,Glazounov
+4.926278,-67.66161,cnsm,Stoppani,Player 2,Mozart
+-4.7757936,-63.435745,cnsm,Stoppani,Player 2,Mozart
+32.470367,19.667528,cnsm,Stoppani,Player 2,Scale
+-142.21095,-2.2498558,cnsm,Stoppani,Player 2,Sibelius
+-3.2278032,-20.107344,cnsm,Stoppani,Player 2,Tchai
+-16.121696,45.764507,cnsm,Stoppani,Player 3,Bach
+22.568218,-23.335955,cnsm,Stoppani,Player 3,Free
+44.76604,14.888321,cnsm,Stoppani,Player 3,Glazounov
+-0.43331102,-89.82536,cnsm,Stoppani,Player 3,Mozart
+50.646114,6.671901,cnsm,Stoppani,Player 3,Scale
+56.807552,7.6091275,cnsm,Stoppani,Player 3,Scale
+-137.72899,-9.425109,cnsm,Stoppani,Player 3,Sibelius
+-18.119081,-21.658539,cnsm,Stoppani,Player 3,Tchai
+-56.621655,49.552563,cnsm,Stoppani,Player 5,Bach
+11.745114,23.380867,cnsm,Stoppani,Player 5,Glazounov
+-45.754852,-62.20886,cnsm,Stoppani,Player 5,Mozart
+-49.353405,43.626797,cnsm,Stoppani,Player 5,Scale
+-145.36646,-2.6803243,cnsm,Stoppani,Player 5,Sibelius
+-45.202385,2.7541354,cnsm,Stoppani,Player 5,Tchai
+-40.61955,51.65792,cnsm,Stoppani,Player 6,Bach
+-109.600945,18.815506,cnsm,Stoppani,Player 6,Free
+-1.6673691,37.432724,cnsm,Stoppani,Player 6,Free
+22.015469,13.985395,cnsm,Stoppani,Player 6,Free
+18.446404,29.259937,cnsm,Stoppani,Player 6,Glazounov
+19.235746,29.93841,cnsm,Stoppani,Player 6,Glazounov
+-56.250957,-34.379333,cnsm,Stoppani,Player 6,Mozart
+-53.0142,42.189888,cnsm,Stoppani,Player 6,Scale
+-57.81909,42.525036,cnsm,Stoppani,Player 6,Scale
+-132.44649,-6.8829174,cnsm,Stoppani,Player 6,Sibelius
+-1.8407247,-13.746005,cnsm,Stoppani,Player 6,Tchai
+-26.79725,45.38776,cnsm,Stoppani,Player 7,Bach
+-50.303253,49.923782,cnsm,Stoppani,Player 7,Bach
+-49.02818,29.713114,cnsm,Stoppani,Player 7,Free
+-1.1970787,-3.2849507,cnsm,Stoppani,Player 7,Free
+-25.179626,47.690895,cnsm,Stoppani,Player 7,Glazounov
+-142.07738,4.962996,cnsm,Stoppani,Player 7,Glazounov
+-58.9575,-62.604553,cnsm,Stoppani,Player 7,Mozart
+-88.683556,39.512638,cnsm,Stoppani,Player 7,Scale
+-39.469173,-7.194543,cnsm,Stoppani,Player 7,Tchai
+-49.439434,13.470214,cnsm,Stoppani,Player 7,Tchai
+11.089702,24.828165,cnsm,Stoppani,Player 8,Bach
+35.788406,17.522472,cnsm,Stoppani,Player 8,Bach
+66.16571,16.128325,cnsm,Stoppani,Player 8,Glazounov
+-15.693426,-104.967094,cnsm,Stoppani,Player 8,Mozart
+-97.31521,-101.03859,cnsm,Stoppani,Player 8,Mozart
+12.0957775,-108.708694,cnsm,Stoppani,Player 8,Mozart
+61.390636,-27.192528,cnsm,Stoppani,Player 8,Scale
+86.953896,9.796532,cnsm,Stoppani,Player 8,Scale
+102.451935,-18.488153,cnsm,Stoppani,Player 8,Scale
+-111.897964,-56.019154,cnsm,Stoppani,Player 8,Sibelius
+-132.30858,-13.661312,cnsm,Stoppani,Player 8,Sibelius
+21.635265,-48.009315,cnsm,Stoppani,Player 8,Tchai
+29.676687,-56.079147,cnsm,Stoppani,Player 8,Tchai
+56.15898,27.34689,cnsm,Stoppani,Player 9,Bach
+69.66606,-60.873753,cnsm,Stoppani,Player 9,Free
+116.12182,-31.53142,cnsm,Stoppani,Player 9,Free
+130.16475,-16.156105,cnsm,Stoppani,Player 9,Glazounov
+38.378304,-121.65876,cnsm,Stoppani,Player 9,Mozart
+67.30099,14.063544,cnsm,Stoppani,Player 9,Scale
+-91.92695,-63.09547,cnsm,Stoppani,Player 9,Sibelius
+77.23991,-34.73272,cnsm,Stoppani,Player 9,Tchai
+7.9781713,25.456532,cnsm,Stoppani,Player 0,Bach
+24.34115,-15.026807,cnsm,Stoppani,Player 0,Free
+50.541187,-25.917536,cnsm,Stoppani,Player 0,Free
+42.403584,-13.889746,cnsm,Stoppani,Player 0,Free
+51.50712,-4.0856166,cnsm,Stoppani,Player 0,Glazounov
+21.19538,3.1627114,cnsm,Stoppani,Player 0,Scale
+-108.2521,-34.786552,cnsm,Stoppani,Player 0,Sibelius
+18.43539,-26.25149,cnsm,Stoppani,Player 0,Tchai
+27.74311,24.236813,cnsm,Stoppani,Player 1,Bach
+20.885767,32.17548,cnsm,Stoppani,Player 1,Bach
+15.624079,0.31984764,cnsm,Stoppani,Player 1,Free
+34.132336,13.807496,cnsm,Stoppani,Player 1,Free
+40.679306,25.851324,cnsm,Stoppani,Player 1,Glazounov
+39.040188,24.921778,cnsm,Stoppani,Player 1,Glazounov
+16.06356,-75.41035,cnsm,Stoppani,Player 1,Mozart
+-15.307602,-93.54326,cnsm,Stoppani,Player 1,Mozart
+-63.9153,-107.24743,cnsm,Stoppani,Player 1,Mozart
+-6.3063865,-76.19698,cnsm,Stoppani,Player 1,Mozart
+-109.50185,-37.86464,cnsm,Stoppani,Player 1,Sibelius
+0.83804715,-23.213736,cnsm,Stoppani,Player 1,Tchai
+-19.757519,38.66796,cnsm,Stoppani,Player 10,Bach
+26.43481,33.228317,cnsm,Stoppani,Player 10,Free
+19.361143,27.662653,cnsm,Stoppani,Player 10,Glazounov
+22.851019,22.530972,cnsm,Stoppani,Player 10,Glazounov
+-9.163252,-87.24404,cnsm,Stoppani,Player 10,Mozart
+15.176955,26.849386,cnsm,Stoppani,Player 10,Scale
+20.067001,27.256102,cnsm,Stoppani,Player 10,Scale
+-140.39714,-21.456423,cnsm,Stoppani,Player 10,Sibelius
+-2.6332922,-21.688051,cnsm,Stoppani,Player 10,Tchai
+-28.343655,40.327305,cnsm,Stoppani,Player 11,Bach
+3.8916786,30.962538,cnsm,Stoppani,Player 11,Free
+-28.405535,44.042133,cnsm,Stoppani,Player 11,Free
+30.841116,21.159035,cnsm,Stoppani,Player 11,Glazounov
+-9.608617,-61.979675,cnsm,Stoppani,Player 11,Mozart
+-43.183422,12.794929,cnsm,Stoppani,Player 11,Scale
+-29.058037,12.162429,cnsm,Stoppani,Player 11,Scale
+-133.79973,-16.330671,cnsm,Stoppani,Player 11,Sibelius
+-32.441536,-9.50166,cnsm,Stoppani,Player 11,Tchai
+-13.396109,33.76228,cnsm,Stoppani,Player 12,Bach
+-62.36583,33.602444,cnsm,Stoppani,Player 12,Free
+24.333067,12.888415,cnsm,Stoppani,Player 12,Free
+-30.533657,12.336179,cnsm,Stoppani,Player 12,Free
+21.69,36.438316,cnsm,Stoppani,Player 12,Glazounov
+-3.1236172,-52.723057,cnsm,Stoppani,Player 12,Mozart
+6.91788,29.50906,cnsm,Stoppani,Player 12,Scale
+-139.46184,-11.739841,cnsm,Stoppani,Player 12,Sibelius
+-33.34521,-19.290443,cnsm,Stoppani,Player 12,Tchai
+1.7739973,44.761223,cnsm,Stoppani,Player 2,Bach
+42.971043,-9.162136,cnsm,Stoppani,Player 2,Free
+30.605558,18.398241,cnsm,Stoppani,Player 2,Glazounov
+18.96604,-80.044556,cnsm,Stoppani,Player 2,Mozart
+23.308445,29.572046,cnsm,Stoppani,Player 2,Scale
+-134.87248,-22.565172,cnsm,Stoppani,Player 2,Sibelius
+12.71229,-17.371294,cnsm,Stoppani,Player 2,Tchai
+-10.856418,35.89883,cnsm,Stoppani,Player 3,Bach
+24.478178,-9.097603,cnsm,Stoppani,Player 3,Free
+43.33595,12.189615,cnsm,Stoppani,Player 3,Glazounov
+-3.2582035,-87.05328,cnsm,Stoppani,Player 3,Mozart
+38.691227,8.056238,cnsm,Stoppani,Player 3,Scale
+56.487644,5.325466,cnsm,Stoppani,Player 3,Scale
+-134.6228,-23.78227,cnsm,Stoppani,Player 3,Sibelius
+-13.616115,-30.406075,cnsm,Stoppani,Player 3,Tchai
+-73.644936,48.20395,cnsm,Stoppani,Player 5,Bach
+15.768901,36.562527,cnsm,Stoppani,Player 5,Glazounov
+-66.1129,-57.473244,cnsm,Stoppani,Player 5,Mozart
+-71.78867,50.482956,cnsm,Stoppani,Player 5,Scale
+-76.06755,52.790928,cnsm,Stoppani,Player 5,Scale
+-147.19283,8.945252,cnsm,Stoppani,Player 5,Sibelius
+-36.24056,-4.92239,cnsm,Stoppani,Player 5,Tchai
+-35.402176,51.295757,cnsm,Stoppani,Player 6,Bach
+-30.757038,8.385564,cnsm,Stoppani,Player 6,Free
+34.997803,6.7327456,cnsm,Stoppani,Player 6,Free
+-55.41571,23.229607,cnsm,Stoppani,Player 6,Free
+8.688545,34.293983,cnsm,Stoppani,Player 6,Free
+7.7710648,7.696336,cnsm,Stoppani,Player 6,Free
+26.139067,30.94268,cnsm,Stoppani,Player 6,Glazounov
+-61.50574,-46.475937,cnsm,Stoppani,Player 6,Mozart
+-46.90168,44.374645,cnsm,Stoppani,Player 6,Scale
+-145.54414,6.3419795,cnsm,Stoppani,Player 6,Sibelius
+2.2405233,3.9947202,cnsm,Stoppani,Player 6,Tchai
+-30.61057,50.987522,cnsm,Stoppani,Player 7,Bach
+-50.50328,23.256676,cnsm,Stoppani,Player 7,Free
+-16.09035,10.751901,cnsm,Stoppani,Player 7,Free
+-28.045399,30.38514,cnsm,Stoppani,Player 7,Free
+-3.2835376,28.983826,cnsm,Stoppani,Player 7,Free
+-151.30698,3.8528147,cnsm,Stoppani,Player 7,Free
+20.855066,41.51057,cnsm,Stoppani,Player 7,Glazounov
+-49.31494,-68.691124,cnsm,Stoppani,Player 7,Mozart
+-75.69028,35.817146,cnsm,Stoppani,Player 7,Scale
+-144.54214,1.6087149,cnsm,Stoppani,Player 7,Sibelius
+-29.836823,7.2101107,cnsm,Stoppani,Player 7,Tchai
+38.064003,30.634663,cnsm,Stoppani,Player 8,Bach
+53.88713,24.485987,cnsm,Stoppani,Player 8,Bach
+56.257343,-37.656754,cnsm,Stoppani,Player 8,Free
+24.288918,-32.07064,cnsm,Stoppani,Player 8,Free
+51.978745,23.309963,cnsm,Stoppani,Player 8,Glazounov
+-107.80529,-91.293304,cnsm,Stoppani,Player 8,Mozart
+15.529859,-116.1637,cnsm,Stoppani,Player 8,Mozart
+16.553339,-98.07797,cnsm,Stoppani,Player 8,Mozart
+92.39692,10.13889,cnsm,Stoppani,Player 8,Scale
+100.39338,9.039882,cnsm,Stoppani,Player 8,Scale
+-95.358696,-28.73196,cnsm,Stoppani,Player 8,Sibelius
+-116.31523,-12.940279,cnsm,Stoppani,Player 8,Sibelius
+31.495544,-56.045273,cnsm,Stoppani,Player 8,Tchai
+35.518337,-53.345943,cnsm,Stoppani,Player 8,Tchai
+47.925148,18.022646,cnsm,Stoppani,Player 9,Bach
+111.41812,-50.822887,cnsm,Stoppani,Player 9,Free
+131.81114,-36.506855,cnsm,Stoppani,Player 9,Glazounov
+47.900146,-132.55588,cnsm,Stoppani,Player 9,Mozart
+74.19019,-2.9374769,cnsm,Stoppani,Player 9,Scale
+-108.30577,-85.755554,cnsm,Stoppani,Player 9,Sibelius
+73.10818,-61.60955,cnsm,Stoppani,Player 9,Tchai
+-0.6108911,36.967537,cnsm,Klimke,Player 0,Bach
+-34.438732,1.0411775,cnsm,Klimke,Player 0,Free
+-38.06704,19.87198,cnsm,Klimke,Player 0,Free
+53.102478,-15.079764,cnsm,Klimke,Player 0,Free
+34.510178,-38.528675,cnsm,Klimke,Player 0,Free
+27.971539,17.924229,cnsm,Klimke,Player 0,Glazounov
+15.792566,9.971799,cnsm,Klimke,Player 0,Glazounov2
+-8.283133,-95.17327,cnsm,Klimke,Player 0,Mozart
+11.651104,12.663881,cnsm,Klimke,Player 0,Scale
+8.931331,11.465762,cnsm,Klimke,Player 0,Scale
+47.066868,0.8256085,cnsm,Klimke,Player 0,Sibelius2
+8.71172,-17.321012,cnsm,Klimke,Player 0,Tchai
+13.808425,-5.506511,cnsm,Klimke,Player 0,Tchai
+-27.856915,39.545677,cnsm,Klimke,Player 10,Bach
+-31.065474,15.141197,cnsm,Klimke,Player 10,Free
+10.971528,35.473656,cnsm,Klimke,Player 10,Glazounov
+-11.676227,68.63309,cnsm,Klimke,Player 10,Glazounov2
+-20.831598,-98.45192,cnsm,Klimke,Player 10,Mozart
+-15.229525,28.90912,cnsm,Klimke,Player 10,Scale
+36.34187,28.42287,cnsm,Klimke,Player 10,Sibelius2
+-6.420928,-7.53227,cnsm,Klimke,Player 10,Tchai
+-20.7814,44.80618,cnsm,Klimke,Player 11,Bach
+17.701103,25.040667,cnsm,Klimke,Player 11,Glazounov
+2.9372518,58.76729,cnsm,Klimke,Player 11,Glazounov2
+-24.17566,-70.637856,cnsm,Klimke,Player 11,Mozart
+-27.667118,-58.332973,cnsm,Klimke,Player 11,Mozart
+42.499065,19.97893,cnsm,Klimke,Player 11,Sibelius2
+34.566658,29.009737,cnsm,Klimke,Player 11,Sibelius2
+-2.1294467,0.95566785,cnsm,Klimke,Player 11,Tchai
+-7.1267147,41.99053,cnsm,Klimke,Player 12,Bach
+20.64536,38.814255,cnsm,Klimke,Player 12,Glazounov
+23.685598,71.14763,cnsm,Klimke,Player 12,Glazounov2
+9.261934,-72.731544,cnsm,Klimke,Player 12,Mozart
+18.17059,19.12604,cnsm,Klimke,Player 12,Scale
+40.46356,42.607986,cnsm,Klimke,Player 12,Sibelius2
+7.2842298,5.1730113,cnsm,Klimke,Player 12,Tchai
+9.741504,27.70368,cnsm,Klimke,Player 13,Bach
+6.713064,26.78875,cnsm,Klimke,Player 13,Bach
+44.629967,20.92537,cnsm,Klimke,Player 13,Glazounov
+52.509735,53.990433,cnsm,Klimke,Player 13,Glazounov2
+5.823062,-115.20173,cnsm,Klimke,Player 13,Mozart
+30.9775,27.443356,cnsm,Klimke,Player 13,Scale
+88.26592,17.458567,cnsm,Klimke,Player 13,Sibelius2
+26.017561,-22.565239,cnsm,Klimke,Player 13,Tchai
+-13.209771,44.916725,cnsm,Klimke,Player 2,Bach
+34.772034,-36.38313,cnsm,Klimke,Player 2,Free
+18.683666,26.775173,cnsm,Klimke,Player 2,Glazounov
+33.14279,47.177395,cnsm,Klimke,Player 2,Glazounov2
+-1.7552377,-82.37682,cnsm,Klimke,Player 2,Mozart
+18.928442,13.044052,cnsm,Klimke,Player 2,Scale
+69.24435,18.010374,cnsm,Klimke,Player 2,Sibelius2
+27.440975,-8.594862,cnsm,Klimke,Player 2,Tchai
+-28.601957,48.526665,cnsm,Klimke,Player 3,Bach
+47.680847,11.5514,cnsm,Klimke,Player 3,Free
+24.634254,28.706232,cnsm,Klimke,Player 3,Glazounov
+9.668717,59.60206,cnsm,Klimke,Player 3,Glazounov2
+0.38903293,-109.224045,cnsm,Klimke,Player 3,Mozart
+72.38485,-5.087873,cnsm,Klimke,Player 3,Scale
+59.606102,23.326204,cnsm,Klimke,Player 3,Sibelius2
+-27.337887,-5.9894633,cnsm,Klimke,Player 3,Tchai
+151.60063,-18.374746,cnsm,Klimke,Player 4,Bach
+157.61992,-19.834509,cnsm,Klimke,Player 4,Glazounov
+158.13773,23.30366,cnsm,Klimke,Player 4,Glazounov2
+160.37946,25.795065,cnsm,Klimke,Player 4,Glazounov2
+62.11051,-146.34894,cnsm,Klimke,Player 4,Mozart
+108.93585,14.999077,cnsm,Klimke,Player 4,Scale
+169.52654,-25.658203,cnsm,Klimke,Player 4,Sibelius2
+104.244835,-48.187237,cnsm,Klimke,Player 4,Tchai
+-48.078598,44.55771,cnsm,Klimke,Player 5,Bach
+-41.603848,42.16694,cnsm,Klimke,Player 5,Bach
+30.010286,21.882046,cnsm,Klimke,Player 5,Glazounov
+4.2031727,56.70928,cnsm,Klimke,Player 5,Glazounov2
+-22.267178,-80.04201,cnsm,Klimke,Player 5,Mozart
+-22.740887,-74.11661,cnsm,Klimke,Player 5,Mozart
+-26.836933,34.55608,cnsm,Klimke,Player 5,Scale
+68.53753,21.941547,cnsm,Klimke,Player 5,Sibelius2
+-10.1168165,-7.8263335,cnsm,Klimke,Player 5,Tchai
+-30.415068,53.332977,cnsm,Klimke,Player 6,Bach
+36.21408,26.040285,cnsm,Klimke,Player 6,Glazounov
+15.432857,60.944355,cnsm,Klimke,Player 6,Glazounov2
+-26.468071,-61.014492,cnsm,Klimke,Player 6,Mozart
+-39.366863,-63.787453,cnsm,Klimke,Player 6,Mozart
+20.186148,34.973713,cnsm,Klimke,Player 6,Scale
+14.40786,22.811493,cnsm,Klimke,Player 6,Scale
+55.176147,33.66878,cnsm,Klimke,Player 6,Sibelius2
+17.329102,0.3617942,cnsm,Klimke,Player 6,Tchai
+12.219691,-5.4174113,cnsm,Klimke,Player 6,Tchai
+-42.265972,42.107456,cnsm,Klimke,Player 7,Bach
+20.996153,24.738068,cnsm,Klimke,Player 7,Bach
+-9.078992,18.732697,cnsm,Klimke,Player 7,Free
+-57.51346,-65.495575,cnsm,Klimke,Player 7,Free
+25.213835,18.937342,cnsm,Klimke,Player 7,Glazounov
+24.837664,22.475225,cnsm,Klimke,Player 7,Glazounov
+17.36201,45.662987,cnsm,Klimke,Player 7,Glazounov2
+-57.91134,-70.4668,cnsm,Klimke,Player 7,Mozart
+-49.003403,54.65985,cnsm,Klimke,Player 7,Scale
+29.358713,32.812485,cnsm,Klimke,Player 7,Sibelius2
+-35.6076,-0.6638009,cnsm,Klimke,Player 7,Tchai
+-20.4391,16.570871,cnsm,Klimke,Player 7,Tchai
+131.71489,-4.223335,cnsm,Klimke,Player 9,Bach
+163.02727,-32.467495,cnsm,Klimke,Player 9,Glazounov
+160.30667,8.694399,cnsm,Klimke,Player 9,Glazounov2
+53.360767,-152.20213,cnsm,Klimke,Player 9,Mozart
+96.79139,-22.229778,cnsm,Klimke,Player 9,Scale
+159.88924,-15.521098,cnsm,Klimke,Player 9,Sibelius2
+115.83369,-55.742104,cnsm,Klimke,Player 9,Tchai
+-45.767666,57.018024,cnsm,Klimke,Player 10,Bach
+-23.650532,15.105937,cnsm,Klimke,Player 10,Free
+-50.96276,-12.939027,cnsm,Klimke,Player 10,Free
+1.0488423,39.19247,cnsm,Klimke,Player 10,Glazounov
+-0.831376,72.647545,cnsm,Klimke,Player 10,Glazounov2
+-18.646181,-60.678787,cnsm,Klimke,Player 10,Mozart
+-9.596671,26.594507,cnsm,Klimke,Player 10,Scale
+15.802884,41.993416,cnsm,Klimke,Player 10,Sibelius2
+-26.62985,7.5625663,cnsm,Klimke,Player 10,Tchai
+-20.563093,40.03518,cnsm,Klimke,Player 11,Bach
+-0.052728463,-2.8919342,cnsm,Klimke,Player 11,Free
+22.336946,30.16505,cnsm,Klimke,Player 11,Glazounov
+-1.2290038,68.857574,cnsm,Klimke,Player 11,Glazounov2
+-3.976729,69.22227,cnsm,Klimke,Player 11,Glazounov2
+-20.010136,-53.892265,cnsm,Klimke,Player 11,Mozart
+29.918919,39.84037,cnsm,Klimke,Player 11,Sibelius2
+-7.1341386,3.1725166,cnsm,Klimke,Player 11,Tchai
+5.2155924,41.825825,cnsm,Klimke,Player 12,Bach
+32.23543,32.67679,cnsm,Klimke,Player 12,Glazounov
+9.114103,71.73821,cnsm,Klimke,Player 12,Glazounov2
+15.71346,-67.318504,cnsm,Klimke,Player 12,Mozart
+5.73868,-79.98447,cnsm,Klimke,Player 12,Mozart
+8.351672,43.7022,cnsm,Klimke,Player 12,Scale
+31.1595,40.342117,cnsm,Klimke,Player 12,Sibelius2
+-0.7778734,8.539743,cnsm,Klimke,Player 12,Tchai
+5.4762783,24.390648,cnsm,Klimke,Player 13,Bach
+29.602297,21.36749,cnsm,Klimke,Player 13,Glazounov
+38.93226,47.614624,cnsm,Klimke,Player 13,Glazounov2
+40.42785,42.894188,cnsm,Klimke,Player 13,Glazounov2
+-2.140354,-82.002754,cnsm,Klimke,Player 13,Mozart
+23.19012,19.91643,cnsm,Klimke,Player 13,Scale
+73.87419,29.424181,cnsm,Klimke,Player 13,Sibelius2
+18.296558,-3.4777331,cnsm,Klimke,Player 13,Tchai
+-7.0308924,45.194363,cnsm,Klimke,Player 2,Bach
+41.960407,9.053364,cnsm,Klimke,Player 2,Free
+45.250904,19.425964,cnsm,Klimke,Player 2,Glazounov
+23.559795,62.237457,cnsm,Klimke,Player 2,Glazounov2
+10.372214,-90.33348,cnsm,Klimke,Player 2,Mozart
+-9.171061,29.939255,cnsm,Klimke,Player 2,Scale
+73.933556,17.036608,cnsm,Klimke,Player 2,Sibelius2
+20.366333,-10.758529,cnsm,Klimke,Player 2,Tchai
+-10.16746,41.679337,cnsm,Klimke,Player 3,Bach
+67.06918,2.0469065,cnsm,Klimke,Player 3,Free
+27.44468,31.87889,cnsm,Klimke,Player 3,Glazounov
+8.668264,68.23356,cnsm,Klimke,Player 3,Glazounov2
+-12.531385,-100.2431,cnsm,Klimke,Player 3,Mozart
+54.37837,4.295822,cnsm,Klimke,Player 3,Scale
+60.68239,20.678066,cnsm,Klimke,Player 3,Sibelius2
+-25.623299,-9.365053,cnsm,Klimke,Player 3,Tchai
+209.77727,-39.442604,cnsm,Klimke,Player 4,Bach
+227.95474,-66.71072,cnsm,Klimke,Player 4,Glazounov
+237.24854,-35.362267,cnsm,Klimke,Player 4,Glazounov2
+79.09582,-152.54875,cnsm,Klimke,Player 4,Mozart
+158.08676,-7.5795093,cnsm,Klimke,Player 4,Scale
+215.0046,-49.922615,cnsm,Klimke,Player 4,Sibelius2
+142.6312,-75.11749,cnsm,Klimke,Player 4,Tchai
+-45.93177,43.72671,cnsm,Klimke,Player 5,Bach
+45.624104,17.502186,cnsm,Klimke,Player 5,Glazounov
+17.534485,56.19582,cnsm,Klimke,Player 5,Glazounov
+-33.423153,-93.57792,cnsm,Klimke,Player 5,Mozart
+-23.616295,32.954758,cnsm,Klimke,Player 5,Scale
+57.916374,21.316881,cnsm,Klimke,Player 5,Sibelius2
+-4.594777,4.112612,cnsm,Klimke,Player 5,Tchai
+-26.790052,50.779797,cnsm,Klimke,Player 6,Bach
+11.250469,37.072777,cnsm,Klimke,Player 6,Glazounov
+7.0244007,63.966072,cnsm,Klimke,Player 6,Glazounov2
+-33.544987,-66.67626,cnsm,Klimke,Player 6,Mozart
+22.674105,29.02388,cnsm,Klimke,Player 6,Scale
+40.690807,43.077934,cnsm,Klimke,Player 6,Sibelius2
+14.228964,4.9738717,cnsm,Klimke,Player 6,Tchai
+-37.66677,47.56052,cnsm,Klimke,Player 7,Bach
+14.897337,-11.073174,cnsm,Klimke,Player 7,Free
+-3.0928853,-16.312294,cnsm,Klimke,Player 7,Free
+27.960667,24.752096,cnsm,Klimke,Player 7,Glazounov
+18.329966,54.064575,cnsm,Klimke,Player 7,Glazounov2
+-44.41203,-76.48066,cnsm,Klimke,Player 7,Mozart
+-27.475658,47.13534,cnsm,Klimke,Player 7,Scale
+48.52089,29.001154,cnsm,Klimke,Player 7,Sibelius2
+-18.986439,-21.070576,cnsm,Klimke,Player 7,Tchai
+-6.8088193,7.4244065,cnsm,Klimke,Player 7,Tchai
+121.02665,-4.198052,cnsm,Klimke,Player 9,Bach
+121.70857,-15.100542,cnsm,Klimke,Player 9,Bach
+167.43066,-32.379116,cnsm,Klimke,Player 9,Glazounov
+154.3752,18.076822,cnsm,Klimke,Player 9,Glazounov2
+166.69455,8.637714,cnsm,Klimke,Player 9,Glazounov2
+43.880924,-158.97888,cnsm,Klimke,Player 9,Mozart
+30.70171,-159.77643,cnsm,Klimke,Player 9,Mozart
+102.87858,-18.993908,cnsm,Klimke,Player 9,Scale
+160.71051,-18.349348,cnsm,Klimke,Player 9,Sibelius2
+112.585144,-51.973434,cnsm,Klimke,Player 9,Tchai
+197.24477,-52.09124,cnsm,Klimke,Player 10,Free
+209.80301,-52.25476,cnsm,Klimke,Player 7,Free
+-16.542282,39.011776,cnsm,Levaggi,Player 0,Bach
+33.692257,13.212274,cnsm,Levaggi,Player 0,Glazounov
+24.052488,1.3523475,cnsm,Levaggi,Player 0,Glazounov2
+19.046307,-0.45758435,cnsm,Levaggi,Player 0,Glazounov2
+-0.15352857,-91.46565,cnsm,Levaggi,Player 0,Mozart
+16.537758,8.310032,cnsm,Levaggi,Player 0,Scale
+7.5789323,23.198149,cnsm,Levaggi,Player 0,Scale
+38.24108,19.745226,cnsm,Levaggi,Player 0,Sibelius2
+8.086013,-12.398378,cnsm,Levaggi,Player 0,Tchai
+-18.503725,48.013493,cnsm,Levaggi,Player 10,Bach
+10.617889,41.115448,cnsm,Levaggi,Player 10,Glazounov
+-7.1165476,71.94302,cnsm,Levaggi,Player 10,Glazounov2
+0.43143633,-73.43186,cnsm,Levaggi,Player 10,Mozart
+8.780679,39.267826,cnsm,Levaggi,Player 10,Scale
+32.47453,35.932484,cnsm,Levaggi,Player 10,Sibelius2
+-11.301669,-9.093329,cnsm,Levaggi,Player 10,Tchai
+-13.07843,9.518345,cnsm,Levaggi,Player 10,Tchai
+-29.317068,51.82725,cnsm,Levaggi,Player 11,Bach
+17.26104,31.143837,cnsm,Levaggi,Player 11,Glazounov
+16.219576,33.668247,cnsm,Levaggi,Player 11,Glazounov
+-22.718826,70.34898,cnsm,Levaggi,Player 11,Glazounov2
+3.8896346,75.86683,cnsm,Levaggi,Player 11,Glazounov2
+8.935587,69.298195,cnsm,Levaggi,Player 11,Glazounov2
+-18.21004,-54.772877,cnsm,Levaggi,Player 11,Mozart
+31.226137,38.730976,cnsm,Levaggi,Player 11,Sibelius2
+-17.418037,5.2512884,cnsm,Levaggi,Player 11,Tchai
+-16.816595,13.474634,cnsm,Levaggi,Player 11,Tchai
+-6.1973457,33.903255,cnsm,Levaggi,Player 12,Bach
+33.77372,27.39601,cnsm,Levaggi,Player 12,Glazounov
+17.003183,66.87915,cnsm,Levaggi,Player 12,Glazounov2
+15.200356,-71.35467,cnsm,Levaggi,Player 12,Mozart
+22.755789,14.557338,cnsm,Levaggi,Player 12,Scale
+52.46943,25.045729,cnsm,Levaggi,Player 12,Sibelius2
+1.580895,-1.5526265,cnsm,Levaggi,Player 12,Tchai
+-12.1811075,26.835463,cnsm,Levaggi,Player 13,Bach
+36.788555,19.784187,cnsm,Levaggi,Player 13,Glazounov
+37.25561,43.75218,cnsm,Levaggi,Player 13,Glazounov2
+32.77113,34.83286,cnsm,Levaggi,Player 13,Glazounov2
+33.64183,15.32927,cnsm,Levaggi,Player 13,Scale
+24.459034,-43.934036,cnsm,Levaggi,Player 13,Sibelius2
+84.49718,6.626436,cnsm,Levaggi,Player 13,Sibelius2
+-5.552034,43.53031,cnsm,Levaggi,Player 2,Bach
+48.81028,-1.6035193,cnsm,Levaggi,Player 2,Free
+37.34933,21.87979,cnsm,Levaggi,Player 2,Glazounov
+35.393642,45.92014,cnsm,Levaggi,Player 2,Glazounov2
+5.5257926,-88.706375,cnsm,Levaggi,Player 2,Mozart
+6.8498683,17.213314,cnsm,Levaggi,Player 2,Scale
+70.87607,18.956247,cnsm,Levaggi,Player 2,Sibelius2
+39.571033,-12.156705,cnsm,Levaggi,Player 2,Tchai
+-36.093693,43.85102,cnsm,Levaggi,Player 3,Bach
+46.23869,11.553999,cnsm,Levaggi,Player 3,Free
+15.4872055,34.60142,cnsm,Levaggi,Player 3,Glazounov
+-5.9877043,70.40571,cnsm,Levaggi,Player 3,Glazounov2
+-9.2722225,-96.936165,cnsm,Levaggi,Player 3,Mozart
+56.36273,12.442761,cnsm,Levaggi,Player 3,Scale
+49.666904,26.841906,cnsm,Levaggi,Player 3,Sibelius2
+-31.648405,-12.828069,cnsm,Levaggi,Player 3,Tchai
+126.68288,9.464282,cnsm,Levaggi,Player 4,Bach
+172.26558,-13.523327,cnsm,Levaggi,Player 4,Glazounov
+160.38408,34.72317,cnsm,Levaggi,Player 4,Glazounov2
+57.12388,-118.48253,cnsm,Levaggi,Player 4,Mozart
+103.92392,37.944664,cnsm,Levaggi,Player 4,Scale
+170.59415,-17.091377,cnsm,Levaggi,Player 4,Sibelius2
+101.89723,-44.687923,cnsm,Levaggi,Player 4,Tchai
+-41.322567,50.250862,cnsm,Levaggi,Player 5,Bach
+38.252773,27.43596,cnsm,Levaggi,Player 5,Glazounov
+0.23616284,66.87515,cnsm,Levaggi,Player 5,Glazounov2
+-40.289303,-71.486694,cnsm,Levaggi,Player 5,Mozart
+-51.05091,47.560944,cnsm,Levaggi,Player 5,Scale
+85.54512,16.158588,cnsm,Levaggi,Player 5,Sibelius2
+7.3702044,-2.2671537,cnsm,Levaggi,Player 5,Tchai
+-34.88264,57.779377,cnsm,Levaggi,Player 6,Bach
+7.108104,51.98154,cnsm,Levaggi,Player 6,Glazounov
+19.389086,47.798325,cnsm,Levaggi,Player 6,Glazounov
+17.731068,33.84597,cnsm,Levaggi,Player 6,Glazounov2
+14.418489,67.90644,cnsm,Levaggi,Player 6,Glazounov2
+-25.96147,-47.469566,cnsm,Levaggi,Player 6,Mozart
+31.142542,41.401146,cnsm,Levaggi,Player 6,Scale
+35.595715,37.90712,cnsm,Levaggi,Player 6,Sibelius2
+-3.7921493,1.2449317,cnsm,Levaggi,Player 6,Tchai
+-3.9782488,10.7019,cnsm,Levaggi,Player 6,Tchai
+-42.76326,56.054577,cnsm,Levaggi,Player 7,Bach
+26.7853,7.018477,cnsm,Levaggi,Player 7,Free
+-41.87887,43.327034,cnsm,Levaggi,Player 7,Free
+7.1065817,37.94681,cnsm,Levaggi,Player 7,Glazounov
+-6.4348836,79.736626,cnsm,Levaggi,Player 7,Glazounov2
+-50.281757,-42.64875,cnsm,Levaggi,Player 7,Mozart
+-44.295776,72.27478,cnsm,Levaggi,Player 7,Scale
+36.836723,28.676062,cnsm,Levaggi,Player 7,Sibelius2
+-20.20223,0.3376096,cnsm,Levaggi,Player 7,Tchai
+-21.037586,23.222683,cnsm,Levaggi,Player 7,Tchai
+114.212906,0.9436207,cnsm,Levaggi,Player 9,Bach
+163.56622,-30.137129,cnsm,Levaggi,Player 9,Glazounov
+150.6605,24.53272,cnsm,Levaggi,Player 9,Glazounov2
+52.857445,-117.14687,cnsm,Levaggi,Player 9,Mozart
+46.35833,-141.2939,cnsm,Levaggi,Player 9,Mozart
+111.33606,2.7245064,cnsm,Levaggi,Player 9,Scale
+155.84843,-12.864314,cnsm,Levaggi,Player 9,Sibelius2
+121.143265,-42.890774,cnsm,Levaggi,Player 9,Tchai
+155.80081,-23.6104,cnsm,Levaggi,Player 10,Free
+-15.46487,37.152306,cnsm,Stoppani,Player 0,Bach
+25.118744,-17.924839,cnsm,Stoppani,Player 0,Free
+49.123158,-16.15739,cnsm,Stoppani,Player 0,Free
+30.568,25.367928,cnsm,Stoppani,Player 0,Glazounov
+28.379555,7.4732623,cnsm,Stoppani,Player 0,Glazounov
+21.164827,-6.064692,cnsm,Stoppani,Player 0,Glazounov2
+5.6649785,8.763566,cnsm,Stoppani,Player 0,Glazounov2
+-5.2804375,-90.55852,cnsm,Stoppani,Player 0,Mozart
+-0.5765556,12.933069,cnsm,Stoppani,Player 0,Scale
+47.26285,10.4738865,cnsm,Stoppani,Player 0,Sibelius2
+-0.76421934,-13.793699,cnsm,Stoppani,Player 0,Tchai
+-19.63351,51.07349,cnsm,Stoppani,Player 10,Bach
+8.827246,44.847622,cnsm,Stoppani,Player 10,Glazounov
+-2.0740101,80.794235,cnsm,Stoppani,Player 10,Glazounov2
+-8.269152,-78.10001,cnsm,Stoppani,Player 10,Mozart
+18.81715,25.881908,cnsm,Stoppani,Player 10,Scale
+38.7084,34.807293,cnsm,Stoppani,Player 10,Sibelius2
+-3.6286116,4.852,cnsm,Stoppani,Player 10,Tchai
+-25.638475,51.12989,cnsm,Stoppani,Player 11,Bach
+24.391817,30.985846,cnsm,Stoppani,Player 11,Glazounov
+3.0444376,67.1968,cnsm,Stoppani,Player 11,Glazounov2
+4.078748,67.04203,cnsm,Stoppani,Player 11,Glazounov2
+-26.854345,-56.956173,cnsm,Stoppani,Player 11,Mozart
+45.33068,40.599293,cnsm,Stoppani,Player 11,Sibelius2
+-10.763717,14.329494,cnsm,Stoppani,Player 11,Tchai
+-32.181194,35.96479,cnsm,Stoppani,Player 11,Tchai
+-7.282486,8.269622,cnsm,Stoppani,Player 11,Tchai
+-2.0553355,41.434643,cnsm,Stoppani,Player 12,Bach
+20.0126,41.27685,cnsm,Stoppani,Player 12,Glazounov
+16.100084,74.66902,cnsm,Stoppani,Player 12,Glazounov2
+11.354433,-65.7569,cnsm,Stoppani,Player 12,Mozart
+12.570941,39.97715,cnsm,Stoppani,Player 12,Scale
+38.191574,44.38321,cnsm,Stoppani,Player 12,Sibelius2
+-7.47342,10.862041,cnsm,Stoppani,Player 12,Tchai
+-16.559303,33.715076,cnsm,Stoppani,Player 13,Bach
+28.825632,22.153337,cnsm,Stoppani,Player 13,Glazounov
+46.903,53.495735,cnsm,Stoppani,Player 13,Glazounov2
+-2.7739296,-88.59977,cnsm,Stoppani,Player 13,Mozart
+27.265785,30.12935,cnsm,Stoppani,Player 13,Scale
+75.15298,22.686758,cnsm,Stoppani,Player 13,Sibelius2
+2.8781264,-3.206975,cnsm,Stoppani,Player 13,Tchai
+7.422414,-3.3250859,cnsm,Stoppani,Player 13,Tchai
+4.754702,32.81834,cnsm,Stoppani,Player 2,Bach
+28.39724,-21.560547,cnsm,Stoppani,Player 2,Free
+46.101173,27.516108,cnsm,Stoppani,Player 2,Glazounov
+34.624924,48.849724,cnsm,Stoppani,Player 2,Glazounov2
+10.586396,-60.44353,cnsm,Stoppani,Player 2,Mozart
+30.931078,17.170776,cnsm,Stoppani,Player 2,Scale
+62.712666,22.236298,cnsm,Stoppani,Player 2,Sibelius2
+20.81193,-13.957233,cnsm,Stoppani,Player 2,Tchai
+-23.991205,40.867702,cnsm,Stoppani,Player 3,Bach
+53.947514,-4.805831,cnsm,Stoppani,Player 3,Free
+33.74561,14.148998,cnsm,Stoppani,Player 3,Glazounov
+9.853948,55.304295,cnsm,Stoppani,Player 3,Glazounov2
+0.23303166,-99.69626,cnsm,Stoppani,Player 3,Mozart
+57.072544,-3.644726,cnsm,Stoppani,Player 3,Scale
+66.37002,11.481619,cnsm,Stoppani,Player 3,Sibelius2
+-31.795965,-18.347523,cnsm,Stoppani,Player 3,Tchai
+130.83824,8.131414,cnsm,Stoppani,Player 4,Bach
+172.87599,-13.104794,cnsm,Stoppani,Player 4,Glazounov
+151.40366,41.61815,cnsm,Stoppani,Player 4,Glazounov2
+49.554424,-126.01209,cnsm,Stoppani,Player 4,Mozart
+52.136627,-136.7583,cnsm,Stoppani,Player 4,Mozart
+101.09694,35.0444,cnsm,Stoppani,Player 4,Scale
+166.28218,-12.665989,cnsm,Stoppani,Player 4,Sibelius2
+86.40626,-50.159542,cnsm,Stoppani,Player 4,Tchai
+-50.508507,52.29985,cnsm,Stoppani,Player 5,Bach
+16.30665,25.391136,cnsm,Stoppani,Player 5,Glazounov
+4.6978145,68.188156,cnsm,Stoppani,Player 5,Glazounov2
+-47.568466,-72.60953,cnsm,Stoppani,Player 5,Mozart
+-26.49149,47.447342,cnsm,Stoppani,Player 5,Scale
+55.754044,29.390198,cnsm,Stoppani,Player 5,Sibelius2
+-8.521083,-2.3168228,cnsm,Stoppani,Player 5,Tchai
+-34.715786,52.739513,cnsm,Stoppani,Player 6,Bach
+35.14834,26.403687,cnsm,Stoppani,Player 6,Glazounov
+19.270407,56.83711,cnsm,Stoppani,Player 6,Glazounov2
+25.981228,24.24967,cnsm,Stoppani,Player 6,Scale
+51.098217,28.607409,cnsm,Stoppani,Player 6,Sibelius2
+-1.6863524,9.111057,cnsm,Stoppani,Player 6,Tchai
+-38.722973,46.048225,cnsm,Stoppani,Player 7,Bach
+-4.59669,2.1998134,cnsm,Stoppani,Player 7,Free
+30.060843,30.88018,cnsm,Stoppani,Player 7,Glazounov
+4.3153644,58.78753,cnsm,Stoppani,Player 7,Glazounov2
+-44.778797,-82.93581,cnsm,Stoppani,Player 7,Mozart
+-44.899323,58.054092,cnsm,Stoppani,Player 7,Scale
+45.254456,33.04919,cnsm,Stoppani,Player 7,Sibelius2
+-14.703863,-10.975725,cnsm,Stoppani,Player 7,Tchai
+-18.289793,26.629192,cnsm,Stoppani,Player 7,Tchai
+126.77135,15.966692,cnsm,Stoppani,Player 9,Bach
+173.1035,-30.213287,cnsm,Stoppani,Player 9,Glazounov
+163.74428,12.137848,cnsm,Stoppani,Player 9,Glazounov2
+35.76906,-135.24403,cnsm,Stoppani,Player 9,Mozart
+32.192493,-121.892876,cnsm,Stoppani,Player 9,Mozart
+97.79576,-23.400545,cnsm,Stoppani,Player 9,Scale
+168.90515,-18.418415,cnsm,Stoppani,Player 9,Sibelius2
+118.838425,-34.4666,cnsm,Stoppani,Player 9,Tchai
+-33.97698,50.67464,cnsm,Stoppani,Player 10,Bach
+-9.31491,40.97741,cnsm,Stoppani,Player 10,Free
+55.82163,10.732753,cnsm,Stoppani,Player 10,Free
+-16.935816,32.472248,cnsm,Stoppani,Player 10,Free
+4.005146,41.012638,cnsm,Stoppani,Player 10,Glazounov
+-11.922776,81.73964,cnsm,Stoppani,Player 10,Glazounov2
+-23.686794,-62.17386,cnsm,Stoppani,Player 10,Mozart
+-5.3334546,38.494396,cnsm,Stoppani,Player 10,Scale
+24.061203,44.429703,cnsm,Stoppani,Player 10,Sibelius2
+-8.308769,9.701586,cnsm,Stoppani,Player 10,Tchai
+-28.348343,53.354153,cnsm,Stoppani,Player 11,Bach
+20.721333,19.96592,cnsm,Stoppani,Player 11,Free
+21.295492,31.423792,cnsm,Stoppani,Player 11,Glazounov
+23.165497,36.40959,cnsm,Stoppani,Player 11,Glazounov
+5.226751,71.59285,cnsm,Stoppani,Player 11,Glazounov2
+-35.816124,-45.87126,cnsm,Stoppani,Player 11,Mozart
+37.054047,39.40623,cnsm,Stoppani,Player 11,Sibelius2
+-41.358192,9.904648,cnsm,Stoppani,Player 11,Tchai
+-6.6221437,11.138472,cnsm,Stoppani,Player 11,Tchai
+-0.7188368,32.137012,cnsm,Stoppani,Player 12,Bach
+13.642589,41.45199,cnsm,Stoppani,Player 12,Glazounov
+7.2492795,75.70504,cnsm,Stoppani,Player 12,Glazounov2
+-1.9494134,-58.820057,cnsm,Stoppani,Player 12,Mozart
+17.492418,22.013706,cnsm,Stoppani,Player 12,Scale
+36.07347,41.103794,cnsm,Stoppani,Player 12,Sibelius2
+-11.363913,18.083517,cnsm,Stoppani,Player 12,Tchai
+-1.5329832,37.32812,cnsm,Stoppani,Player 13,Bach
+25.789204,31.79232,cnsm,Stoppani,Player 13,Glazounov
+32.451805,32.53492,cnsm,Stoppani,Player 13,Glazounov
+36.66398,56.485935,cnsm,Stoppani,Player 13,Glazounov2
+-3.0431266,-71.130745,cnsm,Stoppani,Player 13,Mozart
+19.315327,27.17145,cnsm,Stoppani,Player 13,Scale
+78.72166,24.264584,cnsm,Stoppani,Player 13,Sibelius2
+16.386433,10.121611,cnsm,Stoppani,Player 13,Tchai
+4.9282603,35.641205,cnsm,Stoppani,Player 2,Bach
+65.18085,-8.662992,cnsm,Stoppani,Player 2,Free
+62.967445,-28.962877,cnsm,Stoppani,Player 2,Free
+41.136536,27.298882,cnsm,Stoppani,Player 2,Glazounov
+35.86691,49.17347,cnsm,Stoppani,Player 2,Glazounov2
+-8.481988,-100.69013,cnsm,Stoppani,Player 2,Mozart
+20.146484,31.98731,cnsm,Stoppani,Player 2,Scale
+64.1629,19.013857,cnsm,Stoppani,Player 2,Sibelius2
+36.715977,-1.4968026,cnsm,Stoppani,Player 2,Tchai
+-17.43706,36.83357,cnsm,Stoppani,Player 3,Bach
+69.58899,5.129271,cnsm,Stoppani,Player 3,Free
+71.65035,11.113549,cnsm,Stoppani,Player 3,Free
+64.62923,12.758475,cnsm,Stoppani,Player 3,Glazounov
+33.800014,54.98145,cnsm,Stoppani,Player 3,Glazounov2
+1.1035366,-86.358734,cnsm,Stoppani,Player 3,Mozart
+46.967506,11.940502,cnsm,Stoppani,Player 3,Scale
+77.533394,15.109312,cnsm,Stoppani,Player 3,Sibelius2
+-14.656337,-0.030496977,cnsm,Stoppani,Player 3,Tchai
+183.5818,-25.886553,cnsm,Stoppani,Player 4,Bach
+221.53922,-35.164364,cnsm,Stoppani,Player 4,Glazounov
+215.85857,1.3925024,cnsm,Stoppani,Player 4,Glazounov2
+69.351715,-140.2014,cnsm,Stoppani,Player 4,Mozart
+123.50835,5.267743,cnsm,Stoppani,Player 4,Scale
+210.87921,-36.777206,cnsm,Stoppani,Player 4,Sibelius2
+129.7389,-56.62336,cnsm,Stoppani,Player 4,Tchai
+-39.907658,45.95792,cnsm,Stoppani,Player 5,Bach
+17.715979,38.487762,cnsm,Stoppani,Player 5,Glazounov
+13.080721,36.718426,cnsm,Stoppani,Player 5,Glazounov
+4.338987,65.84594,cnsm,Stoppani,Player 5,Glazounov2
+-29.132397,-85.74136,cnsm,Stoppani,Player 5,Mozart
+-35.80386,36.002148,cnsm,Stoppani,Player 5,Scale
+59.53791,30.059637,cnsm,Stoppani,Player 5,Sibelius2
+-4.5186543,-8.817315,cnsm,Stoppani,Player 5,Tchai
+-30.797918,57.446262,cnsm,Stoppani,Player 6,Bach
+16.485346,35.224392,cnsm,Stoppani,Player 6,Glazounov
+2.93919,66.91276,cnsm,Stoppani,Player 6,Glazounov2
+-40.576023,-62.154427,cnsm,Stoppani,Player 6,Mozart
+22.548079,31.25138,cnsm,Stoppani,Player 6,Scale
+39.13802,39.204605,cnsm,Stoppani,Player 6,Sibelius2
+6.1250525,10.8255,cnsm,Stoppani,Player 6,Tchai
+-26.739462,44.99485,cnsm,Stoppani,Player 7,Bach
+-20.003714,12.314823,cnsm,Stoppani,Player 7,Free
+-15.193191,8.714395,cnsm,Stoppani,Player 7,Free
+-95.67788,-23.815477,cnsm,Stoppani,Player 7,Free
+13.2401285,33.935833,cnsm,Stoppani,Player 7,Free
+28.95583,40.334454,cnsm,Stoppani,Player 7,Glazounov
+15.35319,67.76847,cnsm,Stoppani,Player 7,Glazounov2
+-51.11355,-85.030045,cnsm,Stoppani,Player 7,Mozart
+-51.162735,59.521866,cnsm,Stoppani,Player 7,Scale
+51.64948,33.236763,cnsm,Stoppani,Player 7,Sibelius2
+4.1910357,13.177,cnsm,Stoppani,Player 7,Tchai
+117.42358,11.862422,cnsm,Stoppani,Player 9,Bach
+125.54763,6.0252876,cnsm,Stoppani,Player 9,Bach
+179.97476,-33.0271,cnsm,Stoppani,Player 9,Glazounov
+164.5255,31.158733,cnsm,Stoppani,Player 9,Glazounov2
+173.84848,20.896265,cnsm,Stoppani,Player 9,Glazounov2
+39.525524,-127.60825,cnsm,Stoppani,Player 9,Mozart
+28.802437,-135.72443,cnsm,Stoppani,Player 9,Mozart
+97.84617,-2.2728226,cnsm,Stoppani,Player 9,Scale
+170.31836,-20.687674,cnsm,Stoppani,Player 9,Sibelius2
+122.06648,-42.152378,cnsm,Stoppani,Player 9,Tchai
+103.8103,-49.95804,cnsm,Stoppani,Player 9,Tchai
+210.02084,-77.73384,cnsm,Stoppani,Player 10,Free
+227.25525,-34.43993,cnsm,Stoppani,Player 7,Free
+48.677296,-3.6732724,villefavard_2026,V1,Alan,Bach
+-6.529501,14.945296,villefavard_2026,V1,Alan,Glazounov
+91.905914,-24.043243,villefavard_2026,V1,Alan,Glazounov2
+-109.97177,-79.63186,villefavard_2026,V1,Alan,Mozart
+-57.020023,27.784872,villefavard_2026,V1,Alan,Scale
+26.564013,-22.849308,villefavard_2026,V1,Alan,Tchai
+57.619007,0.9046916,villefavard_2026,V1,Arthur,Bach
+108.1258,-4.90548,villefavard_2026,V1,Arthur,Glazounov2
+-138.82625,-112.53853,villefavard_2026,V1,Arthur,Mozart
+-81.8836,70.50493,villefavard_2026,V1,Arthur,Scale
+89.05083,-17.778446,villefavard_2026,V1,Arthur,Sibelius2
+64.10633,18.637316,villefavard_2026,V1,Arthur,Sibelius2
+-39.74372,-80.496056,villefavard_2026,V1,Arthur,Tchai
+-6.2522593,-60.95745,villefavard_2026,V1,Arthur,Tchai
+45.362537,24.777035,villefavard_2026,V1,Catherine,Bach
+32.118946,6.573332,villefavard_2026,V1,Catherine,Free
+38.502884,23.610909,villefavard_2026,V1,Catherine,Glazounov
+87.97884,-0.5416526,villefavard_2026,V1,Catherine,Glazounov2
+-89.207756,-95.332245,villefavard_2026,V1,Catherine,Mozart
+-59.239086,22.649855,villefavard_2026,V1,Catherine,Scale
+80.38903,9.591339,villefavard_2026,V1,Catherine,Sibelius2
+3.9550984,-48.85908,villefavard_2026,V1,Catherine,Tchai
+32.32815,4.3404164,villefavard_2026,V1,Céleste,Bach
+45.54282,16.486988,villefavard_2026,V1,Céleste,Glazounov
+114.733696,2.4361687,villefavard_2026,V1,Céleste,Glazounov2
+-133.57045,-70.93137,villefavard_2026,V1,Céleste,Mozart
+-97.98058,99.318436,villefavard_2026,V1,Céleste,Scale
+-93.24615,100.956985,villefavard_2026,V1,Céleste,Scale
+-110.33915,90.50872,villefavard_2026,V1,Céleste,Scale
+83.69451,-8.751698,villefavard_2026,V1,Céleste,Sibelius2
+-27.959084,-44.380566,villefavard_2026,V1,Céleste,Tchai
+-34.60085,64.476524,villefavard_2026,V1,David,Free
+55.06776,9.10023,villefavard_2026,V1,Hugo,Bach
+48.531998,-1.8405054,villefavard_2026,V1,Hugo,Bach
+52.51493,4.1664577,villefavard_2026,V1,Hugo,Glazounov
+40.755924,0.047884487,villefavard_2026,V1,Hugo,Glazounov
+100.04387,-8.893982,villefavard_2026,V1,Hugo,Glazounov2
+-119.70224,-115.88905,villefavard_2026,V1,Hugo,Mozart
+-138.79805,-116.995834,villefavard_2026,V1,Hugo,Mozart
+-103.66982,56.315376,villefavard_2026,V1,Hugo,Scale
+-85.89675,16.9869,villefavard_2026,V1,Hugo,Scale
+80.027054,-8.719047,villefavard_2026,V1,Hugo,Sibelius2
+-56.286255,-90.12308,villefavard_2026,V1,Hugo,Tchai
+-106.55086,65.95677,villefavard_2026,V1,Mélanie,Scale
+60.204945,-3.5187612,villefavard_2026,V1,SMD,Bach
+104.347916,-5.88516,villefavard_2026,V1,SMD,Glazounov
+-107.488434,-84.61721,villefavard_2026,V1,SMD,Mozart
+-49.13551,27.151499,villefavard_2026,V1,SMD,Scale
+77.1144,-9.355427,villefavard_2026,V1,SMD,Sibelius2
+-14.977664,-42.831097,villefavard_2026,V1,SMD,Tchai
+-7.050237,9.398505,villefavard_2026,V1,Silvian,Free
+-22.901556,42.025177,villefavard_2026,V1,Silvian,Free
+-84.938995,119.80032,villefavard_2026,V1,Silvian,Scale
+-59.184643,75.96709,villefavard_2026,V1,Silvian,Scale
+-74.78381,93.83025,villefavard_2026,V1,Silvian,Scale
+-28.888865,28.37626,villefavard_2026,V1,Tanguy,Free
+43.745647,1.4956689,villefavard_2026,V2,Alan,Bach
+10.551278,10.73212,villefavard_2026,V2,Alan,Glazounov
+80.54319,-12.319257,villefavard_2026,V2,Alan,Glazounov2
+-103.885284,-57.600964,villefavard_2026,V2,Alan,Mozart
+-90.15441,49.106552,villefavard_2026,V2,Alan,Scale
+60.569744,-20.057686,villefavard_2026,V2,Alan,Sibelius2
+-16.44826,-35.92668,villefavard_2026,V2,Alan,Tchai
+55.102345,-20.401922,villefavard_2026,V2,Arthur,Bach
+44.331417,1.5437338,villefavard_2026,V2,Arthur,Glazounov
+105.08052,-24.777763,villefavard_2026,V2,Arthur,Glazounov2
+-130.28497,-85.64775,villefavard_2026,V2,Arthur,Mozart
+-91.29775,64.2977,villefavard_2026,V2,Arthur,Scale
+75.013596,-16.73433,villefavard_2026,V2,Arthur,Sibelius2
+-30.606281,-73.3025,villefavard_2026,V2,Arthur,Tchai
+-16.166832,-69.22032,villefavard_2026,V2,Arthur,Tchai
+36.361847,17.936754,villefavard_2026,V2,Catherine,Bach
+30.4125,-5.8276787,villefavard_2026,V2,Catherine,Free
+91.72997,-5.960029,villefavard_2026,V2,Catherine,Glazounov2
+-126.38949,-67.930565,villefavard_2026,V2,Catherine,Mozart
+-62.27688,12.60246,villefavard_2026,V2,Catherine,Scale
+67.54196,-3.3415616,villefavard_2026,V2,Catherine,Sibelius2
+20.892588,0.12987854,villefavard_2026,V2,Catherine,Sibelius2
+-21.760454,-58.30634,villefavard_2026,V2,Catherine,Tchai
+40.44099,12.109016,villefavard_2026,V2,Céleste,Bach
+39.955692,1.1916168,villefavard_2026,V2,Céleste,Glazounov
+101.848885,-14.573708,villefavard_2026,V2,Céleste,Glazounov2
+-131.91364,-69.330894,villefavard_2026,V2,Céleste,Mozart
+-83.00235,87.6355,villefavard_2026,V2,Céleste,Scale
+-116.74868,92.17307,villefavard_2026,V2,Céleste,Scale
+74.09603,-11.4206,villefavard_2026,V2,Céleste,Sibelius2
+-17.326117,-50.455444,villefavard_2026,V2,Céleste,Tchai
+-20.299295,48.04999,villefavard_2026,V2,David,Free
+-31.331102,27.808569,villefavard_2026,V2,David,Free
+-53.486977,79.38154,villefavard_2026,V2,David,Scale
+-75.27283,95.14521,villefavard_2026,V2,David,Scale
+-46.13168,71.37311,villefavard_2026,V2,David,Scale
+-74.56501,100.53313,villefavard_2026,V2,David,Scale
+39.76029,0.9641237,villefavard_2026,V2,Hugo,Bach
+46.513485,-3.1367621,villefavard_2026,V2,Hugo,Glazounov
+102.771385,-5.319276,villefavard_2026,V2,Hugo,Glazounov2
+-155.78563,-115.53345,villefavard_2026,V2,Hugo,Mozart
+-91.84506,21.030912,villefavard_2026,V2,Hugo,Scale
+68.27013,-13.335391,villefavard_2026,V2,Hugo,Sibelius2
+61.86731,-10.351573,villefavard_2026,V2,Hugo,Sibelius2
+-60.2211,-47.140858,villefavard_2026,V2,Hugo,Tchai
+-22.76032,24.269012,villefavard_2026,V2,Mélanie,Free
+-100.630066,63.099674,villefavard_2026,V2,Mélanie,Scale
+48.680428,-2.6327713,villefavard_2026,V2,SMD,Bach
+89.216415,-18.657003,villefavard_2026,V2,SMD,Glazounov2
+-111.79225,-83.420616,villefavard_2026,V2,SMD,Mozart
+-57.070923,32.77065,villefavard_2026,V2,SMD,Scale
+56.611523,-25.74012,villefavard_2026,V2,SMD,Sibelius2
+-17.449776,-44.603996,villefavard_2026,V2,SMD,Tchai
+-48.03852,25.175627,villefavard_2026,V2,Silvian,Free
+-94.43955,107.151665,villefavard_2026,V2,Silvian,Scale
+-95.70856,120.29682,villefavard_2026,V2,Silvian,Scale
+-69.98718,79.046524,villefavard_2026,V2,Silvian,Scale
+-45.80303,32.2281,villefavard_2026,V2,Tanguy,Free
+49.52285,0.15353732,villefavard_2026,V4,Alan,Bach
+4.714506,23.9046,villefavard_2026,V4,Alan,Glazounov
+84.866234,-35.877632,villefavard_2026,V4,Alan,Glazounov2
+-85.14125,-61.2565,villefavard_2026,V4,Alan,Mozart
+-71.962845,54.551388,villefavard_2026,V4,Alan,Scale
+77.02543,-5.568854,villefavard_2026,V4,Alan,Sibelius2
+10.149204,-7.1668286,villefavard_2026,V4,Alan,Tchai
+65.96954,-0.9152086,villefavard_2026,V4,Arthur,Bach
+54.90002,13.17607,villefavard_2026,V4,Arthur,Glazounov
+115.09548,-2.0627248,villefavard_2026,V4,Arthur,Glazounov2
+-120.32706,-105.34792,villefavard_2026,V4,Arthur,Mozart
+-80.97459,82.13433,villefavard_2026,V4,Arthur,Scale
+78.31709,-22.183392,villefavard_2026,V4,Arthur,Sibelius2
+-25.387903,-83.46101,villefavard_2026,V4,Arthur,Tchai
+-4.0449667,-64.42125,villefavard_2026,V4,Arthur,Tchai
+49.33417,24.611483,villefavard_2026,V4,Catherine,Bach
+41.223694,7.033427,villefavard_2026,V4,Catherine,Free
+32.38499,20.811823,villefavard_2026,V4,Catherine,Glazounov
+96.77639,13.20648,villefavard_2026,V4,Catherine,Glazounov2
+-109.47302,-93.817604,villefavard_2026,V4,Catherine,Mozart
+-31.10504,20.207798,villefavard_2026,V4,Catherine,Scale
+83.1024,12.087505,villefavard_2026,V4,Catherine,Sibelius2
+-9.8566,-60.55347,villefavard_2026,V4,Catherine,Tchai
+35.22964,35.750076,villefavard_2026,V4,Céleste,Bach
+60.468327,24.237595,villefavard_2026,V4,Céleste,Glazounov
+117.75572,3.9367275,villefavard_2026,V4,Céleste,Glazounov2
+-120.371056,-53.47687,villefavard_2026,V4,Céleste,Mozart
+-79.41056,90.08642,villefavard_2026,V4,Céleste,Scale
+-104.66143,98.78512,villefavard_2026,V4,Céleste,Scale
+79.691246,-4.664719,villefavard_2026,V4,Céleste,Sibelius2
+-10.697756,-34.64649,villefavard_2026,V4,Céleste,Tchai
+-72.19956,81.472534,villefavard_2026,V4,David,Scale
+44.348988,13.142361,villefavard_2026,V4,Hugo,Bach
+47.242073,24.91954,villefavard_2026,V4,Hugo,Glazounov
+101.96936,-6.2199316,villefavard_2026,V4,Hugo,Glazounov2
+-91.413895,-76.53366,villefavard_2026,V4,Hugo,Mozart
+-107.223816,-86.6631,villefavard_2026,V4,Hugo,Mozart
+-100.4268,47.91914,villefavard_2026,V4,Hugo,Scale
+80.40211,2.577463,villefavard_2026,V4,Hugo,Sibelius2
+79.010826,4.8400207,villefavard_2026,V4,Hugo,Sibelius2
+-46.8352,-52.039104,villefavard_2026,V4,Hugo,Tchai
+-28.261047,-43.903633,villefavard_2026,V4,Hugo,Tchai
+-55.215748,28.81505,villefavard_2026,V4,Mélanie,Free
+-60.708405,50.46054,villefavard_2026,V4,Mélanie,Scale
+54.17004,6.7762823,villefavard_2026,V4,SMD,Bach
+93.32938,-12.847966,villefavard_2026,V4,SMD,Glazounov2
+-105.95993,-84.062454,villefavard_2026,V4,SMD,Mozart
+-49.985615,38.001698,villefavard_2026,V4,SMD,Scale
+60.241074,-21.437866,villefavard_2026,V4,SMD,Sibelius2
+8.11065,-57.458813,villefavard_2026,V4,SMD,Tchai
+-1.0537618,28.295544,villefavard_2026,V4,Silvian,Free
+-73.70892,109.52866,villefavard_2026,V4,Silvian,Scale
+-53.265186,98.25544,villefavard_2026,V4,Silvian,Scale
+-65.71392,113.26874,villefavard_2026,V4,Silvian,Scale
+-36.96592,59.176796,villefavard_2026,V4,Tanguy,Free
+59.975525,-2.697285,villefavard_2026,V6,Alan,Bach
+3.4245179,-22.728895,villefavard_2026,V6,Alan,Free
+24.94833,23.402805,villefavard_2026,V6,Alan,Glazounov
+102.86027,-12.495622,villefavard_2026,V6,Alan,Glazounov2
+-85.7024,-64.3406,villefavard_2026,V6,Alan,Mozart
+-62.959934,28.189358,villefavard_2026,V6,Alan,Scale
+74.139435,-3.0950928,villefavard_2026,V6,Alan,Sibelius2
+69.398506,2.4641745,villefavard_2026,V6,Arthur,Bach
+67.31908,9.793715,villefavard_2026,V6,Arthur,Glazounov
+125.86106,-8.262142,villefavard_2026,V6,Arthur,Glazounov2
+-107.42515,-82.54121,villefavard_2026,V6,Arthur,Mozart
+-65.026566,47.28244,villefavard_2026,V6,Arthur,Scale
+87.078186,-11.941564,villefavard_2026,V6,Arthur,Sibelius2
+-23.979677,-67.34378,villefavard_2026,V6,Arthur,Tchai
+-3.306132,-55.73471,villefavard_2026,V6,Arthur,Tchai
+57.353905,14.419856,villefavard_2026,V6,Catherine,Bach
+52.386024,10.155948,villefavard_2026,V6,Catherine,Free
+53.67144,28.87221,villefavard_2026,V6,Catherine,Glazounov
+111.12142,0.15808332,villefavard_2026,V6,Catherine,Glazounov2
+-84.97683,-88.322174,villefavard_2026,V6,Catherine,Mozart
+-12.668103,21.114996,villefavard_2026,V6,Catherine,Scale
+89.90001,3.5806594,villefavard_2026,V6,Catherine,Sibelius2
+5.3258505,-27.326033,villefavard_2026,V6,Catherine,Tchai
+47.896362,24.063158,villefavard_2026,V6,Céleste,Bach
+64.5627,33.26624,villefavard_2026,V6,Céleste,Glazounov
+119.91234,0.65854096,villefavard_2026,V6,Céleste,Glazounov2
+-117.335075,-68.9286,villefavard_2026,V6,Céleste,Mozart
+-62.855064,92.28677,villefavard_2026,V6,Céleste,Scale
+-78.14516,109.43396,villefavard_2026,V6,Céleste,Scale
+94.572136,-3.4172912,villefavard_2026,V6,Céleste,Sibelius2
+-3.1555383,-44.457912,villefavard_2026,V6,Céleste,Tchai
+4.2678013,30.024523,villefavard_2026,V6,David,Free
+-40.62776,107.86896,villefavard_2026,V6,David,Scale
+-18.289867,89.0216,villefavard_2026,V6,David,Scale
+-54.13916,94.62762,villefavard_2026,V6,David,Scale
+53.497425,25.097872,villefavard_2026,V6,Hugo,Bach
+51.099358,33.904716,villefavard_2026,V6,Hugo,Glazounov
+112.3591,0.6346187,villefavard_2026,V6,Hugo,Glazounov2
+-115.871346,-88.554375,villefavard_2026,V6,Hugo,Mozart
+-112.673355,-70.63015,villefavard_2026,V6,Hugo,Mozart
+-77.69389,98.638054,villefavard_2026,V6,Hugo,Scale
+-58.23695,84.710945,villefavard_2026,V6,Hugo,Scale
+84.07479,-2.838208,villefavard_2026,V6,Hugo,Sibelius2
+88.24444,-3.3477461,villefavard_2026,V6,Hugo,Sibelius2
+-32.866047,-49.945473,villefavard_2026,V6,Hugo,Tchai
+69.91723,19.699957,villefavard_2026,V6,SMD,Bach
+114.20801,-13.327371,villefavard_2026,V6,SMD,Glazounov2
+-108.42286,-72.17069,villefavard_2026,V6,SMD,Mozart
+-25.31296,32.447105,villefavard_2026,V6,SMD,Scale
+77.78932,-9.92277,villefavard_2026,V6,SMD,Sibelius2
+9.096758,-33.853085,villefavard_2026,V6,SMD,Tchai
+37.266888,-3.3522458,villefavard_2026,V6,Silvian,Free
+-7.8684187,54.49245,villefavard_2026,V6,Silvian,Free
+-58.688473,98.83781,villefavard_2026,V6,Silvian,Scale
+-25.460506,86.99368,villefavard_2026,V6,Silvian,Scale
+-28.617373,95.72349,villefavard_2026,V6,Silvian,Scale
+-10.667968,63.846703,villefavard_2026,V6,Tanguy,Free
+60.271027,-19.266922,villefavard_2026,V7,Alan,Bach
+9.687709,4.292957,villefavard_2026,V7,Alan,Glazounov
+101.31711,-39.571434,villefavard_2026,V7,Alan,Glazounov2
+-97.947945,-98.14171,villefavard_2026,V7,Alan,Mozart
+76.88646,-8.71936,villefavard_2026,V7,Alan,Sibelius2
+-18.831793,-26.364399,villefavard_2026,V7,Alan,Tchai
+78.422165,-18.105492,villefavard_2026,V7,Arthur,Bach
+66.08359,2.923656,villefavard_2026,V7,Arthur,Glazounov
+119.927444,-16.596132,villefavard_2026,V7,Arthur,Glazounov2
+-122.9311,-124.156075,villefavard_2026,V7,Arthur,Mozart
+-45.07951,35.797386,villefavard_2026,V7,Arthur,Scale
+94.85922,-28.285084,villefavard_2026,V7,Arthur,Sibelius2
+-25.49584,-93.302124,villefavard_2026,V7,Arthur,Tchai
+-14.702116,-81.34935,villefavard_2026,V7,Arthur,Tchai
+56.72353,19.381771,villefavard_2026,V7,Catherine,Bach
+17.247847,18.844046,villefavard_2026,V7,Catherine,Free
+24.093563,21.115673,villefavard_2026,V7,Catherine,Glazounov
+63.988117,-12.899418,villefavard_2026,V7,Catherine,Glazounov2
+-108.65147,-97.797264,villefavard_2026,V7,Catherine,Mozart
+86.72893,-23.375078,villefavard_2026,V7,Catherine,Sibelius2
+-9.270194,-26.797644,villefavard_2026,V7,Catherine,Tchai
+69.39733,-16.830332,villefavard_2026,V7,Céleste,Bach
+55.356026,5.837886,villefavard_2026,V7,Céleste,Glazounov
+122.23833,-6.0624423,villefavard_2026,V7,Céleste,Glazounov2
+-127.707664,-90.09953,villefavard_2026,V7,Céleste,Mozart
+-99.62971,105.004295,villefavard_2026,V7,Céleste,Scale
+-106.166245,81.11873,villefavard_2026,V7,Céleste,Scale
+90.8672,-23.899466,villefavard_2026,V7,Céleste,Sibelius2
+-21.701605,-75.02457,villefavard_2026,V7,Céleste,Tchai
+-38.973125,25.221413,villefavard_2026,V7,David,Free
+-37.841522,1.5852054,villefavard_2026,V7,David,Free
+-82.25751,81.22444,villefavard_2026,V7,David,Scale
+-114.412506,-101.11559,villefavard_2026,V7,Hugo,Bach
+49.316956,-0.4256288,villefavard_2026,V7,Hugo,Glazounov
+105.36369,-19.336033,villefavard_2026,V7,Hugo,Glazounov2
+80.471,2.9722118,villefavard_2026,V7,Hugo,Mozart
+-49.84565,-50.91599,villefavard_2026,V7,Hugo,Tchai
+-3.9038842,-7.5040035,villefavard_2026,V7,Mélanie,Free
+-43.156136,17.085022,villefavard_2026,V7,Mélanie,Free
+67.78014,-20.52575,villefavard_2026,V7,SMD,Bach
+104.768166,-17.501497,villefavard_2026,V7,SMD,Glazounov2
+-108.09858,-95.78009,villefavard_2026,V7,SMD,Mozart
+-34.211693,0.74512297,villefavard_2026,V7,SMD,Scale
+80.61745,-20.573124,villefavard_2026,V7,SMD,Sibelius2
+11.03765,-45.713726,villefavard_2026,V7,SMD,Tchai
+3.9161108,-40.855263,villefavard_2026,V7,Silvian,Free
+24.31613,4.811234,villefavard_2026,V7,Silvian,Free
+13.331103,-2.433648,villefavard_2026,V7,Silvian,Free
+-45.0073,30.035103,villefavard_2026,V7,Silvian,Free
+-4.2719283,8.562856,villefavard_2026,V7,Silvian,Free
+-80.420586,80.89023,villefavard_2026,V7,Silvian,Scale
+-46.657093,60.649464,villefavard_2026,V7,Silvian,Scale
+-32.985226,58.348217,villefavard_2026,V7,Silvian,Scale
+-37.04807,5.2023034,villefavard_2026,V7,Tanguy,Free
+-38.7411,-3.3430977,villefavard_2026,V7,Tanguy,Free
+20.257225,13.612027,villefavard_2026,V7,Tanguy,Free
+62.937008,9.085566,villefavard_2026,V8,Alan,Bach
+99.812195,-10.258607,villefavard_2026,V8,Alan,Glazounov2
+-89.60879,-70.99923,villefavard_2026,V8,Alan,Mozart
+-2.1551642,32.976833,villefavard_2026,V8,Alan,Scale
+-44.398094,35.495365,villefavard_2026,V8,Alan,Scale
+84.0271,-2.304057,villefavard_2026,V8,Alan,Sibelius2
+7.842875,-27.843096,villefavard_2026,V8,Alan,Tchai
+67.13329,-24.197535,villefavard_2026,V8,Arthur,Bach
+76.60283,7.1318264,villefavard_2026,V8,Arthur,Glazounov
+122.16471,-10.702122,villefavard_2026,V8,Arthur,Glazounov2
+-96.02286,-101.939545,villefavard_2026,V8,Arthur,Mozart
+-36.509914,36.558025,villefavard_2026,V8,Arthur,Scale
+89.896515,-19.914503,villefavard_2026,V8,Arthur,Sibelius2
+-20.63071,-49.69884,villefavard_2026,V8,Arthur,Tchai
+-18.336885,-45.530666,villefavard_2026,V8,Arthur,Tchai
+5.0597296,-64.49961,villefavard_2026,V8,Arthur,Tchai
+62.746178,17.127743,villefavard_2026,V8,Catherine,Bach
+53.237446,8.788946,villefavard_2026,V8,Catherine,Free
+52.670685,23.862837,villefavard_2026,V8,Catherine,Glazounov
+114.07547,-2.1338947,villefavard_2026,V8,Catherine,Glazounov2
+-121.913826,-95.76102,villefavard_2026,V8,Catherine,Mozart
+-45.59298,-1.1617692,villefavard_2026,V8,Catherine,Scale
+-40.921913,16.20207,villefavard_2026,V8,Catherine,Scale
+105.12636,9.050675,villefavard_2026,V8,Catherine,Sibelius2
+5.847572,-20.433979,villefavard_2026,V8,Catherine,Tchai
+52.531784,15.390683,villefavard_2026,V8,Céleste,Bach
+65.90599,16.343681,villefavard_2026,V8,Céleste,Glazounov
+128.20793,-4.9513445,villefavard_2026,V8,Céleste,Glazounov2
+-111.9616,-63.05393,villefavard_2026,V8,Céleste,Mozart
+-49.197098,102.13235,villefavard_2026,V8,Céleste,Scale
+-85.36609,104.56749,villefavard_2026,V8,Céleste,Scale
+102.36514,-18.014109,villefavard_2026,V8,Céleste,Sibelius2
+-3.3018832,-68.56732,villefavard_2026,V8,Céleste,Tchai
+-15.3255005,46.64497,villefavard_2026,V8,David,Free
+-59.392742,98.42381,villefavard_2026,V8,David,Scale
+72.24575,2.5821426,villefavard_2026,V8,Hugo,Bach
+64.796745,13.012043,villefavard_2026,V8,Hugo,Glazounov
+124.43283,-1.0408174,villefavard_2026,V8,Hugo,Glazounov2
+128.18022,-8.265909,villefavard_2026,V8,Hugo,Glazounov2
+-110.519905,-104.11148,villefavard_2026,V8,Hugo,Mozart
+-49.91063,28.956472,villefavard_2026,V8,Hugo,Scale
+-59.72681,40.98475,villefavard_2026,V8,Hugo,Scale
+97.00462,-8.185776,villefavard_2026,V8,Hugo,Sibelius2
+-15.881139,-96.172806,villefavard_2026,V8,Hugo,Tchai
+2.059042,55.120155,villefavard_2026,V8,Mélanie,Free
+-34.77486,42.32287,villefavard_2026,V8,Mélanie,Scale
+81.04901,7.4304442,villefavard_2026,V8,SMD,Bach
+112.47165,-12.315562,villefavard_2026,V8,SMD,Glazounov2
+-89.590515,-74.89646,villefavard_2026,V8,SMD,Mozart
+-23.774134,19.840609,villefavard_2026,V8,SMD,Scale
+91.81784,-14.978954,villefavard_2026,V8,SMD,Sibelius2
+27.305079,-44.843166,villefavard_2026,V8,SMD,Tchai
+2.580552,42.509575,villefavard_2026,V8,Silvian,Free
+-10.960571,12.892745,villefavard_2026,V8,Silvian,Free
+-73.04849,124.592606,villefavard_2026,V8,Silvian,Scale
+-55.097412,97.26033,villefavard_2026,V8,Silvian,Scale
+-28.885015,87.41254,villefavard_2026,V8,Silvian,Scale
+-57.061787,104.964424,villefavard_2026,V8,Silvian,Scale
+-14.66513,53.31054,villefavard_2026,V8,Tanguy,Free
+63.09632,-18.586847,villefavard_2026,V9,Arthur,Bach
+62.695396,-0.66058695,villefavard_2026,V9,Arthur,Glazounov
+117.42151,-17.336163,villefavard_2026,V9,Arthur,Glazounov2
+-101.95808,-87.0205,villefavard_2026,V9,Arthur,Mozart
+-68.63349,39.435314,villefavard_2026,V9,Arthur,Scale
+83.30882,-25.99606,villefavard_2026,V9,Arthur,Sibelius2
+-20.774052,-88.281944,villefavard_2026,V9,Arthur,Tchai
+-4.1370044,-70.13181,villefavard_2026,V9,Arthur,Tchai
+57.885174,3.2591445,villefavard_2026,V9,Catherine,Bach
+53.14316,-5.8231525,villefavard_2026,V9,Catherine,Free
+31.232836,9.917261,villefavard_2026,V9,Catherine,Glazounov
+107.85589,-6.0930614,villefavard_2026,V9,Catherine,Glazounov2
+-128.47299,-118.20455,villefavard_2026,V9,Catherine,Mozart
+-37.27864,-28.455046,villefavard_2026,V9,Catherine,Scale
+-49.02098,11.348388,villefavard_2026,V9,Catherine,Scale
+93.69512,-19.52584,villefavard_2026,V9,Catherine,Sibelius2
+6.061912,-40.046326,villefavard_2026,V9,Catherine,Tchai
+44.15021,8.050403,villefavard_2026,V9,Céleste,Bach
+65.32149,18.435175,villefavard_2026,V9,Céleste,Glazounov
+115.8643,-3.4584343,villefavard_2026,V9,Céleste,Glazounov2
+-136.14276,-127.47546,villefavard_2026,V9,Céleste,Mozart
+-97.497574,94.22897,villefavard_2026,V9,Céleste,Scale
+-93.943794,69.122734,villefavard_2026,V9,Céleste,Scale
+94.306694,-19.308037,villefavard_2026,V9,Céleste,Sibelius2
+-15.164844,-35.31776,villefavard_2026,V9,Céleste,Tchai
+7.3241262,13.000476,villefavard_2026,V9,David,Free
+-63.285824,37.691784,villefavard_2026,V9,David,Scale
+-55.924923,51.3847,villefavard_2026,V9,David,Scale
+54.251305,-16.177052,villefavard_2026,V9,Hugo,Bach
+64.95055,-22.230421,villefavard_2026,V9,Hugo,Glazounov
+115.79429,-12.084611,villefavard_2026,V9,Hugo,Glazounov2
+-97.92283,33.539364,villefavard_2026,V9,Hugo,Scale
+91.90335,-9.9976015,villefavard_2026,V9,Hugo,Sibelius2
+-133.10043,-121.3862,villefavard_2026,V9,Hugo,Tchai
+-40.246326,-97.22222,villefavard_2026,V9,Hugo,Tchai
+4.968686,-18.47998,villefavard_2026,V9,Mélanie,Free
+-41.739418,18.343596,villefavard_2026,V9,Mélanie,Scale
+69.8095,-15.310644,villefavard_2026,V9,SMD,Bach
+99.193665,-23.69487,villefavard_2026,V9,SMD,Glazounov2
+-90.41372,-90.227066,villefavard_2026,V9,SMD,Mozart
+-33.55103,20.970955,villefavard_2026,V9,SMD,Scale
+72.73596,-17.95786,villefavard_2026,V9,SMD,Sibelius2
+-18.927073,-60.18566,villefavard_2026,V9,SMD,Tchai
+19.742973,-10.165396,villefavard_2026,V9,Silvian,Free
+-11.855566,-13.782842,villefavard_2026,V9,Silvian,Free
+4.4076443,-0.73681134,villefavard_2026,V9,Silvian,Free
+-78.637024,107.30541,villefavard_2026,V9,Silvian,Scale
+-41.875645,51.627193,villefavard_2026,V9,Silvian,Scale
+-30.344542,62.750633,villefavard_2026,V9,Silvian,Scale
+-65.32026,63.667274,villefavard_2026,V9,Silvian,Scale
+-24.884777,23.31829,villefavard_2026,V9,Tanguy,Free
+-14.22099,25.93759,villefavard_2026,V9,Tanguy,Free

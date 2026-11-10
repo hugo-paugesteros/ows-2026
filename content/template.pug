@@ -1,0 +1,85 @@
+mixin icon(type, id)
+    svg.icon(class=`${type}-icon` id=id data-id=id)&attributes(attributes)
+        use(href=`images/icons.svg#${type}`)
+
+doctype html
+html(lang="fr")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Soutenance
+        link(rel='stylesheet' href='../dist/reveal.js@6.0.2/dist/reset.css')
+        link(rel='stylesheet' href='../dist/reveal.js@6.0.2/dist/reveal.css')
+        link(rel='stylesheet' href='../dist/reveal.js@6.0.2/dist/theme/white.css')
+        
+        <script src="../dist/@svgdotjs/svg.js@3.0.16/dist/svg.min.js"></script>
+        <script src="../dist/chart.js@4.5.1/dist/chart.umd.min.js"></script>
+        link(rel='stylesheet' href='../dist/kursor@0.1.6/dist/kursor.css')
+        <script src="../dist/kursor@0.1.6/dist/kursor.js"></script>
+        script(type='importmap').
+            {
+                "imports": {
+                    "three": "../dist/three@0.186.0/build/three.module.js",
+                    "three/addons/": "../dist/three@0.186.0/examples/jsm/",
+                    "d3": "../dist/d3@7.9.0/d3.esm.min.js"
+                }
+            }
+        script(type="module", src="book.js")
+        script(type="module", src="article.js")
+        script(type="module", src="violins3d.js")
+        script(type="module", src="knn.js")
+        script(type="module", src="ltas.js")
+        script(type="module", src="source-filter.js")
+        script(type="module", src="anim.js")
+        script(type="module", src="impulse.js")
+        script(type="module", src="projection.js")
+        script(type="module", src="admittances.js")
+        script(type="module", src="recordings.js")
+        script(type="module", src="ltas-lda.js")
+        script(type="module", src="ratings.js")
+        script(type="module", src="listening-test-identification.js")
+        script(type="module", src="listening-tests.js")
+        script(type="module", src="mocap.js")
+        script(type="module", src="classification-results.js")
+        script(type="module", src="embedding.js")
+        script(type="module", src="influence-excerpt.js")
+        script(type="module", src="no-signal.js")
+        script(type="module", src="countdown.js")
+        script(type="module", src="video-lead-in.js")
+        script(type="module", src="looped-videos.js")
+        script(type="module", src="breadcrumb.js")
+        script(type="module", src="gesture-toggle.js")
+        script(type="module", src="cursor.js")
+        script(type="module", src="phone-remote.js")
+
+        link(rel="stylesheet", href="main.css")
+
+    body 
+        div.reveal
+            div.slides
+                block content
+            x-breadcrumb
+
+        script(src='../dist/reveal.js@6.0.2/dist/reveal.js')
+        script(src='../dist/reveal.js@6.0.2/dist/plugin/notes.js')
+        script.
+            Reveal.initialize({
+                plugins: [RevealNotes],
+                controls: false,
+                progress: true,
+                center: true,
+                margin: 0.1,
+                hash: true,
+                autoAnimateUnmatched: true,
+                slideNumber: true,
+                hideCursorTime: 1000,
+            });
+
+            // Smaller notes in the speaker view: its window shares our origin, so style it once it connects
+            window.addEventListener('message', ({ data, source }) => {
+                try { data = JSON.parse(data) } catch { return }
+                if (data?.namespace !== 'reveal-notes' || data.type !== 'connected') return
+                const style = source.document.createElement('style')
+                style.textContent = '.speaker-controls-notes .value { font-size: 1.2em; }'
+                source.document.head.append(style)
+            });

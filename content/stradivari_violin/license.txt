@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stradivari Violin
+* source:	https://sketchfab.com/3d-models/stradivari-violin-ab3ea86bb5f945c89889c1d333f55c0d
+* author:	Ethan Savage (https://sketchfab.com/Ethan_Savage)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stradivari Violin" (https://sketchfab.com/3d-models/stradivari-violin-ab3ea86bb5f945c89889c1d333f55c0d) by Ethan Savage (https://sketchfab.com/Ethan_Savage) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

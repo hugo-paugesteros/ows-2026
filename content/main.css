@@ -1,0 +1,262 @@
+@import url('../dist/fonts/fonts.css');
+
+speaker-controls-notes .value {
+    font-size: 2em;
+}
+
+:root {
+    --font: "Atkinson Hyperlegible Next", sans-serif;
+    --r-main-font: var(--font);
+    --r-heading-font: var(--font);
+    --r-heading-text-transform: none;
+    --r-main-font-size: 30px;
+
+    --test: red;
+    --control: black;
+
+    --k0: oklch(50% 0.2 50);
+    --k1: oklch(50% 0.2 265.551);
+    --k2: oklch(50% 0.2 330);
+
+    --ltas-accum: oklch(70% 0.02 260);
+    --ltas-ref: oklch(80% 0.02 260);
+    --ltas-mean: oklch(55% 0.15 145);
+}
+
+#front {
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+
+    h2 {
+        font-size: 1.15em;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: .8em;
+        font-weight: 400;
+    }
+
+    .co-authors {
+        display: flex;
+        justify-content: space-around;
+
+        h3 {
+            font-weight: 200;
+        }
+    }
+
+    .logos {
+        display: flex;
+        position: absolute;
+        bottom: 1em;
+        left: 0;
+        right: 0;
+        gap: 3em;
+        justify-content: space-around;
+
+        & img {
+            height: 2em;
+        }
+    }
+}
+
+#rieu .credits {
+    color: white;
+    font-size: 1.6em;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.5em rgb(0 0 0 / 0.8);
+}
+
+.quote {
+    color: #555;
+    font-style: italic;
+}
+
+.reveal .slide-number {
+    font-family: var(--font);
+    color: var(--control);
+    background: none;
+    font-size: .6em;
+}
+
+.icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+/* Pictogram within a line of text (figure title, paragraph, quote): sized to the text */
+:is(figcaption, p, blockquote, li) .icon {
+    width: 1.3em;
+    height: 1.3em;
+    margin-left: 0.3em;
+    vertical-align: middle;
+}
+
+/* Test violinist / violin: red; the others stay black */
+.icon.test {
+    color: var(--test);
+}
+
+.sticker {
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
+    margin: 0 0.15em !important;
+}
+
+#player-0 {
+    color: var(--test)
+}
+
+.horizontal-stack {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+x-object3d {
+    height: 65vh;
+}
+
+.horizontal-stack x-object3d {
+    width: 48%;
+}
+
+html.no-signal .reveal .slide-number,
+html.no-signal .reveal .progress {
+    display: none;
+}
+
+/* Cards shown one by one. Put .fragment(data-step=i) elements before the .card-grid: step i brings
+   the i-th card to the centre, step i + 1 sends it to its place, given per slide by --x and --y.
+   The slide also sets the grid's width and height. Up to 6 cards. */
+.card-grid {
+    --card-w: 280px;
+    --card-h: 210px;
+    --focus-scale: 1.4;
+    position: relative;
+    margin: 0 auto;
+
+    h4 {
+        font-size: .8em;
+        font-weight: 400;
+    }
+}
+
+.card-grid>* {
+    position: absolute;
+    width: var(--card-w);
+    height: var(--card-h);
+    left: calc(50% - var(--card-w) / 2);
+    top: calc(50% - var(--card-h) / 2);
+    margin: 0;
+
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+    z-index: 1;
+}
+
+.fragment[data-step="1"].visible~.card-grid> :nth-child(1),
+.fragment[data-step="2"].visible~.card-grid> :nth-child(2),
+.fragment[data-step="3"].visible~.card-grid> :nth-child(3),
+.fragment[data-step="4"].visible~.card-grid> :nth-child(4),
+.fragment[data-step="5"].visible~.card-grid> :nth-child(5),
+.fragment[data-step="6"].visible~.card-grid> :nth-child(6) {
+    opacity: 1;
+    transform: scale(var(--focus-scale));
+    z-index: 10;
+    border-color: black;
+    box-shadow: 0 10px 40px rgb(0 0 0 / 0.3);
+}
+
+.fragment[data-step="2"].visible~.card-grid> :nth-child(1),
+.fragment[data-step="3"].visible~.card-grid> :nth-child(2),
+.fragment[data-step="4"].visible~.card-grid> :nth-child(3),
+.fragment[data-step="5"].visible~.card-grid> :nth-child(4),
+.fragment[data-step="6"].visible~.card-grid> :nth-child(5),
+.fragment[data-step="7"].visible~.card-grid> :nth-child(6) {
+    left: var(--x);
+    top: var(--y);
+    transform: scale(1);
+    z-index: 1;
+    border-color: #ddd;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+}
+
+.gesture-toast {
+    position: fixed;
+    top: 16px;
+    left: 50%;
+    translate: -50% 0;
+    padding: 6px 14px;
+    border-radius: 6px;
+    background: rgb(0 0 0 / 0.75);
+    color: white;
+    font: 14px system-ui, sans-serif;
+    pointer-events: none;
+    z-index: 2147483647;
+    opacity: 0;
+    transition: opacity 0.2s;
+
+    &.visible {
+        opacity: 1;
+    }
+
+    &.error {
+        background: rgb(180 30 30 / 0.9);
+    }
+}
+
+.reveal small {
+    vertical-align: middle;
+}
+
+/* Appendix (generated by src/defense/appendix.py): the manuscript's results, as large as the slide allows */
+.appendix-chapter {
+    font-size: 0.5em;
+    text-align: left;
+}
+
+/* The index of the chapters is short: larger */
+#appendix {
+    font-size: 0.8em;
+}
+
+.appendix-title {
+    font-size: 0.5em;
+    margin: 0 0 0.4em;
+}
+
+.appendix-content {
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    gap: 8px;
+}
+
+.reveal .appendix-content img {
+    width: 100%;
+    height: calc(620px / var(--rows));
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    object-fit: contain;
+}

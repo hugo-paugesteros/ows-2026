@@ -1,0 +1,258 @@
+section(data-part="Identification")
+    h1 Identification de violons par leur son
+    aside.notes.
+        Commençons sans plus attendre par voir s'il est possible de caractériser un violon à partir d'enregistrements.
+        Comme nous l'avons vu en introduction, cette tâche n'est pas aisée pour un humain tant il peut y avoir des sources de variabilité : le violon, mais aussi le violoniste, le morceau joué, la salle où se font les enregistrements, etc...
+
+section
+    figure
+        figcaption Test d'écoute
+        listening-test-identification(style="width:80%;")
+    each _ in [1, 2, 3, 4]
+        .fragment
+
+    aside(data-markdown).notes.
+        Nous avons réalisé un test d'écoute un peu plus formel que celui fait en introduction avec un groupe de musiciens et d'acousticiens. À chaque tour de ce test, les participants avaient à écouter trois extraits A, B et X. Le but était de reconnaître si le violon joué dans X était celui joué dans A ou celui joué dans B. Il y avait cependant plusieurs niveaux de difficulté :
+        
+        - tout d'abord, il y a avait des tours où l'enregistrement X était identique à l'enregistrement A ou à l'enregistrement B. Exactement le même fichier audio. Dans cette condition, les participants ont réussi à reconnaître le violon dans 80% des cas.
+        - deuxième niveau de difficulté : X est toujours un enregistrement du même morceau que dans A et B, réalisé par le même violoniste que dans A et B, mais par contre il s'agit d'une prise différente. Ici les participants on répondu juste dans 60% des cas, ce qui frôle le seuil de significativité
+        - troisième niveau : X est joué par un musicien différent. Le taux de bonne réponse chute autour de 50% et n'est plus statistiquement différentiable du hasard
+        - enfin, dernier niveau : X est un morceau différent. Là encore, nous avons obtenu un résultat proche du hasard.
+        
+        On voit donc que selon les facteurs qui changent, les gens arrivent plus ou moins bien à différencier les instruments. Les violons sonnent différemment, mais cette différence est noyée dans la variabilité qu'introduisent les musiciens, les différents morceaux joués, etc...
+
+section
+    p Peut-on caractériser le son d'un violon #[u au-delà de cette variabilité] ?
+
+    footer.fragment
+        small
+            ul
+                li Lukasik, 2010, Long term cepstral coefficients for violin identification
+                li Wang et Bao, 2020, Individual violin recognition method combining tonal and nontonal features
+                li Yokoyama et Yuya, 2022, Identification of violin timbre by neural network using acoustic features
+    aside(data-markdown).notes.
+        Peut-on alors caractériser le son d'un violon au delà de cette variabilité ?
+
+        C'est ce dernier bout de question qui est important. En effet dans la littérature existante sur le sujet, cette variabilité est souvent peu prise en compte. Par exemples, plusieurs travaux n'utilisent que des enregistrements réalisés par un musicien. Il est alors impossible de savoir si ces méthodes caractérisent un violon, ou un couple violon/violoniste.
+
+
+
+mixin db(name, year, violins, players, excerpts)
+    .db-card(class=name.toLowerCase())&attributes(attributes)
+        h4.db-name= name
+        p.db-year= year
+        .db-stats
+            .db-stat
+                +icon("violin", `${name}-violins`)
+                span= violins
+            .db-stat
+                +icon("person", `${name}-players`)
+                span= players
+            .db-stat
+                span.note-icon ♪
+                span= excerpts
+
+section(data-part-step="Méthode")
+    h3 Enregistrements
+    div.horizontal-stack
+        +db("Bilbao*", 2019, 13, 25, 1)(data-fragment-index="0").fragment
+        +db("CNSM", 2024, 3, 11, 7)(data-fragment-index="1").fragment
+        +db("Villefavard", 2026, 7, 10, 7).fragment
+
+    p(style="text-align: left" data-fragment-index="0").fragment
+        small * Enregistrements collectés par Fritz et al.
+
+    style.
+        @scope {
+            .horizontal-stack {
+                gap: 1em !important;
+            }
+            .db-card {
+                border: 2px solid var(--db-color, #ccc);
+                border-radius: 8px;
+                padding: 1rem 1.5rem;
+                width: 28%;
+                text-align: center;
+            }
+
+            .db-name {
+                margin: 0;
+                font-size: var(--r-heading3-size);
+            }
+
+            .db-year {
+                margin: 0 0 0.75rem;
+                font-weight: 200;
+                color: #777;
+            }
+
+            .db-stats {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .db-stat {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0.25rem;
+            }
+
+            .db-stat .icon {
+                width: 1.75rem;
+                height: 1.75rem;
+            }
+
+            /* Placeholder for the excerpt count until a sheet-music icon
+               is dropped into images/icons.svg (then swap for +icon like
+               the other two stats). */
+            .note-icon {
+                font-size: 1.75rem;
+                line-height: 1;
+            }
+
+            /* Per-dataset border colors: tweak these three freely. */
+            .cnsm { --db-color: #d4af37; }
+            .bilbao { --db-color: #4a90d9; }
+            .villefavard { --db-color: #6aa84f; }
+        }
+
+    aside(data-markdown).notes.
+        Pour séparer l'identité de l'instrument de celle du musicien ou du morceau joué, il faut des enregistrements où ces facteurs varient indépendamment : plusieurs violons joués par plusieurs violonistes, chacun jouant plusieurs extraits. C'est le contenu des trois bases de données suivantes :
+        - La première a été collectée avant le début de ma thèse par Fritz. On y retrouve les enregistrements de 13 violons, joués par 25 musiciens, chacun ayant enregistré une gamme par instrument.
+        - Elle est complétée par deux autres bases que j'ai collecté durant ma thèse. Nous reviendrons plus en détail sur la deuxième dans la suite de la présentation.
+
+        Comme les violons, les violonistes, les morceaux joués et les modalités d'enregistrement ne sont pas les mêmes pour ces trois bases, les résultats qui vont suivre seront présentés séparément pour chacune d'entre elle.
+
+section
+    h3 Représentations
+    x-ltas
+
+    p.fragment Ce spectre moyen est appelé #[b LTAS]
+    aside(data-markdown).notes.
+        À partir de ces enregistrements, comment caractériser le son de chaque instrument ?
+        Nous faisons l'hypothèse d'un modèle source-filtre [voir intro]. Le son produit par un violon peut être vu comme le résultat de deux éléments : une source — la corde en vibration — et un filtre — le corps du violon, qui laisse passer certaines fréquences mieux que d'autres. Ce filtre, la réponse en fréquence du corps, dépend de la géométrie et des matériaux de l'instrument. C'est donc un bon candidat pour caractériser un violon.
+
+        Obtenir cette réponse en fréquence à partir d'enregistrements n'est pas simple : une note n'excite que certaines fréquences. Notre première approche consiste à calculer un spectre moyen sur un enregistrement entier. Si le morceau est suffisamment varié, les notes excitent tour à tour différentes fréquences, et le spectre moyen tend à refléter le filtre — donc l'instrument. Nous avons aussi testé d'autres représentations du son.
+
+section
+    h3 Classification
+    x-knn
+    aside(data-markdown).notes.
+        Pour vérifier qu'une représentation permet de distinguer les violons, nous utilisons des algorithmes de classification. Par exemple, les K Plus proches voisins :
+
+        Les K Plus proches voisins est une des techniques les plus simples  et les plus intuitives d'apprentissage supervisé. Imaginons que chaque enregistrement soit représenté par un point sur une carte. Plaçons d'abord sur cette carte des enregistrements dont on connaît le violon — c'est ce qu'on appelle les données d'entraînement. Réalisons maintenant un nouvel enregistrement, dont on veut deviner le violon — c'est une donnée de test. On la place sur la carte, et l'algorithme lui assigne le violon majoritaire parmi ses K plus proches voisins. [démo intéractive].
+
+        Nous avons testé plusieurs algorithmes de classification. Ce qui nous intéresse n'est pas tant la performance d'un algorithme en particulier, mais la capacité de nos représentations à séparer les violons.
+        
+section(data-part-step="Résultats")
+    h2 Résultats
+
+section
+    figure
+        figcaption De bonnes performances...
+        x-classification-results(style="width: 100%")
+    aside(data-markdown).notes.
+        Sur nos trois bases de données, nos algorithmes identifient les violons avec une précision supérieure au hasard. La variabilité liée aux musiciens et aux extraits est présente dans les données, et le modèle apprend à identifier les violons malgré elle. 
+        Cependant nous pouvons aller plus loin et nous poser la question de l'influence des enregistrements utilisés comme données d'entraînement sur la classification.
+
+section
+    figure
+        figcaption ... qui varient en fonction des données d'apprentissage
+        x-influence-excerpt(style="width: 100%")
+    aside(data-markdown).notes.
+        Par exemple, que se passe-t-il si l'on entraîne un modèle uniquement sur des gammes et qu'on le teste sur d'autres extraits ? Nous avons fait cette expérience pour chaque morceau de nos bases [figure]. La performance varie : selon le morceau d'entraînement, la précision peut chuter de vingt points. Certains morceaux — comme les gammes, qui balaient tout le registre — entraînent des modèles plus robustes. D'autres, qui restent dans un registre étroit, donnent des modèles moins performants.
+
+section
+    p Que contiennent nos représentations (LTAS) ?
+    p.fragment Problème : nos spectres moyens sont de grande dimension (1025D)
+    p.fragment Besoin de réduire le nombre de dimensions
+    p.fragment Solution : Analyse en Composantes Principales
+
+    aside(data-markdown).notes.
+        Ces variations de performance nous invitent à regarder de plus près ce que contiennent nos représentations, par exemple en regardant leur organisation géométrique.
+
+        Le problème, c'est que le LTAS d'un enregistrement est un objet qui comporte 1025 dimensions (ie: chaque extrait est représenté par une série de 1025 chiffres). Autant représenter un objet à 2 ou 3 dimensions passe encore, mais 1025, ce n'est pas très commode.
+
+        On doit donc réduire le nombre de dimension.
+
+        Une solution consiste à faire une Analyse en Composantes Principales, ou ACP
+
+section
+    h3 Principe de l'ACP (3D vers 2D)
+    x-projection(method="pca")
+    .fragment
+    .fragment
+
+    aside.notes.
+        Imaginons pour simplifier que nos LTAS soient de dimension 3. On peut alors représenter chaque enregistrement dans un espace en 3 dimensions. Imaginons que l'on veuille passer de 3D à 2D. L'ACP est une méthode qui permet de trouver les deux axes qui expliquent le plus de variabilité des données. Autrement dit, les directions où notre nuage de point est le plus étiré. Une fois ces deux axes trouvés, on projette nos points dans le plan formé par ces deux axes. On est passé de 3D à 2D, en préservant au maximum la variabilité des données.
+        Maintenant que vous avez le principe pour réduire le nombre de dimensions, appliquons cette méthode pour faire passer nos LTAS à 1025D à des points en 2D.
+
+section
+    h3 ACP sur les LTAS (1025D vers 2D)
+    figure
+        figcaption
+        x-embedding(method="pca")
+    .fragment
+    aside(data-markdown).notes.
+        Quand on fait une ACP sur nos LTAS, on obtiens les cartes suivantes. Je rappelle que chaque point représente un enregistrement dans nos bases de données.
+        On peut donc colorier chaque point selon le violon joué. On peut aussi colorier chaque point selon le musicien qui joue, et aussi les colorier en fonction du morceau joué.
+        Si nos représentations caractérisaient bien l'instrument, les points d'un même violon devraient se regrouper. Or, ce qu'on observe est très différent [figure PCA] : les points se regroupent par morceau joué, pas par violon. Nos représentations décrivent davantage le morceau que l'instrument.
+
+section
+    p Nos données sont organisées par extraits, et pas par violons !
+    p.fragment Comment y remédier ?
+    p.fragment Solution 1 : changer de projection (Analyse Discriminante Linéaire)
+    p.fragment Solution 2 : changer de représentation (source-filtre)
+
+section
+    h3 Principe de l'ADL (3D vers 2D)
+    x-projection(method="lda")
+    .fragment
+    .fragment
+    .fragment
+
+    aside(data-markdown).notes.
+        La projection précédente (ACP) cherchait les axes de plus grande variabilité. L'ADL cherche les axes qui séparent le mieux les violons.
+
+section
+    h3 ADL sur les LTAS (1025D vers 2D)
+    figure
+        figcaption
+        x-embedding(method="lda")
+    .fragment
+    aside(data-markdown).notes.
+        Sur les mêmes données et les mêmes spectres moyens, les points se regroupent maintenant par violon — y compris sur des morceaux que la projection n'a jamais vus. L'information sur l'instrument était bien présente dans nos spectres moyens, mais masquée par le morceau joué.
+
+        Cependant, cette projection a besoin de savoir à l'avance quels enregistrements correspondent à quels violons, et ne nous dit pas ce qui, physiquement, distingue les instruments. 
+
+section
+    h3 Solution 2 : Estimation du filtre
+    x-source-filter
+    each _ in [1, 2, 3, 4, 5, 6]
+        .fragment
+    aside(data-markdown).notes.
+        Plutôt que de changer la manière de voir nos représentations, nous pouvons essayer de construire une représentation qui limite l'influence du morceau joué.
+        
+        L'idée est de revenir au modèle source-filtre. Nous avons vu que le son produit pouvait être modélisé comme la composition d'une source (la corde) et d'un filtre (le corps). L'idée de notre spectre moyen était de dire que la source allait balayer toutes les notes de façon uniforme. Malheureusement cette hypothèse n'est pas vérifiée en pratique : certaines notes sont jouées plus que d'autres, ce qui vient déformer le spectre moyen.
+
+        L'idée est alors d'estimer explicitement la source pour la retirer du signal. En théorie, il devrait rester le filtre.
+        
+        Pour cela, nous avons construit un petit dictionnaire de formes de vibration typiques, mesuré directement sur des cordes, donc sans l'influence du corps du violon. 
+        
+        Pour chaque enregistrement, on estime trame par trame quelle forme de source correspond le mieux au signal, et ce qui reste après son retrait reflète le filtre — donc l'instrument.
+
+section
+    h3 Solution 2 : ACP sur les filtres estimés
+    figure
+        figcaption
+        x-embedding(method="source-filter")
+    aside(data-markdown).notes.
+        Le filtre estimé est toujours un objet à haute dimension, puisqu'il comporte des informations pour chaque fréquence. Nous utilisons de nouveau une ACP pour regarder comment s'organisent ces objets en 2D.
+
+        Le violon devient le facteur dominant, sans avoir utilisé aucune information sur l'identité des instruments. Contrairement à la LDA, cette représentation est physiquement interprétable : elle estime la réponse en fréquence du corps du violon.
+
+section
+    h3 Conclusion
+    p Il est possible de caractériser l'identité sonore d'un violon à partir d'enregistrements, au delà de plusieurs facteurs de variabilité #[small (violoniste, morceau joué)]

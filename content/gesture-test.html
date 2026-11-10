@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gesture mouse test</title>
+    <style>
+      :root {
+        --bg: #1a1a1a;
+        --panel: #262626;
+        --fg: #eee;
+        --muted: #999;
+        --accent: #ffcc33;
+        --hit: #4caf50;
+      }
+      html, body {
+        margin: 0;
+        height: 100%;
+        background: var(--bg);
+        color: var(--fg);
+        font-family: system-ui, sans-serif;
+      }
+      body {
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        gap: 16px;
+        padding: 16px;
+        box-sizing: border-box;
+      }
+      h1 { font-size: 18px; margin: 0 0 4px; }
+      p { color: var(--muted); margin: 0 0 16px; font-size: 14px; }
+      .row { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 24px; align-items: center; }
+      .target {
+        border: 2px solid #555;
+        background: var(--panel);
+        color: var(--fg);
+        border-radius: 8px;
+        font: inherit;
+        cursor: pointer;
+        transition: background-color .2s;
+      }
+      .target.large { width: 180px; height: 110px; font-size: 20px; }
+      .target.medium { width: 110px; height: 60px; }
+      .target.small { width: 50px; height: 32px; font-size: 12px; }
+      .target.hit { background: var(--hit); }
+      .gesture-hover { outline: 3px solid var(--accent); outline-offset: 2px; }
+      aside {
+        background: var(--panel);
+        border-radius: 8px;
+        padding: 12px;
+        font-size: 13px;
+        overflow: auto;
+      }
+      aside label { display: block; margin: 10px 0 2px; }
+      aside input[type=range] { width: 100%; }
+      #stats { font-family: monospace; white-space: pre; line-height: 1.5; }
+      #log { font-family: monospace; font-size: 12px; color: var(--muted); max-height: 180px; overflow: auto; }
+      #toggle { width: 100%; padding: 8px; font: inherit; margin-bottom: 8px; }
+      #error { color: #f66; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Gesture mouse test</h1>
+      <p>
+        Aim with your hand (the yellow knuckle dot in the preview), pinch thumb + index to click, pinch and drag to swipe.
+        Only the white box in the preview maps to the screen. Press <b>G</b> to toggle.
+      </p>
+      <div class="row" id="large"></div>
+      <div class="row" id="medium"></div>
+      <div class="row" id="small"></div>
+      <div class="row">
+        <label>Slider <input id="slider" type="range" min="0" max="100" value="50" /> <span id="slider-value">50</span></label>
+        <shadow-button></shadow-button>
+      </div>
+      <div class="row">
+        <video src="videos/cnsm_23-30.mp4" controls width="360"></video>
+      </div>
+    </main>
+    <aside>
+      <button id="toggle">Start camera</button>
+      <div id="error"></div>
+      <div id="stats">not running</div>
+      <div id="tuning"></div>
+      <h3>Clicks &amp; swipes</h3>
+      <div id="log"></div>
+    </aside>
+
+    <script>
+      // Surface failures on the page rather than only in the console.
+      const showError = (msg) => (document.getElementById('error').textContent = msg);
+      addEventListener('error', (e) => showError(e.message || 'Script failed to load'));
+      addEventListener('unhandledrejection', (e) => showError(String(e.reason)));
+    </script>
+    <script type="module" onerror="showError('gesture-test script failed to load')">
+      import { startGestureMouse, defaultOptions } from './gesture-mouse.js';
+
+      const sizes = { large: 4, medium: 6, small: 10 };
+      const counts = new Map();
+      for (const [size, n] of Object.entries(sizes)) {
+        for (let i = 1; i <= n; i++) {
+          const btn = document.createElement('button');
+          btn.className = `target ${size}`;
+          btn.textContent = `${size[0].toUpperCase()}${i}`;
+          counts.set(btn, 0);
+          btn.addEventListener('click', (e) => {
+            counts.set(btn, counts.get(btn) + 1);
+            btn.textContent = `${size[0].toUpperCase()}${i} ×${counts.get(btn)}`;
+            btn.classList.add('hit');
+            setTimeout(() => btn.classList.remove('hit'), 250);
+            log(`${btn.textContent.split(' ')[0]}  ${e.isTrusted ? 'real mouse' : 'gesture'}`);
+          });
+          document.getElementById(size).append(btn);
+        }
+      }
+
+      const slider = document.getElementById('slider');
+      slider.addEventListener('input', () => (document.getElementById('slider-value').textContent = slider.value));
+      slider.addEventListener('change', () => log(`slider → ${slider.value}`));
+
+      // Like the slide widgets: a button inside a shadow root.
+      customElements.define('shadow-button', class extends HTMLElement {
+        connectedCallback() {
+          const shadow = this.attachShadow({ mode: 'open' });
+          shadow.innerHTML = '<button style="padding: 12px 20px; font: inherit">Shadow DOM button</button>';
+          shadow.querySelector('button').addEventListener('click', () => log('shadow button'));
+        }
+      });
+
+      const logEl = document.getElementById('log');
+      const log = (msg) => {
+        const line = document.createElement('div');
+        line.textContent = `${new Date().toLocaleTimeString()}  ${msg}`;
+        logEl.prepend(line);
+      };
+
+      const tunables = [
+        ['marginX', 0, 0.4, 0.01],
+        ['marginTop', 0, 0.4, 0.01],
+        ['marginBottom', 0, 0.5, 0.01],
+        ['minCutoff', 0.1, 5, 0.1],
+        ['beta', 0, 0.05, 0.001],
+        ['pinchOn', 0.1, 0.6, 0.01],
+        ['pinchOff', 0.2, 0.8, 0.01],
+        ['swipeThreshold', 0.05, 0.5, 0.01],
+      ];
+      const settings = { ...defaultOptions };
+      let gm = null;
+      let starting = false;
+      const tuning = document.getElementById('tuning');
+      for (const [key, min, max, step] of tunables) {
+        const label = document.createElement('label');
+        const input = Object.assign(document.createElement('input'), {
+          type: 'range', min, max, step, value: settings[key],
+        });
+        const update = () => {
+          settings[key] = +input.value;
+          if (gm) gm.options[key] = settings[key];
+          label.firstChild.textContent = `${key}: ${settings[key]}`;
+        };
+        label.append(document.createTextNode(''), input);
+        input.addEventListener('input', update);
+        update();
+        tuning.append(label);
+      }
+
+      const stats = document.getElementById('stats');
+      const toggleBtn = document.getElementById('toggle');
+      const errorEl = document.getElementById('error');
+
+      async function toggle() {
+        if (starting) return;
+        errorEl.textContent = '';
+        if (gm) {
+          gm.stop();
+          gm = null;
+          toggleBtn.textContent = 'Start camera';
+          stats.textContent = 'not running';
+          return;
+        }
+        starting = true;
+        toggleBtn.textContent = 'Starting camera + model…';
+        try {
+          gm = await startGestureMouse({
+            ...settings,
+            onSwipe: (dir) => log(`swipe ${dir}`),
+            onUpdate: (s) => {
+              stats.textContent =
+                `fps     ${s.fps.toFixed(0)}\n` +
+                `hand    ${s.visible ? 'yes' : 'no'}\n` +
+                `pinch   ${Number.isNaN(s.ratio) ? '–' : s.ratio.toFixed(2)}${s.pinched ? (s.dragged ? '  ● drag' : '  ● down') : ''}\n` +
+                `cursor  ${s.x.toFixed(0)}, ${s.y.toFixed(0)}`;
+            },
+          });
+          toggleBtn.textContent = 'Stop camera';
+        } catch (err) {
+          console.error(err);
+          errorEl.textContent = String(err);
+          toggleBtn.textContent = 'Start camera';
+        } finally {
+          starting = false;
+        }
+      }
+
+      toggleBtn.addEventListener('click', toggle);
+      addEventListener('keydown', (e) => {
+        if (e.key === 'g' || e.key === 'G') toggle();
+      });
+    </script>
+  </body>
+</html>
