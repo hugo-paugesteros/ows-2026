@@ -634,6 +634,15 @@ section
             1. proches de 0, ce qui confirme la stabilité de ces mesures
             2. comparables pour les différents violons : le Violon Test n'a pas eu une évolution plus marquée que les deux violons témoins
     section
+        h3 Principe de l'ADL (3D vers 2D)
+        x-projection(method="lda")
+        .fragment
+        .fragment
+        .fragment
+
+        aside(data-markdown).notes.
+            Pour comparer les enregistrements, nous les représentons par leur spectre moyen (LTAS), un objet de grande dimension qu'il faut ramener en 2D. L'Analyse Discriminante Linéaire (ADL) cherche les axes qui séparent le mieux les violons, puis projette les enregistrements sur le plan formé par ces axes.
+    section
         figure
             figcaption
                 | Enregistrements - Groupe Témoin

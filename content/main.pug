@@ -1,6 +1,6 @@
-extends template 
+extends template
 
-block content 
+block content
     section#front
         div.title
             h1 Identité sonore des violons
@@ -9,7 +9,7 @@ block content
         x-countdown
 
         div.authors
-            h3 Hugo Pauget Ballesteros 
+            h3 Hugo Pauget Ballesteros
 
             div.co-authors
                 h3 Claudia Fritz
@@ -22,29 +22,4 @@ block content
             img(src="images/sorbonne.svg")
             img(src="images/collegium.svg")
 
-
-    section(
-        data-transition="none" data-background-transition="none" data-visibility="hidden"
-    )
-        no-signal
-        //- Next press starts the Rieu video's sound here; the slide changes by itself at 00:03:10 (3 s + 10 frames at 25 fps)
-        .fragment(data-start-video="#rieu" data-land-at="3.4")
-
-    //- Opening credits over the video: fragments keep the same slide, so the video never restarts
-    section#rieu(
-        data-transition="none"
-        data-background-transition="none"
-        data-background-video="videos/rieu.webm"
-        data-visibility="hidden"
-    )
-        .credits.r-stack
-            .fragment.fade-in-then-out Collegium Musicae
-            .fragment.fade-in-then-out Institut Jean le Rond d'Alembert
-            .fragment.fade-in-then-out et André Rieu
-
-
-    include intro
-    include identification
     include playing-in
-    include conclusion
-    include appendix
