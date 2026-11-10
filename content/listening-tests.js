@@ -18,10 +18,11 @@ const summarize = rows => Object.fromEntries(PAIRS.map(([pair]) => [pair, stats(
 
 const icon = (type, cls) => `<svg class="icon ${cls}"><use href="images/icons.svg#${type}"/></svg>`
 
-// A recording: one violin, played by the violinist of the slide, in one session
+// A recording: one violin, played by the violinist of the slide, in one session. The speaker on its
+// corner marks it as a sound played to the listeners
 const chip = () => `
     <div class="chip">
-        <div class="symbols">${icon('violin', 'violin')}${icon('person', 'player')}</div>
+        <div class="symbols">${icon('violin', 'violin')}${icon('person', 'player')}${icon('speaker', 'speaker')}</div>
         <span class="session"></span>
     </div>
 `
@@ -46,7 +47,7 @@ class ListeningTests extends HTMLElement {
             <style>
                 :host { display: block; width: 100%; margin: 0 auto; }
                 /* The pair of recordings on the left half, the results on the right half */
-                :host([explain]) { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 1em; }
+                :host([explain]) { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 1em; }
                 .chart { height: 60vh; }
                 svg.plot { display: block; width: 100%; height: 100%; overflow: visible; }
                 text { font: 14px var(--font); fill: var(--control); stroke: none; }
@@ -57,31 +58,48 @@ class ListeningTests extends HTMLElement {
                 .phase { transition: opacity 0.5s; }
                 .phase.hidden { opacity: 0; }
 
-                .pair { display: flex; flex-direction: column; align-items: center; gap: 1.2em; }
-                .chip { display: flex; flex-direction: column; align-items: center; gap: 0.3em; }
+                /* A |-------| B: the two recordings with the scale between them */
+                .pair { display: flex; align-items: center; justify-content: center; gap: 0.5em; }
+                /* The session sits under the recording without adding to its height, so that the
+                   scale lines up with the recordings themselves */
+                .chip { position: relative; }
                 .symbols {
+                    position: relative;
                     display: flex; align-items: center; gap: 0.4em;
-                    padding: 0.3em 0.7em; border: 2px solid lightgrey; border-radius: 8px;
+                    padding: 0.3em 0.5em; border: 2px solid lightgrey; border-radius: 8px;
                 }
-                .icon { display: block; width: 2em; height: 2em; }
+                .icon { display: block; width: 1.4em; height: 1.4em; }
                 .violin { color: #999; }
                 .player { color: var(--control); }
                 :host([scope="test"]) .player { color: var(--test); }
-                .session { font: 600 0.8em var(--font); color: var(--control); min-height: 1.3em; }
+                /* Badge on the top-right corner, over the border: the white disc hides the border under it */
+                .symbols .speaker {
+                    position: absolute; top: -0.45em; right: -0.45em;
+                    width: 0.8em; height: 0.8em; padding: 0.1em;
+                    border-radius: 50%; background: white; color: var(--control);
+                }
+                .session {
+                    position: absolute; top: calc(100% + 0.3em); left: 50%; translate: -50% 0;
+                    font: 600 0.8em var(--font); color: var(--control); white-space: nowrap;
+                }
 
-                /* Vertical scale between the two recordings: 0 at the bottom, 10 at the top */
-                .scale { display: flex; align-items: center; gap: 0.3em; }
-                .scale .label { font: 0.6em var(--font); color: var(--control); writing-mode: vertical-rl; rotate: 180deg; }
-                .scale .axis {
-                    display: flex; flex-direction: column-reverse; align-items: center; gap: 0.3em;
+                /* Horizontal scale between the two recordings: 0 on the left, 10 on the right,
+                   its name above without adding to its height either */
+                .scale { position: relative; }
+                .scale .label {
+                    position: absolute; bottom: calc(100% + 0.3em); left: 50%; translate: -50% 0;
                     font: 0.6em var(--font); color: var(--control);
                 }
-                .scale .line { width: 2px; height: 5em; background: var(--control); position: relative; }
-                .scale .line::before, .scale .line::after {
-                    content: ''; position: absolute; left: -4px; width: 10px; height: 2px; background: var(--control);
+                .scale .axis {
+                    display: flex; align-items: center; gap: 0.4em;
+                    font: 0.6em var(--font); color: var(--control);
                 }
-                .scale .line::before { top: 0; }
-                .scale .line::after { bottom: 0; }
+                .scale .line { width: 4em; height: 2px; background: var(--control); position: relative; }
+                .scale .line::before, .scale .line::after {
+                    content: ''; position: absolute; top: -4px; width: 2px; height: 10px; background: var(--control);
+                }
+                .scale .line::before { left: 0; }
+                .scale .line::after { right: 0; }
             </style>
             ${explain ? `
                 <div class="pair">
